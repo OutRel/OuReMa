@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OutRelMania - Game News Hub</title>
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
@@ -108,18 +113,20 @@
 
     async function fetchFullNews(appId) {
         const container = document.getElementById('full-news-container');
-        container.innerHTML = '<div class="text-center py-10 font-mono text-lime-400 animate-pulse">Lade Community Updates...</div>';
+        container.innerHTML = '<div class="text-center py-10 font-mono text-lime-400 animate-pulse">Lade live Community Updates von Steam...</div>';
 
-        const steamApiUrl = `https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=6&maxlength=400&format=json`;
-        const targetUrl = `https://corsproxy.io/?${encodeURIComponent(steamApiUrl)}`;
+        const steamUrl = `https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=6&maxlength=500&format=json`;
+        const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(steamUrl)}`;
 
         try {
-            const response = await fetch(targetUrl);
-            const data = await response.json();
-            const newsItems = data.appnews?.newsitems;
+            const response = await fetch(proxyUrl);
+            const wrapperData = await response.json();
+            const data = JSON.parse(wrapperData.contents);
+            
+            const newsItems = data?.appnews?.newsitems;
 
             if (!newsItems || newsItems.length === 0) {
-                container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-slate-400">Keine aktuellen Nachrichten gefunden.</div>';
+                container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-slate-400 font-mono">Keine aktuellen Nachrichten für dieses Spiel gefunden.</div>';
                 return;
             }
 
@@ -127,7 +134,7 @@
                 const date = new Date(item.date * 1000).toLocaleDateString('de-DE', {
                     day: '2-digit', month: '2-digit', year: 'numeric'
                 });
-                const cleanContent = item.contents.replace(/\[.*?\]/g, '');
+                const cleanContent = item.contents.replace(/\[.*?\]/g, '').replace(/<.*?>/g, '');
 
                 return `
                     <article class="cyber-card rounded-2xl p-5 sm:p-6 transition-all hover:border-lime-400">
@@ -146,7 +153,8 @@
                 `;
             }).join('');
         } catch (e) {
-            container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-red-400">Fehler beim Laden der Nachrichten.</div>';
+            console.error('Steam News Fehler:', e);
+            container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-red-400 font-mono">Fehler beim Abrufen der News von Steam.</div>';
         }
     }
 

@@ -437,7 +437,7 @@
                     </div>
                 </a>
 
-                <!-- HUB 2: LIVE STEAM NEWS FEED BLOCK (Neu integriert) -->
+                <!-- HUB 2: LIVE STEAM NEWS FEED BLOCK -->
                 <div class="cyber-card tilt-card rounded-3xl p-5 sm:p-6 flex flex-col justify-between relative overflow-hidden scanline" onmouseenter="playAudioFeedback(450)">
                     <div>
                         <div class="flex items-center justify-between mb-3">
@@ -614,9 +614,7 @@
                 gain.connect(audioCtx.destination);
                 osc.start();
                 osc.stop(audioCtx.currentTime + 0.08);
-            } catch (e) {
-                // Audio fallback
-            }
+            } catch (e) {}
         }
 
         // Spotlight Tracking
@@ -731,24 +729,26 @@
 
         // Live Steam News Loader für die Index-Seite
         async function loadHomeNewsFeed() {
-            const appId = '252490'; // 7 Days to Die (App-ID)
-            const steamApiUrl = `https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=2&maxlength=180&format=json`;
-            const targetUrl = `https://corsproxy.io/?${encodeURIComponent(steamApiUrl)}`;
+            const appId = '252490'; // 7 Days to Die
+            const steamUrl = `https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=2&maxlength=200&format=json`;
+            const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(steamUrl)}`;
             const container = document.getElementById('index-news-feed');
 
             try {
-                const response = await fetch(targetUrl);
-                const data = await response.json();
-                const newsItems = data.appnews?.newsitems;
+                const response = await fetch(proxyUrl);
+                const wrapperData = await response.json();
+                const data = JSON.parse(wrapperData.contents);
+                
+                const newsItems = data?.appnews?.newsitems;
 
                 if (!newsItems || newsItems.length === 0) {
-                    container.innerHTML = '<p class="text-xs text-slate-400">Keine News gefunden.</p>';
+                    container.innerHTML = '<p class="text-xs text-slate-400 font-mono">Keine aktuellen News verfügbar.</p>';
                     return;
                 }
 
                 container.innerHTML = newsItems.map(item => {
                     const date = new Date(item.date * 1000).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
-                    const cleanContent = item.contents.replace(/\[.*?\]/g, '').substring(0, 120);
+                    const cleanContent = item.contents.replace(/\[.*?\]/g, '').replace(/<.*?>/g, '').substring(0, 110);
 
                     return `
                         <article class="bg-black/60 border border-lime-500/20 hover:border-lime-400/60 p-3 rounded-2xl transition-all group/news">
@@ -764,7 +764,8 @@
                     `;
                 }).join('');
             } catch (e) {
-                container.innerHTML = '<p class="text-xs text-red-400">News konnten nicht geladen werden.</p>';
+                console.error('Steam API Fehler:', e);
+                container.innerHTML = '<p class="text-xs text-red-400 font-mono">News konnten nicht geladen werden.</p>';
             }
         }
 
