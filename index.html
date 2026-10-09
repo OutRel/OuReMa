@@ -728,47 +728,46 @@
         }
 
         // Live Steam News Loader für die Index-Seite
-        async function loadHomeNewsFeed() {
-            const appId = '252490'; // 7 Days to Die
-            const steamUrl = `https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=2&maxlength=200&format=json`;
-            const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(steamUrl)}`;
-            const container = document.getElementById('index-news-feed');
+       async function loadHomeNewsFeed() {
+    const appId = '252490'; // 7 Days to Die
+    const steamUrl = `https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=2&maxlength=200&format=json`;
+    const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(steamUrl)}`;
+    const container = document.getElementById('index-news-feed');
 
-            try {
-                const response = await fetch(proxyUrl);
-                const wrapperData = await response.json();
-                const data = JSON.parse(wrapperData.contents);
-                
-                const newsItems = data?.appnews?.newsitems;
+    try {
+        const response = await fetch(proxyUrl);
+        if (!response.ok) throw new Error('Netzwerk-Fehler');
+        
+        const data = await response.json();
+        const newsItems = data?.appnews?.newsitems;
 
-                if (!newsItems || newsItems.length === 0) {
-                    container.innerHTML = '<p class="text-xs text-slate-400 font-mono">Keine aktuellen News verfügbar.</p>';
-                    return;
-                }
-
-                container.innerHTML = newsItems.map(item => {
-                    const date = new Date(item.date * 1000).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
-                    const cleanContent = item.contents.replace(/\[.*?\]/g, '').replace(/<.*?>/g, '').substring(0, 110);
-
-                    return `
-                        <article class="bg-black/60 border border-lime-500/20 hover:border-lime-400/60 p-3 rounded-2xl transition-all group/news">
-                            <div class="flex items-center justify-between text-[10px] font-mono text-lime-400/80 mb-1">
-                                <span><i class="fa-brands fa-steam mr-1"></i> 7 Days to Die</span>
-                                <span>${date}</span>
-                            </div>
-                            <h3 class="font-orbitron font-bold text-xs text-white group-hover/news:text-lime-300 transition-colors line-clamp-1">
-                                <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a>
-                            </h3>
-                            <p class="text-[11px] text-slate-300 mt-1 line-clamp-2">${cleanContent}...</p>
-                        </article>
-                    `;
-                }).join('');
-            } catch (e) {
-                console.error('Steam API Fehler:', e);
-                container.innerHTML = '<p class="text-xs text-red-400 font-mono">News konnten nicht geladen werden.</p>';
-            }
+        if (!newsItems || newsItems.length === 0) {
+            container.innerHTML = '<p class="text-xs text-slate-400 font-mono">Keine aktuellen News verfügbar.</p>';
+            return;
         }
 
+        container.innerHTML = newsItems.map(item => {
+            const date = new Date(item.date * 1000).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+            const cleanContent = item.contents.replace(/\[.*?\]/g, '').replace(/<.*?>/g, '').substring(0, 110);
+
+            return `
+                <article class="bg-black/60 border border-lime-500/20 hover:border-lime-400/60 p-3 rounded-2xl transition-all group/news">
+                    <div class="flex items-center justify-between text-[10px] font-mono text-lime-400/80 mb-1">
+                        <span><i class="fa-brands fa-steam mr-1"></i> 7 Days to Die</span>
+                        <span>${date}</span>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-xs text-white group-hover/news:text-lime-300 transition-colors line-clamp-1">
+                        <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a>
+                    </h3>
+                    <p class="text-[11px] text-slate-300 mt-1 line-clamp-2">${cleanContent}...</p>
+                </article>
+            `;
+        }).join('');
+    } catch (e) {
+        console.error('Steam API Fehler:', e);
+        container.innerHTML = '<p class="text-xs text-red-400 font-mono">Fehler beim Abrufen der Daten.</p>';
+    }
+}
         window.onload = function() {
             initNodes();
             draw();
