@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de" class="dark h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutRelMania - Game News Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        orbitron: ['Orbitron', 'sans-serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        neon: {
+                            lime: '#A3E635',
+                            dark: '#040705',
+                            card: '#0c140f',
+                            cardborder: 'rgba(163, 230, 53, 0.25)'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #030604; color: #f0fdf4; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .cyber-bg {
+            background: radial-gradient(circle at 50% 25%, rgba(163, 230, 53, 0.18) 0%, transparent 50%),
+                        linear-gradient(to bottom, #020403, #07100a, #020403);
+        }
+        .cyber-card {
+            background: rgba(10, 18, 13, 0.85);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(163, 230, 53, 0.25);
+        }
+        .btn-tab.active {
+            background: #A3E635;
+            color: #030604;
+            font-weight: 800;
+            box-shadow: 0 0 15px rgba(163, 230, 53, 0.6);
+        }
+    </style>
+</head>
+<body class="min-h-screen cyber-bg flex flex-col justify-between selection:bg-lime-400 selection:text-black">
+
+    <!-- Navigation Header -->
+    <header class="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 group">
+            <img src="GeminiLogoOutrelMania.jpg" alt="Logo" class="w-10 h-10 rounded-xl ring-1 ring-lime-400 object-cover" onerror="this.src='https://placehold.co/100x100/030604/A3E635?text=ORM'">
+            <div>
+                <span class="font-orbitron font-black text-xl text-white group-hover:text-lime-400 transition-colors">OutRelMania</span>
+                <span class="text-[10px] uppercase font-bold tracking-widest text-lime-400 block -mt-1">News Hub</span>
+            </div>
+        </a>
+        <a href="index.html" class="text-xs font-orbitron text-slate-300 hover:text-lime-400 flex items-center gap-2 bg-black/60 px-4 py-2 rounded-xl border border-lime-500/30">
+            <i class="fa-solid fa-house"></i> Zur Hauptseite
+        </a>
+    </header>
+
+    <!-- Main Content -->
+    <main class="relative z-10 w-full max-w-5xl mx-auto px-4 py-6 my-auto">
+        <div class="text-center mb-8">
+            <h1 class="font-orbitron font-black text-3xl sm:text-5xl text-white tracking-wider mb-2">
+                GAME <span class="text-lime-400">NEWS</span> FEED
+            </h1>
+            <p class="text-slate-300 text-sm">Wähle ein Spiel, um die neusten Updates & Patchnotes direkt von Steam zu lesen.</p>
+        </div>
+
+        <!-- Spielauswahl-Tabs -->
+        <div class="flex flex-wrap justify-center gap-2 mb-8" id="game-tabs">
+            <button onclick="switchGame('252490', this)" class="btn-tab active text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+                7 Days to Die
+            </button>
+            <button onclick="switchGame('236390', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+                War Thunder
+            </button>
+            <button onclick="switchGame('381210', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+                Dead by Daylight
+            </button>
+            <button onclick="switchGame('440900', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+                Conan Exiles
+            </button>
+            <button onclick="switchGame('1623730', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+                Palworld
+            </button>
+        </div>
+
+        <!-- News Container -->
+        <div id="full-news-container" class="space-y-4">
+            <div class="text-center py-10 font-mono text-lime-400">Lade Community Updates...</div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="relative z-20 w-full max-w-7xl mx-auto px-6 py-4 text-center text-xs font-mono text-slate-500">
+        <p>&copy; OutRelMania Hub. Steam Web API Integration.</p>
+    </footer>
+
+    <!-- Script für die Unterseite -->
+    <script>
+    let currentAppId = '252490';
+
+    async function fetchFullNews(appId) {
+        const container = document.getElementById('full-news-container');
+        container.innerHTML = '<div class="text-center py-10 font-mono text-lime-400 animate-pulse">Lade Community Updates...</div>';
+
+        const steamApiUrl = `https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=6&maxlength=400&format=json`;
+        const targetUrl = `https://corsproxy.io/?${encodeURIComponent(steamApiUrl)}`;
+
+        try {
+            const response = await fetch(targetUrl);
+            const data = await response.json();
+            const newsItems = data.appnews?.newsitems;
+
+            if (!newsItems || newsItems.length === 0) {
+                container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-slate-400">Keine aktuellen Nachrichten gefunden.</div>';
+                return;
+            }
+
+            container.innerHTML = newsItems.map(item => {
+                const date = new Date(item.date * 1000).toLocaleDateString('de-DE', {
+                    day: '2-digit', month: '2-digit', year: 'numeric'
+                });
+                const cleanContent = item.contents.replace(/\[.*?\]/g, '');
+
+                return `
+                    <article class="cyber-card rounded-2xl p-5 sm:p-6 transition-all hover:border-lime-400">
+                        <div class="flex items-center justify-between text-xs font-mono text-lime-400 mb-2">
+                            <span><i class="fa-brands fa-steam mr-1"></i> Steam Update</span>
+                            <span>${date}</span>
+                        </div>
+                        <h2 class="font-orbitron font-bold text-lg sm:text-xl text-white mb-2 hover:text-lime-300">
+                            <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a>
+                        </h2>
+                        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">${cleanContent}</p>
+                        <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-orbitron font-bold text-lime-400 hover:text-white">
+                            Vollständigen Beitrag auf Steam lesen <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                    </article>
+                `;
+            }).join('');
+        } catch (e) {
+            container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-red-400">Fehler beim Laden der Nachrichten.</div>';
+        }
+    }
+
+    function switchGame(appId, btn) {
+        document.querySelectorAll('.btn-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        fetchFullNews(appId);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => fetchFullNews(currentAppId));
+    </script>
+</body>
+</html>
