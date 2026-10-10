@@ -54,7 +54,6 @@
 </head>
 <body class="min-h-screen cyber-bg flex flex-col justify-between selection:bg-lime-400 selection:text-black">
 
-    <!-- Navigation Header -->
     <header class="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
         <a href="index.html" class="flex items-center gap-3 group">
             <img src="GeminiLogoOutrelMania.jpg" alt="Logo" class="w-10 h-10 rounded-xl ring-1 ring-lime-400 object-cover" onerror="this.src='https://placehold.co/100x100/030604/A3E635?text=ORM'">
@@ -68,103 +67,95 @@
         </a>
     </header>
 
-    <!-- Main Content -->
     <main class="relative z-10 w-full max-w-5xl mx-auto px-4 py-6 my-auto">
         <div class="text-center mb-8">
             <h1 class="font-orbitron font-black text-3xl sm:text-5xl text-white tracking-wider mb-2">
                 GAME <span class="text-lime-400">NEWS</span> FEED
             </h1>
-            <p class="text-slate-300 text-sm">Wähle ein Spiel, um die neusten Updates & Patchnotes direkt von Steam zu lesen.</p>
+            <p class="text-slate-300 text-sm">Wähle ein Spiel, um die neusten Updates & Patchnotes direkt aus unserer lokalen Datenbank zu lesen.</p>
         </div>
 
-        <!-- Spielauswahl-Tabs -->
         <div class="flex flex-wrap justify-center gap-2 mb-8" id="game-tabs">
-            <button onclick="switchGame('252490', this)" class="btn-tab active text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+            <button onclick="switchGame('7_days_to_die', this)" class="btn-tab active text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
                 7 Days to Die
             </button>
-            <button onclick="switchGame('236390', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+            <button onclick="switchGame('war_thunder', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
                 War Thunder
             </button>
-            <button onclick="switchGame('381210', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+            <button onclick="switchGame('dead_by_daylight', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
                 Dead by Daylight
             </button>
-            <button onclick="switchGame('440900', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+            <button onclick="switchGame('conan_exiles', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
                 Conan Exiles
             </button>
-            <button onclick="switchGame('1623730', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
+            <button onclick="switchGame('palworld', this)" class="btn-tab text-xs font-orbitron px-4 py-2 rounded-xl border border-lime-500/40 bg-black/60 text-slate-300 hover:text-white transition-all">
                 Palworld
             </button>
         </div>
 
-        <!-- News Container -->
         <div id="full-news-container" class="space-y-4">
             <div class="text-center py-10 font-mono text-lime-400">Lade Community Updates...</div>
         </div>
     </main>
 
-    <!-- Footer -->
     <footer class="relative z-20 w-full max-w-7xl mx-auto px-6 py-4 text-center text-xs font-mono text-slate-500">
-        <p>&copy; OutRelMania Hub. Steam Web API Integration.</p>
+        <p>&copy; OutRelMania Hub. Steam Web API Integration via GitHub Actions.</p>
     </footer>
 
-    <!-- Script für die Unterseite -->
     <script>
-    let currentAppId = '252490';
+    let currentGameKey = '7_days_to_die';
 
-   async function fetchFullNews(appId) {
-    const container = document.getElementById('full-news-container');
-    container.innerHTML = '<div class="text-center py-10 font-mono text-lime-400 animate-pulse">Lade live Community Updates von Steam...</div>';
+    async function fetchFullNews(gameKey) {
+        const container = document.getElementById('full-news-container');
+        container.innerHTML = '<div class="text-center py-10 font-mono text-lime-400 animate-pulse">Lade Community Updates...</div>';
 
-    const steamUrl = `https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=6&maxlength=500&format=json`;
-    const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(steamUrl)}`;
+        try {
+            const response = await fetch('steam_news.json');
+            if (!response.ok) throw new Error('steam_news.json nicht gefunden');
 
-    try {
-        const response = await fetch(proxyUrl);
-        if (!response.ok) throw new Error('Netzwerk-Fehler');
+            const data = await response.json();
+            const newsItems = data[gameKey] || [];
 
-        const data = await response.json();
-        const newsItems = data?.appnews?.newsitems;
+            if (newsItems.length === 0) {
+                container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-slate-400 font-mono">Keine aktuellen Nachrichten für dieses Spiel gefunden.</div>';
+                return;
+            }
 
-        if (!newsItems || newsItems.length === 0) {
-            container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-slate-400 font-mono">Keine aktuellen Nachrichten für dieses Spiel gefunden.</div>';
-            return;
+            container.innerHTML = newsItems.map(item => {
+                const date = new Date(item.date * 1000).toLocaleDateString('de-DE', {
+                    day: '2-digit', month: '2-digit', year: 'numeric'
+                });
+                const cleanContent = item.contents.replace(/\[.*?\]/g, '').replace(/<.*?>/g, '');
+
+                return `
+                    <article class="cyber-card rounded-2xl p-5 sm:p-6 transition-all hover:border-lime-400">
+                        <div class="flex items-center justify-between text-xs font-mono text-lime-400 mb-2">
+                            <span><i class="fa-brands fa-steam mr-1"></i> Steam Update</span>
+                            <span>${date}</span>
+                        </div>
+                        <h2 class="font-orbitron font-bold text-lg sm:text-xl text-white mb-2 hover:text-lime-300">
+                            <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a>
+                        </h2>
+                        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">${cleanContent}</p>
+                        <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-orbitron font-bold text-lime-400 hover:text-white">
+                            Vollständigen Beitrag auf Steam lesen <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                    </article>
+                `;
+            }).join('');
+        } catch (e) {
+            console.error('News Fehler:', e);
+            container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-red-400 font-mono">Fehler beim Laden der Nachrichten.</div>';
         }
-
-        container.innerHTML = newsItems.map(item => {
-            const date = new Date(item.date * 1000).toLocaleDateString('de-DE', {
-                day: '2-digit', month: '2-digit', year: 'numeric'
-            });
-            const cleanContent = item.contents.replace(/\[.*?\]/g, '').replace(/<.*?>/g, '');
-
-            return `
-                <article class="cyber-card rounded-2xl p-5 sm:p-6 transition-all hover:border-lime-400">
-                    <div class="flex items-center justify-between text-xs font-mono text-lime-400 mb-2">
-                        <span><i class="fa-brands fa-steam mr-1"></i> Steam Update</span>
-                        <span>${date}</span>
-                    </div>
-                    <h2 class="font-orbitron font-bold text-lg sm:text-xl text-white mb-2 hover:text-lime-300">
-                        <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a>
-                    </h2>
-                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">${cleanContent}</p>
-                    <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-orbitron font-bold text-lime-400 hover:text-white">
-                        Vollständigen Beitrag auf Steam lesen <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-                    </a>
-                </article>
-            `;
-        }).join('');
-    } catch (e) {
-        console.error('Steam News Fehler:', e);
-        container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-red-400 font-mono">Fehler beim Abrufen der Nachrichten von Steam.</div>';
     }
-}
 
-    function switchGame(appId, btn) {
+    function switchGame(gameKey, btn) {
         document.querySelectorAll('.btn-tab').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        fetchFullNews(appId);
+        fetchFullNews(gameKey);
     }
 
-    document.addEventListener('DOMContentLoaded', () => fetchFullNews(currentAppId));
+    document.addEventListener('DOMContentLoaded', () => fetchFullNews(currentGameKey));
     </script>
 </body>
 </html>
