@@ -1,6 +1,7 @@
 import json
+import re
 import urllib.request
-from deep_translator import GoogleTranslator
+from mtranslate import translate
 
 app_ids = {
     "7_days_to_die": "252490",
@@ -10,7 +11,15 @@ app_ids = {
     "palworld": "1623730",
 }
 
-translator = GoogleTranslator(source='auto', target='de')
+
+def clean_bbcode(text):
+  if not text:
+    return ""
+  # Entfernt BBCode [url=...], [b], etc. für eine saubere Übersetzung
+  text = re.sub(r"\[.*?\]", "", text)
+  return text.strip()
+
+
 news_data = {}
 
 for game, app_id in app_ids.items():
@@ -21,22 +30,26 @@ for game, app_id in app_ids.items():
       data = json.loads(response.read().decode())
       items = data.get("appnews", {}).get("newsitems", [])
 
-      # Texte ins Deutsche übersetzen
       for item in items:
+        # 1. BBCode bereinigen
+        raw_title = clean_bbcode(item.get("title", ""))
+        raw_contents = clean_bbcode(item.get("contents", ""))
+
+        # 2. Automatisch ins Deutsche übersetzen
         try:
-          if item.get("title"):
-            item["title"] = translator.translate(item["title"])
-          if item.get("contents"):
-            item["contents"] = translator.translate(item["contents"])
+          if raw_title:
+            item["title"] = translate(raw_title, "de", "auto")
+          if raw_contents:
+            item["contents"] = translate(raw_contents, "de", "auto")
         except Exception as trans_err:
           print(f"Übersetzungsfehler bei {game}: {trans_err}")
 
       news_data[game] = items
   except Exception as e:
-    print(f"Fehler bei {game}: {e}")
+    print(f"Fehler beim Abrufen von {game}: {e}")
     news_data[game] = []
 
 with open("steam_news.json", "w", encoding="utf-8") as f:
   json.dump(news_data, f, ensure_ascii=False, indent=2)
 
-print("Steam News erfolgreich auf Deutsch aktualisiert!")
+print("Steam News erfolgreich bereinigt und auf Deutsch übersetzt!")
