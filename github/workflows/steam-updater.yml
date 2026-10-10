@@ -1,37 +1,32 @@
-async function fetchFullNews(gameKey) {
-    const container = document.getElementById('full-news-container');
-    container.innerHTML = '<div class="text-center py-10 font-mono text-lime-400 animate-pulse">Lade Community Updates...</div>';
+name: Update Steam News
 
-    try {
-        const response = await fetch('steam_news.json');
-        const data = await response.json();
-        const newsItems = data[gameKey] || [];
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Läuft alle 6 Stunden automatisch
+  workflow_dispatch: # Erlaubt das manuelle Starten über den GitHub-Tab
 
-        if (newsItems.length === 0) {
-            container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-slate-400 font-mono">Keine Nachrichten gefunden.</div>';
-            return;
-        }
+permissions:
+  contents: write
 
-        container.innerHTML = newsItems.map(item => {
-            const date = new Date(item.date * 1000).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
-            const cleanContent = item.contents.replace(/\[.*?\]/g, '').replace(/<.*?>/g, '');
-            return `
-                <article class="cyber-card rounded-2xl p-5 sm:p-6 transition-all hover:border-lime-400">
-                    <div class="flex items-center justify-between text-xs font-mono text-lime-400 mb-2">
-                        <span><i class="fa-brands fa-steam mr-1"></i> Steam Update</span>
-                        <span>${date}</span>
-                    </div>
-                    <h2 class="font-orbitron font-bold text-lg sm:text-xl text-white mb-2 hover:text-lime-300">
-                        <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a>
-                    </h2>
-                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">${cleanContent}</p>
-                    <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-orbitron font-bold text-lime-400 hover:text-white">
-                        Vollständigen Beitrag auf Steam lesen <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-                    </a>
-                </article>
-            `;
-        }).join('');
-    } catch (e) {
-        container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-red-400 font-mono">Fehler beim Laden der News.</div>';
-    }
-}
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Skript ausführen
+        run: python update_news.py
+
+      - name: Änderungen committen und pushen
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "bot@github.com"
+          git add steam_news.json
+          git commit -m "Automatisches Update der Steam News" || exit 0
+          git push
