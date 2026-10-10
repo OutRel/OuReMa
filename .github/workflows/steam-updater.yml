@@ -2,8 +2,8 @@ name: Update Steam News
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Läuft alle 6 Stunden automatisch
-  workflow_dispatch: # Erlaubt das manuelle Starten über den GitHub-Tab
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Abhängigkeiten installieren
+        run: pip install deep-translator
+
       - name: Skript ausführen
         run: python update_news.py
 
@@ -28,5 +31,5 @@ jobs:
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "bot@github.com"
           git add steam_news.json
-          git commit -m "Automatisches Update der Steam News" || exit 0
+          git commit -m "Automatisches Update & Übersetzung der Steam News" || exit 0
           git push
