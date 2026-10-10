@@ -1,0 +1,37 @@
+async function fetchFullNews(gameKey) {
+    const container = document.getElementById('full-news-container');
+    container.innerHTML = '<div class="text-center py-10 font-mono text-lime-400 animate-pulse">Lade Community Updates...</div>';
+
+    try {
+        const response = await fetch('steam_news.json');
+        const data = await response.json();
+        const newsItems = data[gameKey] || [];
+
+        if (newsItems.length === 0) {
+            container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-slate-400 font-mono">Keine Nachrichten gefunden.</div>';
+            return;
+        }
+
+        container.innerHTML = newsItems.map(item => {
+            const date = new Date(item.date * 1000).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+            const cleanContent = item.contents.replace(/\[.*?\]/g, '').replace(/<.*?>/g, '');
+            return `
+                <article class="cyber-card rounded-2xl p-5 sm:p-6 transition-all hover:border-lime-400">
+                    <div class="flex items-center justify-between text-xs font-mono text-lime-400 mb-2">
+                        <span><i class="fa-brands fa-steam mr-1"></i> Steam Update</span>
+                        <span>${date}</span>
+                    </div>
+                    <h2 class="font-orbitron font-bold text-lg sm:text-xl text-white mb-2 hover:text-lime-300">
+                        <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a>
+                    </h2>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">${cleanContent}</p>
+                    <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-orbitron font-bold text-lime-400 hover:text-white">
+                        Vollständigen Beitrag auf Steam lesen <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                    </a>
+                </article>
+            `;
+        }).join('');
+    } catch (e) {
+        container.innerHTML = '<div class="cyber-card p-6 rounded-2xl text-center text-red-400 font-mono">Fehler beim Laden der News.</div>';
+    }
+}
