@@ -86,6 +86,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1846018067940888",
+      "title": "Spooky Monthly Decals for October!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067940888",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Hey everyone! As it’s October, we thought we’d change the format up a bit and go with a set of decals that fit the Halloween month. We’ve got skulls, ghosts and a black cat too of course! For the “Red Devils” hull art piece, we’ve tried to keep the shape somewhat generalized so you’ll be able to apply it to lots of tank hulls rather than only the Sherman hull specifically.We also had to include a ...",
+      "feedlabel": "Community Announcements",
+      "date": 1791810511,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1846018067935386",
       "title": "Screenshot Competition – Lightfooted!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067935386",
@@ -159,22 +172,6 @@
         "mod_reviewed",
         "ModAct_1434411615_1791365484_0",
         "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1845383656395909",
-      "title": "Update 2.59.0.49",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656395909",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "AircraftTempest Mk II, Tempest Mk V — separate bomb drop has been added. Source: A.P. 2458B Pilot's Notes for Tempest II - Centaurus V Engine. Ground VehiclesA bug that caused wheeled ground vehicles to shake when losing all wheels on one side has been fixed. Naval VesselsA bug where the camera did not align with the direction of view after entering ADS while holding the mouse-look key has been fi...",
-      "feedlabel": "Community Announcements",
-      "date": 1791281747,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
       ]
     }
   ],
