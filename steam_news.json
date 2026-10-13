@@ -86,6 +86,24 @@
   ],
   "war_thunder": [
     {
+      "gid": "1846018067943705",
+      "title": "A Decal and Discounts on American Ships for the US Navy’s Birthday!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067943705",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The U.S. Navy’s birthday marks the anniversary of the Continental Congress’s decision to establish a naval force, adopted on October 13th, 1775. On this day, American sailors cut the cake in a special way using a naval dirk held jointly by the most senior and the most junior personnel present, symbolizing the continuity of generations. USS Maryland Pack with a 30% discount in the Gaijin Store!From...",
+      "feedlabel": "Community Announcements",
+      "date": 1791889679,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1434278705_1791889748_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
       "gid": "1846018067941259",
       "title": "Update 2.59.0.62",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067941259",
@@ -158,22 +176,22 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1846018067925772",
-      "title": "Nuclear Escalation: Testing the Upgraded Southeastern City!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925772",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Take part in testing the new map in Nuclear Escalation!Hi everyone! We’re working on expanding the selection of locations for Nuclear Escalation and the first candidate to join the list is the updated Southeastern City map!Testing is available from October 7th (11:00 GMT) until October 9th (11:00 GMT) in the Events and Tournaments tab.Updates to Southeastern CityWe’ve carried out some significant ...",
-      "feedlabel": "Community Announcements",
-      "date": 1791371443,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1846018067944049",
+      "title": "Steam Global Top Sellers for week of 6 Oct — 13 October 2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1846018067944049",
+      "is_external_url": true,
+      "author": "SteamDB",
+      "contents": "<a href=\"https://steamdb.info/topsellers/2026W42/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"> </a> * <a href=\"https://steamdb.info/app/4078430/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">STAR WARS: Galactic Racer™</a>; * <a href=\"https://steamdb.info/app/4080220/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">EA SPORTS FC™ 27</a>; * <a href=\"https://steamdb.info/app/1675200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a>; * <a href=\"https://steamdb.info/app/3010850/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Gears of War: E-Day</a>; * <a href=\"https://steamdb.info/app/632360/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Risk of Rain 2</a>; * <a href=\"https://steamdb.info/app/1808500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ARC Raiders</a>; * <a href=\"https://steamdb.info/app/3055670/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Risk of Rain 2: Hallowed Concepts</a>; * <a href=\"https://steamdb.info/app/381210/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dead by Daylight</a>; * <a href=\"https://steamdb.info/app/2054970/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dragon's Dogma 2</a>; * <a href=\"https://steamdb.info/app/1551980/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Clive Barker's Hellraiser: Revival</a>; <i>* excluding free to play games</i> <a href=\"https://steamdb.info/topsellers/2026W42/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+      "feedlabel": "SteamDB",
+      "date": 1791882000,
+      "feedname": "SteamDB",
+      "feed_type": 0,
+      "appid": 381210
+    },
     {
       "gid": "1846018067936138",
       "title": "Фанаты возмущены внешним видом 2B в кроссовере с Dead by Daylight - разработчики пообещали всё исправить",
@@ -235,19 +253,6 @@
       "contents": "FeaturesSurvivor Intent SystemSurvivors can send and receive text messages during a matchBy pressing and holding the scroll-button when using a Mouse, or the right d-pad input on controllers, players can open the messages wheel8 messages are available for players to select and sendHovering the message, and releasing scroll-button/right, will send the messageInputs are customizableSent messages are...",
       "feedlabel": "Community Announcements",
       "date": 1791297184,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 381210
-    },
-    {
-      "gid": "1845383656394283",
-      "title": "Developer Update | 10.2.0 PTB to Live Changes",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656394283",
-      "is_external_url": true,
-      "author": "Donnary21st",
-      "contents": "With the release of 10.2.0 just around the corner, we wanted to take some time to talk to you about a handful of the many changes that will be happening from PTB to the Live release - and a few changes that won’t. We want to thank everyone who took the time during the PTB to share their thoughts, as we always take your feedback very seriously when it comes time to make these changes. A look at som...",
-      "feedlabel": "Community Announcements",
-      "date": 1791223220,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 381210
