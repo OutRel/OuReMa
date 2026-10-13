@@ -50,12 +50,7 @@
       "date": 1788456393,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 252490,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1607812438_1788457974_0",
-        "mod_require_rereview"
-      ]
+      "appid": 252490
     },
     {
       "gid": "1840310314354123",
@@ -85,6 +80,22 @@
     }
   ],
   "war_thunder": [
+    {
+      "gid": "1846018067944269",
+      "title": "Update 2.59.0.65",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067944269",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "Sound A bug that caused the Indonesian crew voice over to not play and instead be swapped to a default one has been fixed. Locations and Missions\\ Mozdok — an issue where the southern team’s spawn point was shifted north into the capture zone has been fixed. (Report). The mission has been returned to the Air Arcade Battles rotation.Kamchatka — all missions on this location have been temporarily re...",
+      "feedlabel": "Community Announcements",
+      "date": 1791902499,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
     {
       "gid": "1846018067943705",
       "title": "A Decal and Discounts on American Ships for the US Navy’s Birthday!",
@@ -154,22 +165,6 @@
       "contents": "Ground VehiclesLeopard 2A4 (all variants), Leopard 2A5 (all variants), Leopard 2A6 (all variants), Type 90 (all variants), Strv 121 (all variants), Strv 122 (all variants), Leopard 2A7 (all variants), EMBT (all variants), Vickers Mk.7, ItPsV Leopard — the slowed-down neutral turn that occurred after testing the regenerative steering mechanic has been fixed. (Report). The regenerative steering mech...",
       "feedlabel": "Community Announcements",
       "date": 1791555649,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1846018067929713",
-      "title": "Update 2.59.0.59",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067929713",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "AircraftH8K2, H8K3 — an issue preventing the wing-root turrets from firing has been fixed. (Report). Nuclear EscalationAn issue where SAM systems positioned on high ground would not engage targets flying over water at an altitude lower than the SAM site itself has been fixed.An issue where SAM systems might incorrectly assign low priority to certain targets has been fixed.S-75 and HAWK SAM systems...",
-      "feedlabel": "Community Announcements",
-      "date": 1791466585,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390,
