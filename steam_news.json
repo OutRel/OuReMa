@@ -175,6 +175,22 @@
   ],
   "dead_by_daylight": [
     {
+      "gid": "1846651706674577",
+      "title": "10.2.1 | Bugfix Patch",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706674577",
+      "is_external_url": true,
+      "author": "Goblin_BHVR",
+      "contents": "FeaturesSurrender and End TrialSurrender OptionSurvivor Condition - When there are no other human survivors, and at least one bot, the remaining player gets the option to Surrender. (was Abandon)Survivor is considered SurrenderedEnd Trial OptionKiller Condition - When all remaining Survivors are bots the Killer gains the option to End Trial. (Removed the \"in the Dying State condition\")ContentKille...",
+      "feedlabel": "Community Announcements",
+      "date": 1791990061,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 381210,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1846018067944049",
       "title": "Steam Global Top Sellers for week of 6 Oct — 13 October 2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1846018067944049",
@@ -237,19 +253,6 @@
       "date": 1791298814,
       "feedname": "PCGamesN",
       "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1845383656396647",
-      "title": "10.2.0 | Mid-Chapter",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656396647",
-      "is_external_url": true,
-      "author": "Donnary21st",
-      "contents": "FeaturesSurvivor Intent SystemSurvivors can send and receive text messages during a matchBy pressing and holding the scroll-button when using a Mouse, or the right d-pad input on controllers, players can open the messages wheel8 messages are available for players to select and sendHovering the message, and releasing scroll-button/right, will send the messageInputs are customizableSent messages are...",
-      "feedlabel": "Community Announcements",
-      "date": 1791297184,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
       "appid": 381210
     }
   ],
