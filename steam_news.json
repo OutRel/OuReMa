@@ -347,6 +347,19 @@
   ],
   "palworld": [
     {
+      "gid": "1846651706673296",
+      "title": "Авторы Palworld рассказали, почему не превратили успешный мир с \"покемонами\" в новый Fortnite",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706673296",
+      "is_external_url": true,
+      "author": "",
+      "contents": "В Pocketpair объяснили, почему решила развивать вселенную Palworld через выпуск самостоятельных спин-оффов вместо создания единой метавселенной по примеру Fortnite. В интервью изданию MP1st руководитель компании Джон Бакли заявил, что разработчики ставят во главу угла творческую свободу, а не попытку выжать из аудитории максимум прибыли. После глобального успеха оригинального выживача авторы анонс...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1791958213,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 1623730
+    },
+    {
       "gid": "1844751498230596",
       "title": "Palworld неожиданно для самих создателей стала самым высоко оценённым релизом 2026 года в Steam",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1844751498230596",
@@ -422,19 +435,6 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1842212951313335",
-      "title": "Palworld Global Popularity Poll 2026 is LIVE!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951313335",
-      "is_external_url": true,
-      "author": "pocketpair_dev",
-      "contents": "Pal Tamers！The time has come to decide who stands at the top of the Palpagos Islands. Voting for the Palworld Global Popularity Poll 2026 is officially open!With the launch of version 1.0, our roster has expanded to over 280+ Pals, and every single one of them (plus some in-game human characters) is on the ballot! Whether you’ve been attached to Lamball since day one or fell in love with a newcome...",
-      "feedlabel": "Community Announcements",
-      "date": 1788267638,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 1623730
     }
   ]
 }
