@@ -81,6 +81,35 @@
   ],
   "war_thunder": [
     {
+      "gid": "1846651706677897",
+      "title": "Community Update No.13: What’s Coming Up!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706677897",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Hi everyone! Today we’re back with another Community Update, which goes into what you can expect to arrive in the upcoming major update and further into the future. So sit back and relax, and read on!Disclaimer: While we’re excited to be able to share work-in-progress information before dev blogs, the dev server and the full release, please bear in mind that new features, vehicles and maps mention...",
+      "feedlabel": "Community Announcements",
+      "date": 1792073711,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1846651706677308",
+      "title": "Update 2.59.0.68",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706677308",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "Other Native support for ARM CPUs has been added to the Windows version of the game.A bug that caused the game to crash on PlayStation 5 Pro with ray tracing enabled has been fixed. Locations and MissionsHürtgen (all missions), Grave Robbers’ Cliffs — these have been temporarily removed from the Air Battles rotation pending a bug fix.“Middle East. Mediterranean” and “Eastern Europe. Winter” locati...",
+      "feedlabel": "Community Announcements",
+      "date": 1792063828,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1846018067944269",
       "title": "Update 2.59.0.65",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067944269",
@@ -142,35 +171,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1846018067935386",
-      "title": "Screenshot Competition – Lightfooted!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067935386",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 245th War Thunder Steam Screenshot Competition! We loved seeing your submissions last week! This week we want to feature lightweight vehicles that have great speed and agility. Grab your favorite light vehicle, and capture a screenshot of it scouting on the battlefield, or participating in a dogfight! The three ...",
-      "feedlabel": "Community Announcements",
-      "date": 1791608404,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1846018067933466",
-      "title": "Server Update 09.10.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067933466",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "Ground VehiclesLeopard 2A4 (all variants), Leopard 2A5 (all variants), Leopard 2A6 (all variants), Type 90 (all variants), Strv 121 (all variants), Strv 122 (all variants), Leopard 2A7 (all variants), EMBT (all variants), Vickers Mk.7, ItPsV Leopard — the slowed-down neutral turn that occurred after testing the regenerative steering mechanic has been fixed. (Report). The regenerative steering mech...",
-      "feedlabel": "Community Announcements",
-      "date": 1791555649,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
     }
   ],
   "dead_by_daylight": [
