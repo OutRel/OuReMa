@@ -81,6 +81,48 @@
   ],
   "war_thunder": [
     {
+      "gid": "1846651706682154",
+      "title": "Official Snail Plushie Collaboration with Makeship!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706682154",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "We’re very pleased to announce that we’ve just launched our first collaboration with Makeship! The Gaijin Snail rarely reveals itself in physical form, so take the opportunity to pick up this limited edition cuddly plush!GET YOURS HERE! The DesignBack at Gamescom 2025 we had a great meeting with one of the folks from Makeship, so great in fact our meeting overran by nearly 30 minutes because we we...",
+      "feedlabel": "Community Announcements",
+      "date": 1792166793,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1846651706681720",
+      "title": "Update 2.59.0.72",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706681720",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "Nuclear EscalationA mission set on the Southeastern City map has been added to the sub-mode’s random battles.The placement of certain objects in the mission has been adjusted based on the results of testing during events.Brief jumps in aircraft positioning that occurred when tank columns appeared have been fixed.Patch notes reflect only key changes, meaning they may not include a complete list of ...",
+      "feedlabel": "Community Announcements",
+      "date": 1792161454,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1846651706681059",
+      "title": "SEAD: Asymmetrical Battle Returns!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706681059",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "On October 17th 1965 during Operation Iron Hand in the Vietnam War, a strike against SAM positions occurred, making it the first operation to suppress missile air defenses. The operation lasted until 1973 and consisted of many individual SEAD missions.Put on your helmets, pilots! It’s time to fly straight into the Air Defense Suppression event, an asymmetrical game mode in which one team attacks w...",
+      "feedlabel": "Community Announcements",
+      "date": 1792149693,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1846651706680717",
       "title": "Vautour IIN Discounted for the Anniversary of the Vautour II’s First Flight!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706680717",
@@ -115,56 +157,6 @@
       "contents": "Other Native support for ARM CPUs has been added to the Windows version of the game.A bug that caused the game to crash on PlayStation 5 Pro with ray tracing enabled has been fixed. Locations and MissionsHürtgen (all missions), Grave Robbers’ Cliffs — these have been temporarily removed from the Air Battles rotation pending a bug fix.“Middle East. Mediterranean” and “Eastern Europe. Winter” locati...",
       "feedlabel": "Community Announcements",
       "date": 1792063828,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1846018067944269",
-      "title": "Update 2.59.0.65",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067944269",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "Sound A bug that caused the Indonesian crew voice over to not play and instead be swapped to a default one has been fixed. Locations and Missions\\ Mozdok — an issue where the southern team’s spawn point was shifted north into the capture zone has been fixed. (Report). The mission has been returned to the Air Arcade Battles rotation.Kamchatka — all missions on this location have been temporarily re...",
-      "feedlabel": "Community Announcements",
-      "date": 1791902499,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1846018067943705",
-      "title": "A Decal and Discounts on American Ships for the US Navy’s Birthday!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067943705",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The U.S. Navy’s birthday marks the anniversary of the Continental Congress’s decision to establish a naval force, adopted on October 13th, 1775. On this day, American sailors cut the cake in a special way using a naval dirk held jointly by the most senior and the most junior personnel present, symbolizing the continuity of generations. USS Maryland Pack with a 30% discount in the Gaijin Store!From...",
-      "feedlabel": "Community Announcements",
-      "date": 1791889679,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1434278705_1791889748_0",
-        "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1846018067941259",
-      "title": "Update 2.59.0.62",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067941259",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "SoundNow, when opening the aircraft or helicopter cockpit in flight, the sound of the rushing airflow will drown out all sounds, such as engines and missiles. Previously, this was controlled by the player’s engine volume slider.The Indonesian ground vehicle crews have received their own voice over.Harimau — the engine sound has been replaced with a better fitting one. Locations and Missions\\ Brita...",
-      "feedlabel": "Community Announcements",
-      "date": 1791817484,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390,
