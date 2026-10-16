@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1846651706680717",
+      "title": "Vautour IIN Discounted for the Anniversary of the Vautour II’s First Flight!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706680717",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The SO.4050 Vautour II was one of the first post-war French jet aircraft. Its first flight took place on October 16th 1952, and it served in the French Air Force from 1958 to 1979. In total, almost 150 Vautour II units were built. Modification IIN is a two-seat all-weather interceptor that took part in combat operations as part of the Israeli Air Force.The Vautour IIN is available with a 30% disco...",
+      "feedlabel": "Community Announcements",
+      "date": 1792142217,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1846651706677897",
       "title": "Community Update No.13: What’s Coming Up!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706677897",
@@ -158,19 +171,6 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1846018067940888",
-      "title": "Spooky Monthly Decals for October!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067940888",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Hey everyone! As it’s October, we thought we’d change the format up a bit and go with a set of decals that fit the Halloween month. We’ve got skulls, ghosts and a black cat too of course! For the “Red Devils” hull art piece, we’ve tried to keep the shape somewhat generalized so you’ll be able to apply it to lots of tank hulls rather than only the Sherman hull specifically.We also had to include a ...",
-      "feedlabel": "Community Announcements",
-      "date": 1791810511,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
