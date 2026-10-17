@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="de" class="dark h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutRelMania - Everything Is Better Together</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Russo+One&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        orbitron: ['Orbitron', 'sans-serif'],
+                        russo: ['Russo One', 'sans-serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        neon: {
+                            lime: '#A3E635',
+                            light: '#bef264',
+                            bright: '#84cc16',
+                            emerald: '#10b981',
+                            dark: '#040705',
+                            card: '#0c140f',
+                            cardborder: 'rgba(163, 230, 53, 0.25)',
+                            twitch: '#a855f7'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #030604;
+            overflow-x: hidden;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #f0fdf4;
+        }
+
+        .cyber-bg {
+            background: 
+                radial-gradient(circle at 50% 25%, rgba(163, 230, 53, 0.22) 0%, transparent 50%),
+                radial-gradient(circle at 10% 70%, rgba(132, 204, 22, 0.12) 0%, transparent 45%),
+                radial-gradient(circle at 90% 75%, rgba(168, 85, 247, 0.14) 0%, transparent 45%),
+                linear-gradient(to bottom, #020403, #07100a, #020403);
+        }
+
+        .cyber-card {
+            background: rgba(10, 18, 13, 0.82);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(163, 230, 53, 0.25);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.95), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+            transform-style: preserve-3d;
+            perspective: 1000px;
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .cyber-card:hover {
+            border-color: rgba(163, 230, 53, 0.8);
+            box-shadow: 0 0 40px rgba(163, 230, 53, 0.35), inset 0 0 20px rgba(163, 230, 53, 0.15);
+        }
+
+        .btn-cyber {
+            background: linear-gradient(135deg, #A3E635 0%, #65a30d 100%);
+            color: #030604;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 0 20px rgba(163, 230, 53, 0.5);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .btn-cyber::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .btn-cyber:hover::before {
+            left: 100%;
+        }
+
+        .btn-cyber:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 0 35px rgba(163, 230, 53, 0.9);
+        }
+
+        .scanline {
+            background: linear-gradient(
+                to bottom,
+                rgba(255,255,255,0),
+                rgba(255,255,255,0) 50%,
+                rgba(163, 230, 53, 0.04) 50%,
+                rgba(163, 230, 53, 0.04)
+            );
+            background-size: 100% 4px;
+        }
+
+        .brand-title-container {
+            position: relative;
+            display: inline-block;
+            perspective: 1000px;
+            cursor: pointer;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .brand-title-3d {
+            font-family: 'Orbitron', 'Russo One', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #ffffff;
+            position: relative;
+            display: inline-block;
+            background: linear-gradient(175deg, #ffffff 0%, #d9f99d 35%, #a3e635 70%, #4d7c0f 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 2px 0 #15803d) 
+                    drop-shadow(0 4px 0 #166534) 
+                    drop-shadow(0 6px 0 #14532d) 
+                    drop-shadow(0 8px 15px rgba(0, 0, 0, 0.95))
+                    drop-shadow(0 0 25px rgba(163, 230, 53, 0.85));
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.3s ease;
+        }
+
+        .brand-title-3d::after {
+            content: 'OUTRELMANIA';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Orbitron', 'Russo One', sans-serif;
+            font-weight: 900;
+            letter-spacing: 0.08em;
+            background: linear-gradient(110deg, transparent 0%, transparent 40%, rgba(255, 255, 255, 0.9) 50%, transparent 60%, transparent 100%);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: light-sweep 3.5s infinite linear;
+            pointer-events: none;
+        }
+
+        @keyframes light-sweep {
+            0% { background-position: -150% 0; }
+            100% { background-position: 150% 0; }
+        }
+
+        .brand-title-container:hover .brand-title-3d {
+            transform: scale(1.06) translateZ(20px) rotateX(4deg);
+            filter: drop-shadow(0 3px 0 #15803d) 
+                    drop-shadow(0 6px 0 #166534) 
+                    drop-shadow(0 9px 0 #14532d) 
+                    drop-shadow(0 12px 25px rgba(0, 0, 0, 0.98))
+                    drop-shadow(0 0 45px rgba(163, 230, 53, 1));
+        }
+
+        .title-aura-plateau {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 120%;
+            height: 140%;
+            background: radial-gradient(ellipse at center, rgba(163, 230, 53, 0.35) 0%, rgba(16, 185, 129, 0.18) 45%, transparent 75%);
+            filter: blur(28px);
+            border-radius: 50%;
+            z-index: -1;
+            animation: aura-pulse 3s infinite ease-in-out;
+            pointer-events: none;
+        }
+
+        @keyframes aura-pulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
+            50% { transform: translate(-50%, -50%) scale(1.15); opacity: 1; filter: blur(35px); }
+        }
+
+        .brand-title-container:hover .glitch-layer-1 {
+            opacity: 0.6;
+            animation: glitch-anim-1 0.3s steps(2) infinite;
+        }
+        .brand-title-container:hover .glitch-layer-2 {
+            opacity: 0.6;
+            animation: glitch-anim-2 0.3s steps(2) infinite;
+        }
+
+        .glitch-layer {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-family: 'Orbitron', 'Russo One', sans-serif;
+            font-weight: 900;
+            letter-spacing: 0.08em;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .glitch-layer-1 {
+            color: #bef264;
+            text-shadow: -2px 0 #22c55e;
+            clip-path: inset(0 0 50% 0);
+        }
+        .glitch-layer-2 {
+            color: #a855f7;
+            text-shadow: 2px 0 #a3e635;
+            clip-path: inset(50% 0 0 0);
+        }
+
+        @keyframes glitch-anim-1 {
+            0% { transform: translate(2px, -2px); }
+            50% { transform: translate(-2px, 2px); }
+            100% { transform: translate(1px, -1px); }
+        }
+        @keyframes glitch-anim-2 {
+            0% { transform: translate(-2px, 2px); }
+            50% { transform: translate(2px, -2px); }
+            100% { transform: translate(-1px, 1px); }
+        }
+
+        @keyframes slogan-glow-lime {
+            0%, 100% {
+                text-shadow: 0 0 12px rgba(163, 230, 53, 0.8), 0 0 25px rgba(163, 230, 53, 0.5), 0 0 40px rgba(132, 204, 22, 0.3);
+                letter-spacing: 0.12em;
+            }
+            50% {
+                text-shadow: 0 0 20px rgba(163, 230, 53, 1), 0 0 38px rgba(163, 230, 53, 0.9), 0 0 60px rgba(190, 242, 100, 0.8);
+                letter-spacing: 0.16em;
+            }
+        }
+
+        .slogan-animated {
+            animation: slogan-glow-lime 3.5s ease-in-out infinite;
+        }
+
+        @keyframes radar-sweep {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .animate-radar {
+            animation: radar-sweep 4s linear infinite;
+        }
+
+        @keyframes cyber-float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(1deg); }
+        }
+        .animate-cyber-float {
+            animation: cyber-float 5s ease-in-out infinite;
+        }
+
+        @keyframes neon-pulse {
+            0%, 100% { opacity: 0.85; transform: scale(1); }
+            50% { opacity: 0.35; transform: scale(1.05); }
+        }
+        .animate-neon-pulse {
+            animation: neon-pulse 3s ease-in-out infinite;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #030604;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #A3E635;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-slate-100 flex flex-col justify-between cyber-bg relative selection:bg-lime-400 selection:text-black">
+
+    <!-- Interactive Cyberspace Network Canvas -->
+    <canvas id="cyberCanvas" class="fixed inset-0 w-full h-full pointer-events-none z-0"></canvas>
+
+    <!-- Ambient Cursor Spotlight Overlay -->
+    <div id="spotlightOverlay" class="fixed inset-0 pointer-events-none z-0 transition-opacity duration-300" style="background: radial-gradient(600px circle at 0px 0px, rgba(163, 230, 53, 0.08), transparent 40%);"></div>
+
+    <!-- Header Navigation -->
+    <header class="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+        <a href="https://out-rel-mania-1a3c44e3.base44.app/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 group cursor-pointer" onclick="playAudioFeedback(600)">
+            <div class="relative">
+                <div class="absolute -inset-1 bg-lime-400 rounded-xl blur-sm opacity-60 group-hover:opacity-100 transition duration-300"></div>
+                <img src="GeminiLogoOutrelMania.jpg" alt="OutRelMania Logo" class="relative w-10 h-10 rounded-xl object-cover ring-1 ring-lime-400" onerror="this.src='https://placehold.co/100x100/030604/A3E635?text=ORM'">
+            </div>
+            <div>
+                <span class="font-orbitron font-black text-xl tracking-wider text-white group-hover:text-lime-400 transition-colors flex items-center gap-1.5">
+                    OutRelMania
+                </span>
+                <span class="text-[10px] uppercase font-bold tracking-widest text-lime-400 block -mt-1">Gaming Network</span>
+            </div>
+        </a>
+
+        <div class="flex items-center gap-3">
+            <div class="hidden sm:flex items-center gap-2 text-xs font-mono bg-black/80 px-3.5 py-1.5 rounded-full border border-lime-500/40 text-lime-300 backdrop-blur-md">
+                <span class="w-2 h-2 rounded-full bg-lime-400 animate-ping"></span>
+                <span class="text-slate-400">STATUS:</span> MATCHMAKING ONLINE
+            </div>
+            <a href="https://out-rel-mania-1a3c44e3.base44.app/" target="_blank" rel="noopener noreferrer" class="btn-cyber text-xs px-4 py-2 rounded-xl flex items-center gap-2" onmouseenter="playAudioFeedback(800)" onclick="playAudioFeedback(1200)">
+                <i class="fa-solid fa-gamepad text-sm"></i>
+                <span>App Starten</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Interactive Gaming Hub Screen -->
+    <main class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex flex-col gap-8">
+        
+        <!-- 1. HEADER HERO SECTION -->
+        <div class="text-center">
+            <a href="https://out-rel-mania-1a3c44e3.base44.app/" target="_blank" rel="noopener noreferrer" class="inline-block relative group mb-2" onclick="playAudioFeedback(900)">
+                <div class="absolute -inset-4 bg-gradient-to-r from-lime-500 via-emerald-600 to-lime-400 rounded-full blur-2xl opacity-60 animate-neon-pulse"></div>
+                <div class="absolute -inset-1 bg-lime-400 rounded-full blur opacity-80 group-hover:opacity-100 transition duration-300"></div>
+                <img src="GeminiLogoOutrelMania.jpg" alt="OutRelMania Main Logo" class="relative w-24 h-24 sm:w-28 sm:h-28 object-cover rounded-full shadow-2xl ring-2 ring-lime-400 mx-auto animate-cyber-float" onerror="this.src='https://placehold.co/300x300/030604/A3E635?text=OutRelMania'">
+            </a>
+
+            <div class="block my-1">
+                <a href="https://out-rel-mania-1a3c44e3.base44.app/" target="_blank" rel="noopener noreferrer" class="brand-title-container" onmouseenter="playAudioFeedback(950)" onclick="playAudioFeedback(1200)" title="OutRelMania Gaming App Öffnen">
+                    <div class="title-aura-plateau"></div>
+                    <div class="glitch-layer glitch-layer-1 text-4xl sm:text-6xl lg:text-7xl">OUTRELMANIA</div>
+                    <div class="glitch-layer glitch-layer-2 text-4xl sm:text-6xl lg:text-7xl">OUTRELMANIA</div>
+                    <h1 class="brand-title-3d text-4xl sm:text-6xl lg:text-7xl">
+                        OUTRELMANIA
+                    </h1>
+                </a>
+            </div>
+
+            <div class="mt-2 max-w-2xl mx-auto px-2">
+                <div class="inline-block relative">
+                    <div class="absolute -inset-2 bg-gradient-to-r from-lime-500/30 via-emerald-500/30 to-lime-400/30 blur-xl rounded-full"></div>
+                    <p class="relative font-orbitron font-black text-base sm:text-xl lg:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-lime-300 via-white to-lime-400 slogan-animated tracking-widest uppercase">
+                        "EVERYTHING IS BETTER TOGETHER"
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. HAUPTBEREICH: FOTOBUCH & SPENDEN-BANNER (LINKS & RECHTS) -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center max-w-7xl mx-auto w-full">
+            
+            <!-- LINKES SPENDEN-BANNER -->
+            <div class="lg:col-span-3 flex">
+                <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" 
+                   class="cyber-card tilt-card w-full rounded-3xl p-4 flex flex-col justify-between relative overflow-hidden group scanline text-center"
+                   onmouseenter="playAudioFeedback(450)" onclick="playAudioFeedback(1000)" title="Jetzt für Rosco spenden">
+                    <div>
+                        <div class="inline-flex items-center gap-1.5 text-[11px] font-orbitron font-bold uppercase tracking-wider text-lime-300 bg-lime-950/80 border border-lime-500/50 px-2.5 py-1 rounded-xl mb-3">
+                            <i class="fa-solid fa-hand-holding-heart text-lime-400 animate-pulse"></i> Hilfe für Rosco
+                        </div>
+                        <h3 class="font-orbitron font-black text-lg text-white group-hover:text-lime-300 transition-colors">
+                            Jeder Euro zählt &hearts;
+                        </h3>
+                        <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+                            Rosco braucht dringend unsere Unterstützung für seine erneute Operation. Bitte hilf mit einer kleinen Spende!
+                        </p>
+                    </div>
+
+                    <div class="mt-4 relative rounded-2xl overflow-hidden border border-lime-500/40 shadow-xl bg-black">
+                        <img src="Ro19Spende.jpg" alt="Spende für Rosco" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700 opacity-90" onerror="this.src='Ro19.jpeg'; this.onerror=function(){this.src='https://placehold.co/400x600/030604/A3E635?text=Spende+fur+Rosco';};">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-3 inset-x-3">
+                            <span class="btn-cyber w-full py-2 rounded-xl text-xs flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-heart text-red-500"></i> Jetzt Spenden
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- ZENTRALES FOTOBUCH (6 COLS) - BILD 1 IST NUN DAS SPENDEN-HINWEIS-BILD -->
+            <div class="lg:col-span-6 flex">
+                <section class="w-full">
+                    <div class="cyber-card rounded-3xl p-6 sm:p-8 relative overflow-hidden scanline">
+                        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6 pb-4 border-b border-lime-500/30">
+                            <div>
+                                <span class="inline-flex items-center gap-2 text-xs font-orbitron font-bold uppercase tracking-wider text-lime-300 bg-lime-950/80 border border-lime-500/50 px-3 py-1 rounded-xl mb-2">
+                                    <i class="fa-solid fa-book-open text-lime-400"></i> Fotobuch & Galerie
+                                </span>
+                                <h2 class="font-orbitron text-2xl sm:text-3xl font-black text-white">
+                                    Unsere Fotoreihe
+                                </h2>
+                            </div>
+                            <div id="pageIndicator" class="font-mono text-xs text-lime-300 bg-black/60 px-4 py-2 rounded-xl border border-lime-500/30">
+                                Seite 1 von 21
+                            </div>
+                        </div>
+
+                        <div class="relative w-full aspect-[4/3] sm:aspect-video rounded-2xl overflow-hidden bg-black/80 border-2 border-lime-500/40 shadow-2xl flex items-center justify-center group">
+                            <div id="flipBookContainer" class="w-full h-full relative flex items-center justify-center">
+                                
+                                <!-- Bild 1: SPENDEN-VERDOPPLUNGSHINWEIS (IMMERT ZUERST SICHTBAR) -->
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-100 scale-100" data-index="0">
+                                    <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" class="block w-full h-full">
+                                        <img src="Gemeinsamverdoppeln.png" alt="Z.E.K. e.V. Verdoppelt eure Spenden" class="w-full h-full object-contain bg-black/90">
+                                    </a>
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/80 to-transparent p-4 flex items-center justify-between">
+                                        <p class="font-orbitron font-bold text-xs sm:text-sm text-lime-300">#01 – Der Z.E.K. e.V. verdoppelt eure Spenden!</p>
+                                        <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" class="btn-cyber text-[10px] px-2.5 py-1 rounded-lg">Spenden</a>
+                                    </div>
+                                </div>
+
+                                <!-- Bilder 2 bis 21 (Die 20 Rosco Fotos) -->
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="1">
+                                    <img src="Ro1.jpeg" alt="Tragehilfe" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#02 – Tragehilfe & Unterstützung</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="2">
+                                    <img src="Ro2.jpg" alt="Erholung" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#03 – Ruhe & Kühlung</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="3">
+                                    <img src="Ro3.jpeg" alt="Zuwendung" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#04 – Liebevolle Zuwendung</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="4">
+                                    <img src="Ro4.jpg" alt="Unterwegs" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#05 – Draußen unterwegs</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="5">
+                                    <img src="Ro5.jpg" alt="Pflege" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#06 – Verbandswechsel & Pflege</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="6">
+                                    <img src="Ro6.jpeg" alt="Vertrauen" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#07 – Vertraute Momente</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="7">
+                                    <img src="Ro7.jpeg" alt="Gips" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#08 – Heimfahrt nach der Behandlung</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="8">
+                                    <img src="Ro8.jpeg" alt="Bademantel" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#09 – Gemütlich im Bademantel</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="9">
+                                    <img src="Ro9.jpeg" alt="Wasserlaufband" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#10 – Physiotherapie im Wasserlaufband</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="10">
+                                    <img src="Ro10.jpg" alt="Glückliche Momente" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#11 – Glücklich in der Natur</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="11">
+                                    <img src="Ro11.jpg" alt="Treuer Blick" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#12 – Aufmerksamer Begleiter</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="12">
+                                    <img src="Ro12.jpeg" alt="Geborgenheit" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#13 – Innige Verbundenheit</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="13">
+                                    <img src="Ro13.jpg" alt="Ruhephase" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#14 – Erholung auf dem Kissen</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="14">
+                                    <img src="Ro14.jpeg" alt="Geburtstag" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#15 – 7. Geburtstag feiern</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="15">
+                                    <img src="Ro15.jpg" alt="Entspannung" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#16 – Entpannt im Körbchen</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="16">
+                                    <img src="Ro16.jpeg" alt="Hasenohren" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#17 – Lustige Mütze</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="17">
+                                    <img src="Ro17.jpeg" alt="Küsschen" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#18 – Freudiges Küsschen</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="18">
+                                    <img src="Ro18.jpeg" alt="Zuneigung" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#19 – Stille Zuneigung</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="19">
+                                    <img src="Ro19.jpeg" alt="Am See" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#20 – Ausflug an den See</p>
+                                    </div>
+                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="20">
+                                    <img src="Ro20.jpeg" alt="Zufriedenheit" class="w-full h-full object-contain bg-black/90">
+                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">#21 – Zufrieden und geborgen</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button onclick="changePage(-1)" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-xl bg-black/80 border border-lime-500/50 text-lime-400 flex items-center justify-center hover:bg-lime-400 hover:text-black transition-all z-20 cursor-pointer shadow-lg" title="Vorherige Seite">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button onclick="changePage(1)" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-xl bg-black/80 border border-lime-500/50 text-lime-400 flex items-center justify-center hover:bg-lime-400 hover:text-black transition-all z-20 cursor-pointer shadow-lg" title="Nächste Seite">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="mt-4 flex items-center justify-center">
+                            <span class="text-xs text-slate-400 font-mono">Nutze die Pfeile zum Durchblättern aller 21 Bilder.</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- RECHTES SPENDEN-BANNER -->
+            <div class="lg:col-span-3 flex">
+                <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" 
+                   class="cyber-card tilt-card w-full rounded-3xl p-4 flex flex-col justify-between relative overflow-hidden group scanline text-center"
+                   onmouseenter="playAudioFeedback(450)" onclick="playAudioFeedback(1000)" title="Jetzt für Rosco spenden">
+                    <div>
+                        <div class="inline-flex items-center gap-1.5 text-[11px] font-orbitron font-bold uppercase tracking-wider text-lime-300 bg-lime-950/80 border border-lime-500/50 px-2.5 py-1 rounded-xl mb-3">
+                            <i class="fa-solid fa-paw text-lime-400 animate-pulse"></i> Operation & Pflege
+                        </div>
+                        <h3 class="font-orbitron font-black text-lg text-white group-hover:text-lime-300 transition-colors">
+                            Danke für jede Hilfe!
+                        </h3>
+                        <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+                            Mit deiner Spende ermöglichst du Rosco die notwendige medizinische Versorgung und einen schmerzfreien Weg zurück ins Leben.
+                        </p>
+                    </div>
+
+                    <div class="mt-4 relative rounded-2xl overflow-hidden border border-lime-500/40 shadow-xl bg-black">
+                        <img src="Ro19Spende.jpg" alt="Spende für Rosco" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700 opacity-90" onerror="this.src='Ro19.jpeg'; this.onerror=function(){this.src='https://placehold.co/400x600/030604/A3E635?text=Spende+fur+Rosco';};">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-3 inset-x-3">
+                            <span class="btn-cyber w-full py-2 rounded-xl text-xs flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-gift text-black"></i> GoFundMe öffnen
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- 3. GROSSER PARTNERBANNER (Z.E.K. e.V.) -->
+        <section class="w-full max-w-4xl mx-auto">
+            <a href="https://www.zek-ev.org/" target="_blank" rel="noopener noreferrer" 
+               class="cyber-card tilt-card block rounded-3xl p-3 sm:p-4 overflow-hidden group scanline relative transition-all duration-300 hover:scale-[1.01]"
+               onmouseenter="playAudioFeedback(650)" onclick="playAudioFeedback(1000)" title="Z.E.K. e.V. Website besuchen">
+                <div class="relative w-full rounded-2xl overflow-hidden border border-lime-500/40 shadow-xl bg-black">
+                    <img src="ZEK Partnerlogo.png" alt="Z.E.K. e.V. Partnerverein Banner" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-r from-lime-500/10 via-transparent to-lime-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+                </div>
+                <div class="mt-2.5 px-2 flex items-center justify-between text-xs font-bold text-lime-400 font-orbitron">
+                    <span class="text-slate-300 font-normal flex items-center gap-1.5">
+                        <i class="fa-solid fa-handshake text-lime-400"></i> Offizieller Partnerverein
+                    </span>
+                    <span class="group-hover:underline flex items-center gap-1 text-lime-300">
+                        www.zek-ev.org <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                    </span>
+                </div>
+            </a>
+        </section>
+
+        <!-- 4. DREISPALTIGES LAYOUT (News, App, Streamer) -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch max-w-7xl mx-auto w-full">
+            
+            <!-- SPALTE LINKS: News zu den Spielen -->
+            <div class="lg:col-span-4 flex flex-col gap-4">
+                <div class="cyber-card rounded-3xl p-5 flex flex-col justify-between h-full scanline">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="inline-flex items-center gap-2 text-xs font-orbitron font-bold uppercase tracking-wider text-lime-300 bg-lime-950/80 border border-lime-500/50 px-3 py-1 rounded-xl">
+                                <i class="fa-solid fa-newspaper text-lime-400"></i> Game News & Updates
+                            </span>
+                        </div>
+                        <h2 class="font-orbitron text-xl font-bold text-white mb-3">
+                            Community & Clan News
+                        </h2>
+
+                        <div class="bg-black/50 p-3 rounded-2xl border border-lime-500/20 mb-3 hover:border-lime-500/50 transition-all">
+                            <span class="text-[10px] text-lime-400 font-mono uppercase">War Thunder &middot; Verlosungen</span>
+                            <h3 class="font-orbitron font-bold text-sm text-white mt-1">Interne KG Verlosungen gestartet</h3>
+                            <p class="text-xs text-slate-300 mt-1">Sichert euch die neuesten Fahrzeugpakete für unseren Clan OutRelBroMania (xOBMx)!</p>
+                        </div>
+
+                        <div class="bg-black/50 p-3 rounded-2xl border border-lime-500/20 mb-3 hover:border-lime-500/50 transition-all">
+                            <span class="text-[10px] text-lime-400 font-mono uppercase">7 Days to Die &middot; Streams</span>
+                            <h3 class="font-orbitron font-bold text-sm text-white mt-1">Neue Survival-Night Sessions</h3>
+                            <p class="text-xs text-slate-300 mt-1">Schaltet ein im Twitch-Stream, wenn es wieder heißt: Überleben im Zombieland.</p>
+                        </div>
+
+                        <div class="bg-black/50 p-3 rounded-2xl border border-lime-500/20 hover:border-lime-500/50 transition-all">
+                            <span class="text-[10px] text-lime-400 font-mono uppercase">Z.E.K. e.V. &middot; Partnerschaft</span>
+                            <h3 class="font-orbitron font-bold text-sm text-white mt-1">Gemeinsam stark</h3>
+                            <p class="text-xs text-slate-300 mt-1">Unter dem Motto "Gaming is more" wächst unser Netzwerk und unsere Community stetig weiter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SPALTE MITTE: Gaming Matchmaking App -->
+            <div class="lg:col-span-4 flex">
+                <a href="https://out-rel-mania-1a3c44e3.base44.app/" target="_blank" rel="noopener noreferrer" 
+                   class="cyber-card tilt-card w-full rounded-3xl p-6 flex flex-col justify-between relative overflow-hidden group scanline"
+                   onmouseenter="playAudioFeedback(400)" onclick="playAudioFeedback(1000)">
+                    
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="inline-flex items-center gap-2 text-xs font-orbitron font-bold uppercase tracking-wider text-lime-300 bg-lime-950/80 border border-lime-500/50 px-3 py-1 rounded-xl shadow-inner">
+                                <i class="fa-solid fa-users-viewfinder text-lime-400 animate-pulse"></i> Matchmaking
+                            </span>
+                            <span class="w-8 h-8 rounded-full bg-lime-500/10 border border-lime-500/40 flex items-center justify-center text-lime-400 group-hover:bg-lime-400 group-hover:text-black transition-all duration-300">
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </span>
+                        </div>
+
+                        <h2 class="font-orbitron text-2xl font-black text-white group-hover:text-lime-300 transition-colors">
+                            Mitspieler finden
+                        </h2>
+                        <p class="text-slate-300 text-xs sm:text-sm mt-2 leading-relaxed">
+                            Erstelle Lobbies, matche mit Mitspielern und verabrede dich direkt zum Gaming in unserer offiziellen App.
+                        </p>
+                    </div>
+
+                    <div class="mt-5 relative rounded-2xl overflow-hidden border border-lime-500/40 shadow-2xl bg-black group/preview">
+                        <img src="GeminiLogoOutrelMania.jpg" alt="App Preview" class="w-full h-36 object-cover object-center group-hover/preview:scale-110 transition-transform duration-700 opacity-80 group-hover/preview:opacity-100" onerror="this.src='https://placehold.co/600x300/030604/A3E635?text=OutRelMania+App'">
+                        
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent pointer-events-none"></div>
+                        
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-50">
+                            <div class="w-24 h-24 border border-lime-400/60 rounded-full relative flex items-center justify-center">
+                                <div class="w-14 h-14 border border-lime-400/40 rounded-full"></div>
+                                <div class="absolute w-full h-[1px] bg-lime-400/40"></div>
+                                <div class="absolute h-full w-[1px] bg-lime-400/40"></div>
+                                <div class="absolute inset-0 rounded-full border-t-2 border-lime-400 animate-radar"></div>
+                            </div>
+                        </div>
+
+                        <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between z-10">
+                            <span class="text-xs font-orbitron font-bold text-lime-200">App Bereit</span>
+                            <span class="btn-cyber text-[10px] px-3 py-1 rounded-lg">
+                                Starten <i class="fa-solid fa-angle-right text-[9px]"></i>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- SPALTE RECHTS: Offizielle Twitch Streamer -->
+            <div class="lg:col-span-4 flex flex-col gap-4">
+                <div class="cyber-card rounded-3xl p-5 flex flex-col justify-between h-full">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="inline-flex items-center gap-2 text-xs font-orbitron font-bold uppercase tracking-wider text-purple-300">
+                                <i class="fa-brands fa-twitch text-purple-400 text-sm"></i> Official Streamers
+                            </span>
+                            <span class="bg-purple-950/80 border border-purple-500/40 text-[10px] font-orbitron font-bold px-2 py-0.5 rounded-full text-purple-300">
+                                3 Channels
+                            </span>
+                        </div>
+
+                        <div class="flex flex-col gap-2.5">
+                            <a href="https://www.twitch.tv/outrel_tv" target="_blank" rel="noopener noreferrer" 
+                               class="bg-black/50 border border-purple-500/30 rounded-2xl p-2.5 flex items-center justify-between group hover:border-purple-400 transition-all"
+                               onmouseenter="playAudioFeedback(500)">
+                                <div class="flex items-center gap-3">
+                                    <div class="relative w-10 h-10 rounded-full bg-purple-900/60 border border-purple-400 overflow-hidden">
+                                        <img src="Gemini_Generated_Image_n5awl9n5awl9n5aw.jpg" alt="Outrel_TV" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <span class="font-orbitron font-extrabold text-xs text-white group-hover:text-purple-300 block">Outrel_TV</span>
+                                        <span class="text-[9px] text-purple-300 font-mono">App-Creator & Streamer</span>
+                                    </div>
+                                </div>
+                                <span class="text-[10px] font-orbitron font-bold py-1 px-2.5 rounded-lg bg-purple-600/30 border border-purple-500/50 text-purple-200 group-hover:bg-purple-600 group-hover:text-white transition-all">
+                                    Watch
+                                </span>
+                            </a>
+
+                            <a href="https://www.twitch.tv/tinideluxe_tv" target="_blank" rel="noopener noreferrer" 
+                               class="bg-black/50 border border-purple-500/30 rounded-2xl p-2.5 flex items-center justify-between group hover:border-purple-400 transition-all"
+                               onmouseenter="playAudioFeedback(550)">
+                                <div class="flex items-center gap-3">
+                                    <div class="relative w-10 h-10 rounded-full bg-purple-900/60 border border-purple-400 overflow-hidden">
+                                        <img src="KI2.jpg" alt="TiniDeluxe" class="w-full h-full object-cover" onerror="this.src='TiniBild_2.jpg'">
+                                    </div>
+                                    <div>
+                                        <span class="font-orbitron font-extrabold text-xs text-white group-hover:text-purple-300 block">TiniDeluxe</span>
+                                        <span class="text-[9px] text-purple-300 font-mono">V.I.P. Supporter</span>
+                                    </div>
+                                </div>
+                                <span class="text-[10px] font-orbitron font-bold py-1 px-2.5 rounded-lg bg-purple-600/30 border border-purple-500/50 text-purple-200 group-hover:bg-purple-600 group-hover:text-white transition-all">
+                                    Watch
+                                </span>
+                            </a>
+
+                            <a href="https://www.twitch.tv/hansmanno" target="_blank" rel="noopener noreferrer" 
+                               class="bg-black/50 border border-purple-500/30 rounded-2xl p-2.5 flex items-center justify-between group hover:border-purple-400 transition-all"
+                               onmouseenter="playAudioFeedback(600)">
+                                <div class="flex items-center gap-3">
+                                    <div class="relative w-10 h-10 rounded-full bg-purple-900/60 border border-purple-400 overflow-hidden">
+                                        <img src="GeminiLogoOutrelMania.jpg" alt="Hansmanno" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <span class="font-orbitron font-extrabold text-xs text-white group-hover:text-purple-300 block">Hansmanno</span>
+                                        <span class="text-[9px] text-purple-300 font-mono">V.I.P. Supporter</span>
+                                    </div>
+                                </div>
+                                <span class="text-[10px] font-orbitron font-bold py-1 px-2.5 rounded-lg bg-purple-600/30 border border-purple-500/50 text-purple-200 group-hover:bg-purple-600 group-hover:text-white transition-all">
+                                    Watch
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="relative z-20 w-full max-w-7xl mx-auto px-6 py-6 text-center text-xs font-mono text-slate-500">
+        <p>&copy; OutRelMania Hub. "Everything is better together" &bull; Gaming & Streams</p>
+    </footer>
+
+    <!-- Interactive Scripts -->
+    <script>
+        // Web Audio API Synth Effects
+        let audioCtx = null;
+        function playAudioFeedback(freq = 600) {
+            try {
+                if (!audioCtx) {
+                    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                }
+                if (audioCtx.state === 'suspended') {
+                    audioCtx.resume();
+                }
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+                osc.frequency.exponentialRampToValueAtTime(freq * 1.8, audioCtx.currentTime + 0.08);
+                gain.gain.setValueAtTime(0.04, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.08);
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                osc.start();
+                osc.stop(audioCtx.currentTime + 0.08);
+            } catch (e) {}
+        }
+
+        // Spotlight Tracking
+        const spotlightOverlay = document.getElementById('spotlightOverlay');
+        window.addEventListener('mousemove', (e) => {
+            spotlightOverlay.style.background = `radial-gradient(600px circle at ${e.clientX}px ${e.clientY}px, rgba(163, 230, 53, 0.09), transparent 40%)`;
+        });
+
+        // 3D Card Tilt Effect
+        const tiltCards = document.querySelectorAll('.tilt-card');
+        tiltCards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = ((y - centerY) / centerY) * -5;
+                const rotateY = ((x - centerX) / centerX) * 5;
+
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-3px)`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)';
+            });
+        });
+
+        // Fotobuch Blätter-Funktion (Anzahl auf 21 angepasst)
+        let currentPage = 0;
+        const totalPages = 21;
+
+        function changePage(direction) {
+            const pages = document.querySelectorAll('.book-page');
+            if (!pages.length) return;
+            
+            pages[currentPage].classList.remove('opacity-100', 'scale-100');
+            pages[currentPage].classList.add('opacity-0', 'scale-95', 'pointer-events-none');
+            
+            currentPage += direction;
+            if (currentPage >= totalPages) {
+                currentPage = 0;
+            } else if (currentPage < 0) {
+                currentPage = totalPages - 1;
+            }
+            
+            pages[currentPage].classList.remove('opacity-0', 'scale-95', 'pointer-events-none');
+            pages[currentPage].classList.add('opacity-100', 'scale-100');
+            
+            const indicator = document.getElementById('pageIndicator');
+            if (indicator) {
+                indicator.innerText = `Seite ${currentPage + 1} von ${totalPages}`;
+            }
+            
+            playAudioFeedback(500 + (currentPage * 18));
+        }
+
+        // Interactive Canvas Network
+        const canvas = document.getElementById('cyberCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            initNodes();
+        });
+
+        let mouse = { x: width / 2, y: height / 2 };
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.clientX;
+            mouse.y = e.clientY;
+        });
+
+        let nodes = [];
+        const nodeCount = Math.floor(Math.min(width, height) / 18);
+
+        function initNodes() {
+            nodes = [];
+            for (let i = 0; i < nodeCount; i++) {
+                nodes.push({
+                    x: Math.random() * width,
+                    y: Math.random() * height,
+                    vx: (Math.random() - 0.5) * 0.8,
+                    vy: (Math.random() - 0.5) * 0.8,
+                    radius: Math.random() * 2 + 1,
+                    color: Math.random() > 0.3 ? '#A3E635' : '#84cc16'
+                });
+            }
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, width, height);
+
+            for (let i = 0; i < nodes.length; i++) {
+                let n = nodes[i];
+                n.x += n.vx;
+                n.y += n.vy;
+
+                if (n.x < 0 || n.x > width) n.vx *= -1;
+                if (n.y < 0 || n.y > height) n.vy *= -1;
+
+                ctx.beginPath();
+                ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
+                ctx.fillStyle = n.color;
+                ctx.fill();
+
+                for (let j = i + 1; j < nodes.length; j++) {
+                    let n2 = nodes[j];
+                    let dx = n.x - n2.x;
+                    let dy = n.y - n2.y;
+                    let dist = Math.sqrt(dx * dx + dy * dy);
+
+                    if (dist < 130) {
+                        ctx.beginPath();
+                        ctx.moveTo(n.x, n.y);
+                        ctx.lineTo(n2.x, n2.y);
+                        ctx.strokeStyle = `rgba(163, 230, 53, ${0.28 * (1 - dist / 130)})`;
+                        ctx.lineWidth = 0.8;
+                        ctx.stroke();
+                    }
+                }
+
+                let mdx = n.x - mouse.x;
+                let mdy = n.y - mouse.y;
+                let mdist = Math.sqrt(mdx * mdx + mdy * mdy);
+                if (mdist < 180) {
+                    ctx.beginPath();
+                    ctx.moveTo(n.x, n.y);
+                    ctx.lineTo(mouse.x, mouse.y);
+                    ctx.strokeStyle = `rgba(163, 230, 53, ${0.55 * (1 - mdist / 180)})`;
+                    ctx.lineWidth = 1.2;
+                    ctx.stroke();
+                }
+            }
+
+            requestAnimationFrame(draw);
+        }
+
+        window.onload = function() {
+            initNodes();
+            draw();
+        };
+    </script>
+</body>
+</html>
