@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1846651706683779",
+      "title": "Screenshot Competition – Personal Favorites!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706683779",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 246th War Thunder Steam Screenshot Competition! Thanks for all of your great submissions last week! We have had quite a few contest themes in a row, so this week we are leaving that decision to you. Pick out whichever vehicle interests you or that you enjoy the most, and capture a picture of it in action! The th...",
+      "feedlabel": "Community Announcements",
+      "date": 1792210832,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1846651706682154",
       "title": "Official Snail Plushie Collaboration with Makeship!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706682154",
@@ -147,22 +160,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1846651706677308",
-      "title": "Update 2.59.0.68",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706677308",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "Other Native support for ARM CPUs has been added to the Windows version of the game.A bug that caused the game to crash on PlayStation 5 Pro with ray tracing enabled has been fixed. Locations and MissionsHürtgen (all missions), Grave Robbers’ Cliffs — these have been temporarily removed from the Air Battles rotation pending a bug fix.“Middle East. Mediterranean” and “Eastern Europe. Winter” locati...",
-      "feedlabel": "Community Announcements",
-      "date": 1792063828,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
     }
   ],
   "dead_by_daylight": [
