@@ -2,7 +2,7 @@
 <html lang="de" class="dark h-full">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1280, initial-scale=1.0">
     <title>OutRelMania - Everything Is Better Together</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -41,9 +41,10 @@
     <style>
         body {
             background-color: #030604;
-            overflow-x: hidden;
+            overflow-x: auto;
             font-family: 'Plus Jakarta Sans', sans-serif;
             color: #f0fdf4;
+            min-width: 1280px; /* Erzwingt die feste PC-Breite auf allen Geräten */
         }
 
         .cyber-bg {
@@ -194,49 +195,6 @@
             50% { transform: translate(-50%, -50%) scale(1.15); opacity: 1; filter: blur(35px); }
         }
 
-        .brand-title-container:hover .glitch-layer-1 {
-            opacity: 0.6;
-            animation: glitch-anim-1 0.3s steps(2) infinite;
-        }
-        .brand-title-container:hover .glitch-layer-2 {
-            opacity: 0.6;
-            animation: glitch-anim-2 0.3s steps(2) infinite;
-        }
-
-        .glitch-layer {
-            position: absolute;
-            top: 10px;
-            left: 20px;
-            font-family: 'Orbitron', 'Russo One', sans-serif;
-            font-weight: 900;
-            letter-spacing: 0.08em;
-            width: 100%;
-            height: 100%;
-            opacity: 0;
-            pointer-events: none;
-        }
-        .glitch-layer-1 {
-            color: #bef264;
-            text-shadow: -2px 0 #22c55e;
-            clip-path: inset(0 0 50% 0);
-        }
-        .glitch-layer-2 {
-            color: #a855f7;
-            text-shadow: 2px 0 #a3e635;
-            clip-path: inset(50% 0 0 0);
-        }
-
-        @keyframes glitch-anim-1 {
-            0% { transform: translate(2px, -2px); }
-            50% { transform: translate(-2px, 2px); }
-            100% { transform: translate(1px, -1px); }
-        }
-        @keyframes glitch-anim-2 {
-            0% { transform: translate(-2px, 2px); }
-            50% { transform: translate(2px, -2px); }
-            100% { transform: translate(-1px, 1px); }
-        }
-
         @keyframes slogan-glow-lime {
             0%, 100% {
                 text-shadow: 0 0 12px rgba(163, 230, 53, 0.8), 0 0 25px rgba(163, 230, 53, 0.5), 0 0 40px rgba(132, 204, 22, 0.3);
@@ -278,6 +236,7 @@
 
         ::-webkit-scrollbar {
             width: 6px;
+            height: 6px;
         }
         ::-webkit-scrollbar-track {
             background: #030604;
@@ -294,10 +253,10 @@
     <canvas id="cyberCanvas" class="fixed inset-0 w-full h-full pointer-events-none z-0"></canvas>
 
     <!-- Ambient Cursor Spotlight Overlay -->
-    <div id="spotlightOverlay" class="fixed inset-0 pointer-events-none z-0 transition-opacity duration-300" style="background: radial-gradient(600px circle at 0px 0px, rgba(163, 230, 53, 0.08), transparent 40%);"></div>
+    <div id="spotlightOverlay" class="fixed inset-0 pointer-events-none z-0 transition-opacity duration-300" style="background: radial-gradient(600px circle at 0px 0px, rgba(163, 230, 53, 0.09), transparent 40%);"></div>
 
     <!-- Header Navigation -->
-    <header class="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+    <header class="relative z-20 w-full max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="https://out-rel-mania-1a3c44e3.base44.app/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 group cursor-pointer" onclick="playAudioFeedback(600)">
             <div class="relative">
                 <div class="absolute -inset-1 bg-lime-400 rounded-xl blur-sm opacity-60 group-hover:opacity-100 transition duration-300"></div>
@@ -312,7 +271,7 @@
         </a>
 
         <div class="flex items-center gap-3">
-            <div class="hidden sm:flex items-center gap-2 text-xs font-mono bg-black/80 px-3.5 py-1.5 rounded-full border border-lime-500/40 text-lime-300 backdrop-blur-md">
+            <div class="flex items-center gap-2 text-xs font-mono bg-black/80 px-3.5 py-1.5 rounded-full border border-lime-500/40 text-lime-300 backdrop-blur-md">
                 <span class="w-2 h-2 rounded-full bg-lime-400 animate-ping"></span>
                 <span class="text-slate-400">STATUS:</span> MATCHMAKING ONLINE
             </div>
@@ -324,22 +283,20 @@
     </header>
 
     <!-- Main Interactive Gaming Hub Screen -->
-    <main class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex flex-col gap-8">
+    <main class="relative z-10 w-full max-w-7xl mx-auto px-8 py-6 flex flex-col gap-8">
         
         <!-- 1. HEADER HERO SECTION -->
         <div class="text-center">
             <a href="https://out-rel-mania-1a3c44e3.base44.app/" target="_blank" rel="noopener noreferrer" class="inline-block relative group mb-2" onclick="playAudioFeedback(900)">
                 <div class="absolute -inset-4 bg-gradient-to-r from-lime-500 via-emerald-600 to-lime-400 rounded-full blur-2xl opacity-60 animate-neon-pulse"></div>
                 <div class="absolute -inset-1 bg-lime-400 rounded-full blur opacity-80 group-hover:opacity-100 transition duration-300"></div>
-                <img src="GeminiLogoOutrelMania.jpg" alt="OutRelMania Main Logo" class="relative w-24 h-24 sm:w-28 sm:h-28 object-cover rounded-full shadow-2xl ring-2 ring-lime-400 mx-auto animate-cyber-float" onerror="this.src='https://placehold.co/300x300/030604/A3E635?text=OutRelMania'">
+                <img src="GeminiLogoOutrelMania.jpg" alt="OutRelMania Main Logo" class="relative w-28 h-28 object-cover rounded-full shadow-2xl ring-2 ring-lime-400 mx-auto animate-cyber-float" onerror="this.src='https://placehold.co/300x300/030604/A3E635?text=OutRelMania'">
             </a>
 
             <div class="block my-1">
                 <a href="https://out-rel-mania-1a3c44e3.base44.app/" target="_blank" rel="noopener noreferrer" class="brand-title-container" onmouseenter="playAudioFeedback(950)" onclick="playAudioFeedback(1200)" title="OutRelMania Gaming App Öffnen">
                     <div class="title-aura-plateau"></div>
-                    <div class="glitch-layer glitch-layer-1 text-4xl sm:text-6xl lg:text-7xl">OUTRELMANIA</div>
-                    <div class="glitch-layer glitch-layer-2 text-4xl sm:text-6xl lg:text-7xl">OUTRELMANIA</div>
-                    <h1 class="brand-title-3d text-4xl sm:text-6xl lg:text-7xl">
+                    <h1 class="brand-title-3d text-7xl">
                         OUTRELMANIA
                     </h1>
                 </a>
@@ -348,18 +305,18 @@
             <div class="mt-2 max-w-2xl mx-auto px-2">
                 <div class="inline-block relative">
                     <div class="absolute -inset-2 bg-gradient-to-r from-lime-500/30 via-emerald-500/30 to-lime-400/30 blur-xl rounded-full"></div>
-                    <p class="relative font-orbitron font-black text-base sm:text-xl lg:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-lime-300 via-white to-lime-400 slogan-animated tracking-widest uppercase">
+                    <p class="relative font-orbitron font-black text-2xl text-transparent bg-clip-text bg-gradient-to-r from-lime-300 via-white to-lime-400 slogan-animated tracking-widest uppercase">
                         "EVERYTHING IS BETTER TOGETHER"
                     </p>
                 </div>
             </div>
         </div>
 
-        <!-- 2. HAUPTBEREICH: FOTOBUCH & SPENDEN-BANNER (LINKS & RECHTS MIT ROSCO BILD) -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center max-w-7xl mx-auto w-full">
+        <!-- 2. HAUPTBEREICH: FOTOBUCH & SPENDEN-BANNER (3 SPALTEN AUF ALLEN GERÄTEN) -->
+        <div class="grid grid-cols-12 gap-6 items-center max-w-7xl mx-auto w-full">
             
-            <!-- LINKES SPENDEN-BANNER -->
-            <div class="lg:col-span-3 flex">
+            <!-- LINKES SPENDEN-BANNER (3 COLS) -->
+            <div class="col-span-3 flex">
                 <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" 
                    class="cyber-card tilt-card w-full rounded-3xl p-4 flex flex-col justify-between relative overflow-hidden group scanline text-center"
                    onmouseenter="playAudioFeedback(450)" onclick="playAudioFeedback(1000)" title="Jetzt für Rosco spenden">
@@ -387,16 +344,16 @@
                 </a>
             </div>
 
-            <!-- ZENTRALES FOTOBUCH (6 COLS) - BILD 1 IST DER VERDOPPLUNGSHINWEIS -->
-            <div class="lg:col-span-6 flex">
+            <!-- ZENTRALES FOTOBUCH (6 COLS) -->
+            <div class="col-span-6 flex">
                 <section class="w-full">
-                    <div class="cyber-card rounded-3xl p-6 sm:p-8 relative overflow-hidden scanline">
-                        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6 pb-4 border-b border-lime-500/30">
+                    <div class="cyber-card rounded-3xl p-8 relative overflow-hidden scanline">
+                        <div class="flex items-center justify-between gap-4 mb-6 pb-4 border-b border-lime-500/30">
                             <div>
                                 <span class="inline-flex items-center gap-2 text-xs font-orbitron font-bold uppercase tracking-wider text-lime-300 bg-lime-950/80 border border-lime-500/50 px-3 py-1 rounded-xl mb-2">
                                     <i class="fa-solid fa-book-open text-lime-400"></i> Fotobuch & Galerie
                                 </span>
-                                <h2 class="font-orbitron text-2xl sm:text-3xl font-black text-white">
+                                <h2 class="font-orbitron text-3xl font-black text-white">
                                     Unsere Fotoreihe
                                 </h2>
                             </div>
@@ -405,141 +362,39 @@
                             </div>
                         </div>
 
-                        <div class="relative w-full aspect-[4/3] sm:aspect-video rounded-2xl overflow-hidden bg-black/80 border-2 border-lime-500/40 shadow-2xl flex items-center justify-center group">
+                        <div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-black/80 border-2 border-lime-500/40 shadow-2xl flex items-center justify-center group">
                             <div id="flipBookContainer" class="w-full h-full relative flex items-center justify-center">
                                 
-                                <!-- Bild 1: SPENDEN-VERDOPPLUNGSHINWEIS -->
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-100 scale-100" data-index="0">
                                     <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" class="block w-full h-full">
                                         <img src="Gemeinsamverdoppeln.png" alt="Z.E.K. e.V. Verdoppelt eure Spenden" class="w-full h-full object-contain bg-black/90">
                                     </a>
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/80 to-transparent p-4 flex items-center justify-between">
-                                        <p class="font-orbitron font-bold text-xs sm:text-sm text-lime-300">Spendenverdopplung durch Z.E.K. e.V.</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Spendenverdopplung durch Z.E.K. e.V.</p>
                                         <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" class="btn-cyber text-[10px] px-2.5 py-1 rounded-lg">Spenden</a>
                                     </div>
                                 </div>
 
-                                <!-- Bilder 2 bis 21 mit Endung .jpeg -->
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="1">
-                                    <img src="Ro1.jpeg" alt="Tragehilfe & Unterstützung" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Tragehilfe & Unterstützung</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="2">
-                                    <img src="Ro2.jpeg" alt="Ruhe & Kühlung" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Ruhe & Kühlung</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="3">
-                                    <img src="Ro3.jpeg" alt="Liebevolle Zuwendung" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Liebevolle Zuwendung</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="4">
-                                    <img src="Ro4.jpeg" alt="Draußen unterwegs" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Draußen unterwegs</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="5">
-                                    <img src="Ro5.jpeg" alt="Verbandswechsel & Pflege" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Verbandswechsel & Pflege</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="6">
-                                    <img src="Ro6.jpeg" alt="Vertraute Momente" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Vertraute Momente</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="7">
-                                    <img src="Ro7.jpeg" alt="Heimfahrt nach Behandlung" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Heimfahrt nach der Behandlung</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="8">
-                                    <img src="Ro8.jpeg" alt="Gemütlich im Bademantel" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Gemütlich im Bademantel</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="9">
-                                    <img src="Ro9.jpeg" alt="Physiotherapie im Wasserlaufband" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Physiotherapie im Wasserlaufband</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="10">
-                                    <img src="Ro10.jpeg" alt="Glücklich in der Natur" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Glücklich in der Natur</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="11">
-                                    <img src="Ro11.jpeg" alt="Aufmerksamer Begleiter" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Aufmerksamer Begleiter</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="12">
-                                    <img src="Ro12.jpeg" alt="Innige Verbundenheit" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Innige Verbundenheit</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="13">
-                                    <img src="Ro13.jpeg" alt="Erholung auf dem Kissen" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Erholung auf dem Kissen</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="14">
-                                    <img src="Ro14.jpeg" alt="7. Geburtstag feiern" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">7. Geburtstag feiern</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="15">
-                                    <img src="Ro15.jpeg" alt="Entspannt im Körbchen" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Entspannt im Körbchen</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="16">
-                                    <img src="Ro16.jpeg" alt="Lustige Mütze" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Lustige Mütze</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="17">
-                                    <img src="Ro17.jpeg" alt="Freudiges Küsschen" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Freudiges Küsschen</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="18">
-                                    <img src="Ro18.jpeg" alt="Stille Zuneigung" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Stille Zuneigung</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="19">
-                                    <img src="Ro19.jpeg" alt="Ausflug an den See" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Ausflug an den See</p>
-                                    </div>
-                                </div>
-                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="20">
-                                    <img src="Ro20.jpeg" alt="Zufrieden & geborgen" class="w-full h-full object-contain bg-black/90">
-                                    <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">Zufrieden und geborgen</p>
-                                    </div>
-                                </div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="1"><img src="Ro1.jpeg" alt="Tragehilfe" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Tragehilfe & Unterstützung</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="2"><img src="Ro2.jpeg" alt="Ruhe" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Ruhe & Kühlung</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="3"><img src="Ro3.jpeg" alt="Zuwendung" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Liebevolle Zuwendung</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="4"><img src="Ro4.jpeg" alt="Unterwegs" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Draußen unterwegs</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="5"><img src="Ro5.jpeg" alt="Pflege" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Verbandswechsel & Pflege</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="6"><img src="Ro6.jpeg" alt="Vertrauen" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Vertraute Momente</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="7"><img src="Ro7.jpeg" alt="Gips" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Heimfahrt nach der Behandlung</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="8"><img src="Ro8.jpeg" alt="Bademantel" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Gemütlich im Bademantel</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="9"><img src="Ro9.jpeg" alt="Wasserlaufband" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Physiotherapie im Wasserlaufband</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="10"><img src="Ro10.jpeg" alt="Natur" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Glücklich in der Natur</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="11"><img src="Ro11.jpeg" alt="Blick" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Aufmerksamer Begleiter</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="12"><img src="Ro12.jpeg" alt="Geborgenheit" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Innige Verbundenheit</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="13"><img src="Ro13.jpeg" alt="Ruhe" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Erholung auf dem Kissen</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="14"><img src="Ro14.jpeg" alt="Geburtstag" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">7. Geburtstag feiern</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="15"><img src="Ro15.jpeg" alt="Entspannung" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Entspannt im Körbchen</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="16"><img src="Ro16.jpeg" alt="Mütze" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Lustige Mütze</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="17"><img src="Ro17.jpeg" alt="Küsschen" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Freudiges Küsschen</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="18"><img src="Ro18.jpeg" alt="Zuneigung" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Stille Zuneigung</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="19"><img src="Ro19.jpeg" alt="See" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Ausflug an den See</p></div></div>
+                                <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="20"><img src="Ro20.jpeg" alt="Zufrieden" class="w-full h-full object-contain bg-black/90"><div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4"><p class="font-orbitron font-bold text-sm text-lime-300">Zufrieden und geborgen</p></div></div>
                             </div>
 
                             <button onclick="changePage(-1)" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-xl bg-black/80 border border-lime-500/50 text-lime-400 flex items-center justify-center hover:bg-lime-400 hover:text-black transition-all z-20 cursor-pointer shadow-lg" title="Vorherige Seite">
@@ -556,8 +411,8 @@
                 </section>
             </div>
 
-            <!-- RECHTES SPENDEN-BANNER -->
-            <div class="lg:col-span-3 flex">
+            <!-- RECHTES SPENDEN-BANNER (3 COLS) -->
+            <div class="col-span-3 flex">
                 <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" 
                    class="cyber-card tilt-card w-full rounded-3xl p-4 flex flex-col justify-between relative overflow-hidden group scanline text-center"
                    onmouseenter="playAudioFeedback(450)" onclick="playAudioFeedback(1000)" title="Jetzt für Rosco spenden">
@@ -590,7 +445,7 @@
         <!-- 3. GROSSER PARTNERBANNER (Z.E.K. e.V.) -->
         <section class="w-full max-w-4xl mx-auto">
             <a href="https://www.zek-ev.org/" target="_blank" rel="noopener noreferrer" 
-               class="cyber-card tilt-card block rounded-3xl p-3 sm:p-4 overflow-hidden group scanline relative transition-all duration-300 hover:scale-[1.01]"
+               class="cyber-card tilt-card block rounded-3xl p-4 overflow-hidden group scanline relative transition-all duration-300 hover:scale-[1.01]"
                onmouseenter="playAudioFeedback(650)" onclick="playAudioFeedback(1000)" title="Z.E.K. e.V. Website besuchen">
                 <div class="relative w-full rounded-2xl overflow-hidden border border-lime-500/40 shadow-xl bg-black">
                     <img src="ZEK Partnerlogo.png" alt="Z.E.K. e.V. Partnerverein Banner" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
@@ -608,10 +463,10 @@
         </section>
 
         <!-- 4. DREISPALTIGES LAYOUT (News, App, Streamer) -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch max-w-7xl mx-auto w-full">
+        <div class="grid grid-cols-12 gap-6 items-stretch max-w-7xl mx-auto w-full">
             
-            <!-- SPALTE LINKS: News zu den Spielen -->
-            <div class="lg:col-span-4 flex flex-col gap-4">
+            <!-- SPALTE LINKS: News -->
+            <div class="col-span-4 flex flex-col gap-4">
                 <div class="cyber-card rounded-3xl p-5 flex flex-col justify-between h-full scanline">
                     <div>
                         <div class="flex items-center justify-between mb-3">
@@ -644,8 +499,8 @@
                 </div>
             </div>
 
-            <!-- SPALTE MITTE: Gaming Matchmaking App -->
-            <div class="lg:col-span-4 flex">
+            <!-- SPALTE MITTE: App -->
+            <div class="col-span-4 flex">
                 <a href="https://out-rel-mania-1a3c44e3.base44.app/" target="_blank" rel="noopener noreferrer" 
                    class="cyber-card tilt-card w-full rounded-3xl p-6 flex flex-col justify-between relative overflow-hidden group scanline"
                    onmouseenter="playAudioFeedback(400)" onclick="playAudioFeedback(1000)">
@@ -692,8 +547,8 @@
                 </a>
             </div>
 
-            <!-- SPALTE RECHTS: Offizielle Twitch Streamer (TiniDeluxe mit T1B1.jpg) -->
-            <div class="lg:col-span-4 flex flex-col gap-4">
+            <!-- SPALTE RECHTS: Streamer -->
+            <div class="col-span-4 flex flex-col gap-4">
                 <div class="cyber-card rounded-3xl p-5 flex flex-col justify-between h-full">
                     <div>
                         <div class="flex items-center justify-between mb-3">
@@ -723,7 +578,6 @@
                                 </span>
                             </a>
 
-                            <!-- Korrigiert auf T1B1.jpg -->
                             <a href="https://www.twitch.tv/tinideluxe_tv" target="_blank" rel="noopener noreferrer" 
                                class="bg-black/50 border border-purple-500/30 rounded-2xl p-2.5 flex items-center justify-between group hover:border-purple-400 transition-all"
                                onmouseenter="playAudioFeedback(550)">
@@ -772,7 +626,6 @@
 
     <!-- Interactive Scripts -->
     <script>
-        // Web Audio API Synth Effects
         let audioCtx = null;
         function playAudioFeedback(freq = 600) {
             try {
@@ -796,13 +649,11 @@
             } catch (e) {}
         }
 
-        // Spotlight Tracking
         const spotlightOverlay = document.getElementById('spotlightOverlay');
         window.addEventListener('mousemove', (e) => {
             spotlightOverlay.style.background = `radial-gradient(600px circle at ${e.clientX}px ${e.clientY}px, rgba(163, 230, 53, 0.09), transparent 40%)`;
         });
 
-        // 3D Card Tilt Effect
         const tiltCards = document.querySelectorAll('.tilt-card');
         tiltCards.forEach(card => {
             card.addEventListener('mousemove', (e) => {
@@ -822,7 +673,6 @@
             });
         });
 
-        // Fotobuch Blätter-Funktion
         let currentPage = 0;
         const totalPages = 21;
 
@@ -851,7 +701,6 @@
             playAudioFeedback(500 + (currentPage * 18));
         }
 
-        // Interactive Canvas Network
         const canvas = document.getElementById('cyberCanvas');
         const ctx = canvas.getContext('2d');
 
