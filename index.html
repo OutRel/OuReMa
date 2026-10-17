@@ -355,7 +355,7 @@
             </div>
         </div>
 
-        <!-- 2. HAUPTBEREICH: FOTOBUCH & SPENDEN-BANNER (LINKS & RECHTS) -->
+        <!-- 2. HAUPTBEREICH: FOTOBUCH & SPENDEN-BANNER (LINKS & RECHTS MIT ROSCO BILD) -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center max-w-7xl mx-auto w-full">
             
             <!-- LINKES SPENDEN-BANNER -->
@@ -365,29 +365,29 @@
                    onmouseenter="playAudioFeedback(450)" onclick="playAudioFeedback(1000)" title="Jetzt für Rosco spenden">
                     <div>
                         <div class="inline-flex items-center gap-1.5 text-[11px] font-orbitron font-bold uppercase tracking-wider text-lime-300 bg-lime-950/80 border border-lime-500/50 px-2.5 py-1 rounded-xl mb-3">
-                            <i class="fa-solid fa-hand-holding-heart text-lime-400 animate-pulse"></i> Hilfe für Rosco
+                            <i class="fa-solid fa-hand-holding-heart text-lime-400 animate-pulse"></i> Spende für Rosco
                         </div>
                         <h3 class="font-orbitron font-black text-lg text-white group-hover:text-lime-300 transition-colors">
                             Jeder Euro zählt &hearts;
                         </h3>
                         <p class="text-xs text-slate-300 mt-2 leading-relaxed">
-                            Rosco braucht dringend unsere Unterstützung für seine erneute Operation. Bitte hilf mit einer kleinen Spende!
+                            Rosco braucht dringend unsere Unterstützung für seine erneute Operation. Bitte hilf mit einer Spende!
                         </p>
                     </div>
 
                     <div class="mt-4 relative rounded-2xl overflow-hidden border border-lime-500/40 shadow-xl bg-black">
-                        <img src="Ro19Spende.jpg" alt="Spende für Rosco" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700 opacity-90" onerror="this.src='Ro19.jpeg'; this.onerror=function(){this.src='https://placehold.co/400x600/030604/A3E635?text=Spende+fur+Rosco';};">
+                        <img src="Ro19.jpeg" alt="Spende für Rosco" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700 opacity-90" onerror="this.src='https://placehold.co/400x600/030604/A3E635?text=Spende+fur+Rosco';">
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
                         <div class="absolute bottom-3 inset-x-3">
                             <span class="btn-cyber w-full py-2 rounded-xl text-xs flex items-center justify-center gap-2">
-                                <i class="fa-solid fa-heart text-red-500"></i> Jetzt Spenden
+                                <i class="fa-solid fa-heart text-red-500"></i> Spende für Rosco
                             </span>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <!-- ZENTRALES FOTOBUCH (6 COLS) - BILD 1 IST NUN DAS SPENDEN-HINWEIS-BILD -->
+            <!-- ZENTRALES FOTOBUCH (6 COLS) - BILD 1 IST DER VERDOPPLUNGSHINWEIS -->
             <div class="lg:col-span-6 flex">
                 <section class="w-full">
                     <div class="cyber-card rounded-3xl p-6 sm:p-8 relative overflow-hidden scanline">
@@ -408,136 +408,136 @@
                         <div class="relative w-full aspect-[4/3] sm:aspect-video rounded-2xl overflow-hidden bg-black/80 border-2 border-lime-500/40 shadow-2xl flex items-center justify-center group">
                             <div id="flipBookContainer" class="w-full h-full relative flex items-center justify-center">
                                 
-                                <!-- Bild 1: SPENDEN-VERDOPPLUNGSHINWEIS (IMMERT ZUERST SICHTBAR) -->
+                                <!-- Bild 1: SPENDEN-VERDOPPLUNGSHINWEIS -->
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-100 scale-100" data-index="0">
                                     <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" class="block w-full h-full">
                                         <img src="Gemeinsamverdoppeln.png" alt="Z.E.K. e.V. Verdoppelt eure Spenden" class="w-full h-full object-contain bg-black/90">
                                     </a>
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/80 to-transparent p-4 flex items-center justify-between">
-                                        <p class="font-orbitron font-bold text-xs sm:text-sm text-lime-300">#01 – Der Z.E.K. e.V. verdoppelt eure Spenden!</p>
+                                        <p class="font-orbitron font-bold text-xs sm:text-sm text-lime-300">Spendenverdopplung durch Z.E.K. e.V.</p>
                                         <a href="https://www.gofundme.com/f/erneute-op-bitte-um-hilfe-fur-rosco" target="_blank" rel="noopener noreferrer" class="btn-cyber text-[10px] px-2.5 py-1 rounded-lg">Spenden</a>
                                     </div>
                                 </div>
 
-                                <!-- Bilder 2 bis 21 (Die 20 Rosco Fotos) -->
+                                <!-- Bilder 2 bis 21 mit klaren Beschreibungen statt Ro1-Ro20 -->
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="1">
-                                    <img src="Ro1.jpeg" alt="Tragehilfe" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro1.jpeg" alt="Tragehilfe & Unterstützung" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#02 – Tragehilfe & Unterstützung</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Tragehilfe & Unterstützung</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="2">
-                                    <img src="Ro2.jpg" alt="Erholung" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro2.jpg" alt="Ruhe & Kühlung" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#03 – Ruhe & Kühlung</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Ruhe & Kühlung</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="3">
-                                    <img src="Ro3.jpeg" alt="Zuwendung" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro3.jpeg" alt="Liebevolle Zuwendung" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#04 – Liebevolle Zuwendung</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Liebevolle Zuwendung</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="4">
-                                    <img src="Ro4.jpg" alt="Unterwegs" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro4.jpg" alt="Draußen unterwegs" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#05 – Draußen unterwegs</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Draußen unterwegs</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="5">
-                                    <img src="Ro5.jpg" alt="Pflege" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro5.jpg" alt="Verbandswechsel & Pflege" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#06 – Verbandswechsel & Pflege</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Verbandswechsel & Pflege</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="6">
-                                    <img src="Ro6.jpeg" alt="Vertrauen" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro6.jpeg" alt="Vertraute Momente" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#07 – Vertraute Momente</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Vertraute Momente</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="7">
-                                    <img src="Ro7.jpeg" alt="Gips" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro7.jpeg" alt="Heimfahrt nach Behandlung" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#08 – Heimfahrt nach der Behandlung</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Heimfahrt nach der Behandlung</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="8">
-                                    <img src="Ro8.jpeg" alt="Bademantel" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro8.jpeg" alt="Gemütlich im Bademantel" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#09 – Gemütlich im Bademantel</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Gemütlich im Bademantel</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="9">
-                                    <img src="Ro9.jpeg" alt="Wasserlaufband" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro9.jpeg" alt="Physiotherapie im Wasserlaufband" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#10 – Physiotherapie im Wasserlaufband</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Physiotherapie im Wasserlaufband</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="10">
-                                    <img src="Ro10.jpg" alt="Glückliche Momente" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro10.jpg" alt="Glücklich in der Natur" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#11 – Glücklich in der Natur</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Glücklich in der Natur</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="11">
-                                    <img src="Ro11.jpg" alt="Treuer Blick" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro11.jpg" alt="Aufmerksamer Begleiter" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#12 – Aufmerksamer Begleiter</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Aufmerksamer Begleiter</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="12">
-                                    <img src="Ro12.jpeg" alt="Geborgenheit" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro12.jpeg" alt="Innige Verbundenheit" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#13 – Innige Verbundenheit</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Innige Verbundenheit</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="13">
-                                    <img src="Ro13.jpg" alt="Ruhephase" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro13.jpg" alt="Erholung auf dem Kissen" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#14 – Erholung auf dem Kissen</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Erholung auf dem Kissen</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="14">
-                                    <img src="Ro14.jpeg" alt="Geburtstag" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro14.jpeg" alt="7. Geburtstag feiern" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#15 – 7. Geburtstag feiern</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">7. Geburtstag feiern</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="15">
-                                    <img src="Ro15.jpg" alt="Entspannung" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro15.jpg" alt="Entspannt im Körbchen" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#16 – Entpannt im Körbchen</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Entspannt im Körbchen</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="16">
-                                    <img src="Ro16.jpeg" alt="Hasenohren" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro16.jpeg" alt="Lustige Mütze" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#17 – Lustige Mütze</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Lustige Mütze</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="17">
-                                    <img src="Ro17.jpeg" alt="Küsschen" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro17.jpeg" alt="Freudiges Küsschen" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#18 – Freudiges Küsschen</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Freudiges Küsschen</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="18">
-                                    <img src="Ro18.jpeg" alt="Zuneigung" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro18.jpeg" alt="Stille Zuneigung" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#19 – Stille Zuneigung</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Stille Zuneigung</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="19">
-                                    <img src="Ro19.jpeg" alt="Am See" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro19.jpeg" alt="Ausflug an den See" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#20 – Ausflug an den See</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Ausflug an den See</p>
                                     </div>
                                 </div>
                                 <div class="book-page absolute inset-0 transition-all duration-500 opacity-0 scale-95 pointer-events-none" data-index="20">
-                                    <img src="Ro20.jpeg" alt="Zufriedenheit" class="w-full h-full object-contain bg-black/90">
+                                    <img src="Ro20.jpeg" alt="Zufrieden & geborgen" class="w-full h-full object-contain bg-black/90">
                                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/70 to-transparent p-4">
-                                        <p class="font-orbitron font-bold text-sm text-lime-300">#21 – Zufrieden und geborgen</p>
+                                        <p class="font-orbitron font-bold text-sm text-lime-300">Zufrieden und geborgen</p>
                                     </div>
                                 </div>
                             </div>
@@ -550,7 +550,7 @@
                             </button>
                         </div>
                         <div class="mt-4 flex items-center justify-center">
-                            <span class="text-xs text-slate-400 font-mono">Nutze die Pfeile zum Durchblättern aller 21 Bilder.</span>
+                            <span class="text-xs text-slate-400 font-mono">Nutze die Pfeile zum Durchblättern aller Bilder.</span>
                         </div>
                     </div>
                 </section>
@@ -566,7 +566,7 @@
                             <i class="fa-solid fa-paw text-lime-400 animate-pulse"></i> Operation & Pflege
                         </div>
                         <h3 class="font-orbitron font-black text-lg text-white group-hover:text-lime-300 transition-colors">
-                            Danke für jede Hilfe!
+                            Spende für Rosco
                         </h3>
                         <p class="text-xs text-slate-300 mt-2 leading-relaxed">
                             Mit deiner Spende ermöglichst du Rosco die notwendige medizinische Versorgung und einen schmerzfreien Weg zurück ins Leben.
@@ -574,11 +574,11 @@
                     </div>
 
                     <div class="mt-4 relative rounded-2xl overflow-hidden border border-lime-500/40 shadow-xl bg-black">
-                        <img src="Ro19Spende.jpg" alt="Spende für Rosco" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700 opacity-90" onerror="this.src='Ro19.jpeg'; this.onerror=function(){this.src='https://placehold.co/400x600/030604/A3E635?text=Spende+fur+Rosco';};">
+                        <img src="Ro19.jpeg" alt="Spende für Rosco" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700 opacity-90" onerror="this.src='https://placehold.co/400x600/030604/A3E635?text=Spende+fur+Rosco';">
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
                         <div class="absolute bottom-3 inset-x-3">
                             <span class="btn-cyber w-full py-2 rounded-xl text-xs flex items-center justify-center gap-2">
-                                <i class="fa-solid fa-gift text-black"></i> GoFundMe öffnen
+                                <i class="fa-solid fa-gift text-black"></i> Spende für Rosco
                             </span>
                         </div>
                     </div>
@@ -692,7 +692,7 @@
                 </a>
             </div>
 
-            <!-- SPALTE RECHTS: Offizielle Twitch Streamer -->
+            <!-- SPALTE RECHTS: Offizielle Twitch Streamer (TiniDeluxe korrigiert auf T1B1) -->
             <div class="lg:col-span-4 flex flex-col gap-4">
                 <div class="cyber-card rounded-3xl p-5 flex flex-col justify-between h-full">
                     <div>
@@ -723,12 +723,13 @@
                                 </span>
                             </a>
 
+                            <!-- Korrigiert auf T1B1 -->
                             <a href="https://www.twitch.tv/tinideluxe_tv" target="_blank" rel="noopener noreferrer" 
                                class="bg-black/50 border border-purple-500/30 rounded-2xl p-2.5 flex items-center justify-between group hover:border-purple-400 transition-all"
                                onmouseenter="playAudioFeedback(550)">
                                 <div class="flex items-center gap-3">
                                     <div class="relative w-10 h-10 rounded-full bg-purple-900/60 border border-purple-400 overflow-hidden">
-                                        <img src="KI2.jpg" alt="TiniDeluxe" class="w-full h-full object-cover" onerror="this.src='TiniBild_2.jpg'">
+                                        <img src="T1B1" alt="TiniDeluxe" class="w-full h-full object-cover" onerror="this.src='T1B1.jpg'; this.onerror=function(){this.src='https://placehold.co/100x100/030604/A3E635?text=Tini';};">
                                     </div>
                                     <div>
                                         <span class="font-orbitron font-extrabold text-xs text-white group-hover:text-purple-300 block">TiniDeluxe</span>
@@ -821,7 +822,7 @@
             });
         });
 
-        // Fotobuch Blätter-Funktion (Anzahl auf 21 angepasst)
+        // Fotobuch Blätter-Funktion
         let currentPage = 0;
         const totalPages = 21;
 
