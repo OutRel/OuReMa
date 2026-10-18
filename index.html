@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="de" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OutRelMania – Offizieller Launch Countdown</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              black: '#030604',
+              card: '#08120b',
+              green: '#a3e635',
+              glow: '#84cc16',
+              accent: '#22c55e',
+              border: 'rgba(163, 230, 53, 0.25)',
+            }
+          },
+          fontFamily: {
+            orbitron: ['Orbitron', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          animation: {
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'glow-pulse': 'glow 2s infinite alternate',
+            'float': 'float 6s ease-in-out infinite',
+          },
+          keyframes: {
+            glow: {
+              '0%': { boxShadow: '0 0 15px rgba(163, 230, 53, 0.2)' },
+              '100%': { boxShadow: '0 0 35px rgba(163, 230, 53, 0.6)' }
+            },
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-8px)' }
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Orbitron & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #030604;
+      color: #f3f4f6;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+    .neon-text {
+      text-shadow: 0 0 10px rgba(163, 230, 53, 0.6), 0 0 20px rgba(163, 230, 53, 0.3);
+    }
+    .neon-box {
+      border: 1px solid rgba(163, 230, 53, 0.3);
+      box-shadow: 0 0 20px rgba(163, 230, 53, 0.1);
+      backdrop-filter: blur(12px);
+      background: rgba(8, 18, 11, 0.75);
+    }
+    .neon-box:hover {
+      border-color: rgba(163, 230, 53, 0.6);
+      box-shadow: 0 0 30px rgba(163, 230, 53, 0.25);
+    }
+    /* Cyber Grid Line Animation */
+    .bg-grid {
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(163, 230, 53, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(163, 230, 53, 0.05) 1px, transparent 1px);
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col justify-between relative bg-grid selection:bg-brand-green selection:text-black">
+
+  <!-- Interactive Canvas Background for Cyber Nodes -->
+  <canvas id="cyberCanvas" class="fixed inset-0 pointer-events-none z-0"></canvas>
+
+  <!-- Main Container -->
+  <div class="relative z-10 container mx-auto px-4 py-8 flex-grow flex flex-col justify-center items-center">
+    
+    <!-- Header / Branding -->
+    <header class="text-center mb-8 animate-float">
+      <!-- Cyber Logo Symbol -->
+      <div class="inline-flex items-center justify-center p-3 mb-4 rounded-full bg-brand-card border border-brand-green/40 shadow-lg shadow-brand-green/10">
+        <svg class="w-12 h-12 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+        </svg>
+      </div>
+
+      <h1 class="font-orbitron text-4xl sm:text-6xl font-black tracking-wider text-white mb-2">
+        OUTREL<span class="text-brand-green neon-text">MANIA</span>
+      </h1>
+      <p class="font-orbitron text-xs sm:text-sm tracking-[0.3em] text-brand-green/90 uppercase font-bold">
+        Everything is better together
+      </p>
+    </header>
+
+    <!-- Status Badge -->
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-green/30 bg-brand-green/10 text-brand-green text-xs font-semibold tracking-wider uppercase mb-8">
+      <span class="w-2 h-2 rounded-full bg-brand-green animate-ping"></span>
+      <span>Offizieller Launch & Event heute</span>
+    </div>
+
+    <!-- Countdown Container / State Switch -->
+    <main class="w-full max-w-4xl text-center mb-12">
+      
+      <!-- Countdown Panel (Active State) -->
+      <div id="countdownPanel" class="neon-box rounded-2xl p-6 sm:p-10 transition-all duration-500">
+        <h2 class="font-orbitron text-sm sm:text-base text-gray-400 uppercase tracking-widest mb-6">
+          System Launch in Kürze
+        </h2>
+
+        <!-- Timer Grid -->
+        <div class="grid grid-cols-3 gap-3 sm:gap-6 max-w-2xl mx-auto">
+          <!-- Hours -->
+          <div class="bg-black/60 rounded-xl p-4 sm:p-6 border border-brand-green/20 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-green to-transparent"></div>
+            <span id="hours" class="font-orbitron text-4xl sm:text-7xl font-extrabold text-white neon-text block">00</span>
+            <span class="text-[10px] sm:text-xs font-orbitron text-gray-400 uppercase tracking-wider mt-2 block">Stunden</span>
+          </div>
+
+          <!-- Minutes -->
+          <div class="bg-black/60 rounded-xl p-4 sm:p-6 border border-brand-green/20 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-green to-transparent"></div>
+            <span id="minutes" class="font-orbitron text-4xl sm:text-7xl font-extrabold text-white neon-text block">00</span>
+            <span class="text-[10px] sm:text-xs font-orbitron text-gray-400 uppercase tracking-wider mt-2 block">Minuten</span>
+          </div>
+
+          <!-- Seconds -->
+          <div class="bg-black/60 rounded-xl p-4 sm:p-6 border border-brand-green/20 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-green to-transparent"></div>
+            <span id="seconds" class="font-orbitron text-4xl sm:text-7xl font-extrabold text-brand-green neon-text block">00</span>
+            <span class="text-[10px] sm:text-xs font-orbitron text-gray-400 uppercase tracking-wider mt-2 block">Sekunden</span>
+          </div>
+        </div>
+
+        <p class="text-xs text-gray-400 mt-6">
+          Ziel-Uhrzeit: <span class="text-brand-green font-semibold">18:00 Uhr CEST</span>
+        </p>
+      </div>
+
+      <!-- Launch Complete Panel (Hidden by default, shown when timer ends) -->
+      <div id="launchPanel" class="hidden neon-box rounded-2xl p-8 sm:p-12 text-center transform transition-all duration-500 scale-95">
+        <div class="inline-flex p-4 rounded-full bg-brand-green/20 text-brand-green mb-4">
+          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+          </svg>
+        </div>
+        <h2 class="font-orbitron text-3xl sm:text-5xl font-black text-white mb-4">
+          DER LAUNCH IST <span class="text-brand-green neon-text">LIVE!</span>
+        </h2>
+        <p class="text-gray-300 text-sm sm:text-base max-w-lg mx-auto mb-8">
+          Das OutRelMania Portal ist jetzt offiziell geöffnet. Willkommen in der Community!
+        </p>
+        
+        <a id="enterBtn" href="#enter" onclick="playSynthSound();" class="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-brand-green text-black font-orbitron font-extrabold text-lg hover:bg-lime-400 transition-all duration-300 shadow-lg shadow-brand-green/40 hover:scale-105">
+          <span>JETZT EINTRETEN</span>
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+          </svg>
+        </a>
+      </div>
+
+    </main>
+
+    <!-- Preview Cards / Highlights -->
+    <div class="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+      
+      <!-- Card 1: Matchmaking -->
+      <div class="neon-box rounded-xl p-5 flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300 cursor-pointer" onclick="playClickSound()">
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-2xl">🎮</span>
+            <span class="text-[10px] font-orbitron text-brand-green/80 bg-brand-green/10 px-2 py-0.5 rounded border border-brand-green/20">MATCHMAKING</span>
+          </div>
+          <h3 class="font-orbitron font-bold text-white text-base mb-1">Gaming Matchmaking App</h3>
+          <p class="text-xs text-gray-400">Finde schnell und unkompliziert dein perfektes Team für jedes Game.</p>
+        </div>
+      </div>
+
+      <!-- Card 2: Rosco Spende -->
+      <div class="neon-box rounded-xl p-5 flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300 cursor-pointer" onclick="playClickSound()">
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-2xl">🐾</span>
+            <span class="text-[10px] font-orbitron text-brand-green/80 bg-brand-green/10 px-2 py-0.5 rounded border border-brand-green/20">CHARITY</span>
+          </div>
+          <h3 class="font-orbitron font-bold text-white text-base mb-1">Spendenaktion für Rosco</h3>
+          <p class="text-xs text-gray-400">Hilfe bei der OP – Alle Spenden werden für den guten Zweck eingesetzt.</p>
+        </div>
+      </div>
+
+      <!-- Card 3: Partner -->
+      <div class="neon-box rounded-xl p-5 flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300 cursor-pointer" onclick="playClickSound()">
+        <div>
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-2xl">🤝</span>
+            <span class="text-[10px] font-orbitron text-brand-green/80 bg-brand-green/10 px-2 py-0.5 rounded border border-brand-green/20">PARTNER</span>
+          </div>
+          <h3 class="font-orbitron font-bold text-white text-base mb-1">Z.E.K. e.V.</h3>
+          <p class="text-xs text-gray-400">Gemeinsam stark – Verein für Psychologische Hilfe & Community-Support.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="relative z-10 text-center py-6 border-t border-brand-green/10 bg-black/40 text-xs text-gray-500">
+    <p>&copy; 2026 OutRelMania. All rights reserved. | <a href="https://outrelmania.de" class="text-brand-green hover:underline">outrelmania.de</a></p>
+  </footer>
+
+  <!-- Web Audio API & Countdown Logic Scripts -->
+  <script>
+    // Audio Context Setup (Synth Feedback)
+    let audioCtx = null;
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+    }
+
+    function playClickSound() {
+      try {
+        initAudio();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(587.33, audioCtx.currentTime); // D5
+        osc.frequency.exponentialRampToValueAtTime(880, audioCtx.currentTime + 0.08); // A5
+        gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.08);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.08);
+      } catch (e) {
+        // Fallback or muted
+      }
+    }
+
+    function playSynthSound() {
+      try {
+        initAudio();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(220, audioCtx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(440, audioCtx.currentTime + 0.3);
+        gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.3);
+      } catch (e) {
+        // Fallback
+      }
+    }
+
+    // Target Date Logic: Today at 18:00 CEST (18. October 2026)
+    const targetDate = new Date("2026-10-18T18:00:00+02:00").getTime();
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+
+      if (distance <= 0) {
+        // Countdown Finished
+        document.getElementById("countdownPanel").classList.add("hidden");
+        const launchPanel = document.getElementById("launchPanel");
+        launchPanel.classList.remove("hidden");
+        launchPanel.classList.remove("scale-95");
+        launchPanel.classList.add("scale-100");
+        return;
+      }
+
+      const hours = Math.floor(distance / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("hours").textContent = String(hours).padStart(2, '0');
+      document.getElementById("minutes").textContent = String(minutes).padStart(2, '0');
+      document.getElementById("seconds").textContent = String(seconds).padStart(2, '0');
+    }
+
+    // Run immediately and update every second
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // Interactive Particle Background (Cyber Nodes)
+    const canvas = document.getElementById('cyberCanvas');
+    const ctx = canvas.getContext('2d');
+    let width = canvas.width = window.innerWidth;
+    let height = canvas.height = window.innerHeight;
+
+    window.addEventListener('resize', () => {
+      width = canvas.width = window.innerWidth;
+      height = canvas.height = window.innerHeight;
+    });
+
+    const particles = Array.from({ length: 45 }, () => ({
+      x: Math.random() * width,
+      y: Math.random() * height,
+      vx: (Math.random() - 0.5) * 0.6,
+      vy: (Math.random() - 0.5) * 0.6,
+      radius: Math.random() * 2 + 1
+    }));
+
+    function animateParticles() {
+      ctx.clearRect(0, 0, width, height);
+
+      // Draw Lines
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+
+          if (dist < 120) {
+            ctx.beginPath();
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.strokeStyle = `rgba(163, 230, 53, ${0.15 * (1 - dist / 120)})`;
+            ctx.lineWidth = 0.8;
+            ctx.stroke();
+          }
+        }
+      }
+
+      // Draw & Move Particles
+      particles.forEach(p => {
+        p.x += p.vx;
+        p.y += p.vy;
+
+        if (p.x < 0 || p.x > width) p.vx *= -1;
+        if (p.y < 0 || p.y > height) p.vy *= -1;
+
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(163, 230, 53, 0.5)';
+        ctx.fill();
+      });
+
+      requestAnimationFrame(animateParticles);
+    }
+
+    animateParticles();
+  </script>
+</body>
+</html>
