@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1846651706689743",
+      "title": "Pre-order: HMS Duke of York",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706689743",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Meet the Scharnhorst killer and future flagship of the Home Fleet, the British HMS Duke of York, coming to War Thunder in the next major update!HMS Duke of York: A Premium (Pre-order) Battleship for Great Britain at Rank VIAt a glance:Excellent armorImproved anti-aircraft batteryTen 356 mm main battery gunsHE-VT shells for secondary battery gunsAverage mobilitySeaplanePre-order - HMS Duke of York ...",
+      "feedlabel": "Community Announcements",
+      "date": 1792407971,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1846651706683779",
       "title": "Screenshot Competition – Personal Favorites!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706683779",
@@ -144,19 +157,6 @@
       "contents": "The SO.4050 Vautour II was one of the first post-war French jet aircraft. Its first flight took place on October 16th 1952, and it served in the French Air Force from 1958 to 1979. In total, almost 150 Vautour II units were built. Modification IIN is a two-seat all-weather interceptor that took part in combat operations as part of the Israeli Air Force.The Vautour IIN is available with a 30% disco...",
       "feedlabel": "Community Announcements",
       "date": 1792142217,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1846651706677897",
-      "title": "Community Update No.13: What’s Coming Up!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706677897",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Hi everyone! Today we’re back with another Community Update, which goes into what you can expect to arrive in the upcoming major update and further into the future. So sit back and relax, and read on!Disclaimer: While we’re excited to be able to share work-in-progress information before dev blogs, the dev server and the full release, please bear in mind that new features, vehicles and maps mention...",
-      "feedlabel": "Community Announcements",
-      "date": 1792073711,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
