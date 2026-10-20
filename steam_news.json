@@ -81,6 +81,24 @@
   ],
   "war_thunder": [
     {
+      "gid": "1846651706695178",
+      "title": "Improvements to the Controls for CCRP Bombing!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706695178",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "CCRP Bombing, now simple and easy to understand!In the upcoming major update, we’ve reworked the controls for CCRP (Constantly Computed Release Point) bombing. The previous mechanic was sufficient when CCRP was a niche tool used by only the most experienced pilots. However with the introduction of Nuclear Escalation, using the automated system to drop nuclear bombs, CCRP has become the primary met...",
+      "feedlabel": "Community Announcements",
+      "date": 1792501422,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1894626024_1792503207_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
       "gid": "1846651706694430",
       "title": "War Thunder Steam Community Spotlight — 16th Edition!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706694430",
@@ -99,14 +117,17 @@
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706694409",
       "is_external_url": true,
       "author": "magazine2",
-      "contents": "AircraftA bug that caused the IRST HMD to not be in the center of the screen when activating free look when the aircraft was diving or climbing has been fixed. (Report).Me 163 (all variants), Ki-200 — an issue where the takeoff dolly would disappear from beneath the aircraft when exiting the secondary weapons menu of another aircraft and returning to an aircraft stationed in a crew slot has been f...",
+      "contents": "AircraftMe 163 (all variants), Ki-200 — an issue where the takeoff dolly would disappear from beneath the aircraft when exiting the secondary weapons menu of another aircraft and returning to an aircraft stationed in a crew slot has been fixed. (Report, Report).Bf 109 G-6 (all variants) — an issue where the rocket sight was shifted to the right has been fixed.An issue where AI-controlled landing c...",
       "feedlabel": "Community Announcements",
       "date": 1792487913,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390,
       "tags": [
-        "patchnotes"
+        "patchnotes",
+        "mod_reviewed",
+        "ModAct_1866137740_1792489254_0",
+        "mod_require_rereview"
       ]
     },
     {
@@ -152,22 +173,38 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1846651706683779",
-      "title": "Screenshot Competition – Personal Favorites!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706683779",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 246th War Thunder Steam Screenshot Competition! Thanks for all of your great submissions last week! We have had quite a few contest themes in a row, so this week we are leaving that decision to you. Pick out whichever vehicle interests you or that you enjoy the most, and capture a picture of it in action! The th...",
-      "feedlabel": "Community Announcements",
-      "date": 1792210832,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1846651706695628",
+      "title": "10.2.2 | Bugfix Patch",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706695628",
+      "is_external_url": true,
+      "author": "rblanchard_bhvr",
+      "contents": "ContentKiller Perk UpdatesDark ArroganceYou basic-vault Windows 15/20/25% faster.Your basic-attack cooldown is 10% shorter. (was only missed, and 15/20/25%)Whenever you are blinded or Pallet-stunned, the duration is 25% longer.Dev note: The team has heard the feedback that the PTB to Live change for Dark Arrogance was an overcorrection. The basic-attack cooldown will apply to all outcomes (missed,...",
+      "feedlabel": "Community Announcements",
+      "date": 1792508499,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 381210,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1846651706695765",
+      "title": "We're giving away a limited edition Dead by Daylight 10th Anniversary Collector's Set",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1846651706695765",
+      "is_external_url": true,
+      "author": "editor@pcgamesn.com",
+      "contents": "To celebrate Dead by Daylight's tenth anniversary, we're giving away a sold out Collector's Set worth $250. Not going to lie, I'm jealous. Read the full story on PCGamesN: <a href=\"https://www.pcgamesn.com/dead-by-daylight/tenth-anniversary-collectors-set-giveaway\">We're giving away a limited edition Dead by Daylight 10th Anniversary Collector's Set</a> ",
+      "feedlabel": "PCGamesN",
+      "date": 1792504990,
+      "feedname": "PCGamesN",
+      "feed_type": 0,
+      "appid": 381210
+    },
     {
       "gid": "1846651706674577",
       "title": "10.2.1 | Bugfix Patch",
@@ -220,32 +257,6 @@
       "feedlabel": "PlayGround.ru - официальная группа",
       "date": 1791634363,
       "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1845383656397013",
-      "title": "В Dead by Daylight стартовала коллаборация с NieR: Automata",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1845383656397013",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Сегодня студия-разработчик Behaviour Interactive в сотрудничестве с SQUARE ENIX объявила о выходе платной коллекции «NieR:Automata Collection» для асимметричного хоррора Dead by Daylight (формат 4 против 1). Битва за человечество переносится в Туман: в Dead by Daylight появляются три самых запоминающихся персонажа этой культовой игры — 2B, A2 и Эмиль. Дэйв Ричард, креативный директор Dead by Dayli...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1791303462,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1845383656396784",
-      "title": "Dead by Daylight's Nier Automata crossover brings 2B to The Fog, and I really hope this heralds a sequel",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1845383656396784",
-      "is_external_url": true,
-      "author": "editor@pcgamesn.com",
-      "contents": "While there's still no news on a new Nier game, Dead by Daylight's newest cosmetic collab, which features 2B, is easily the next-best thing. Read the full story on PCGamesN: <a href=\"https://www.pcgamesn.com/dead-by-daylight/nier-automata-crossover\">Dead by Daylight's Nier Automata crossover brings 2B to The Fog, and I really hope this heralds a sequel</a> ",
-      "feedlabel": "PCGamesN",
-      "date": 1791298814,
-      "feedname": "PCGamesN",
       "feed_type": 0,
       "appid": 381210
     }
@@ -344,6 +355,32 @@
   ],
   "palworld": [
     {
+      "gid": "1846651706695313",
+      "title": "Palworld получит крупное обновление Side by Side этой зимой - Pocketpair также раскрыла любимых Палов игроков",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706695313",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Pocketpair объявила, что следующее крупное обновление Palworld под названием Side by Side выйдет зимой 2026 года. Разработчики пока не раскрыли подробностей о новом контенте, предложив следить за будущими анонсами. Одновременно студия подвела итоги глобального опроса о популярности Palworld 2026 года. В голосовании, прошедшем в сентябре, участвовали более 280 Палов и персонажей. По словам разработ...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1792503012,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 1623730
+    },
+    {
+      "gid": "1846651706695192",
+      "title": "Global Popularity Poll 2026 Results & New Update",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706695192",
+      "is_external_url": true,
+      "author": "pocketpair_dev",
+      "contents": "Pal Tamers!A huge thank you to everyone around the world who voted in the Palworld Global Popularity Poll 2026 back in September! Thanks to your amazing support, we received even more votes than last year.Here are your top 3!\\ 1st: Sekhmet 2nd: Solenne 3rd: Chillet\\ 1st: Zoe 2nd: Auri 3rd: SayaDid your favorite Pal or character make the top spots? You can check out the full list of rankings and pe...",
+      "feedlabel": "Community Announcements",
+      "date": 1792501599,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 1623730
+    },
+    {
       "gid": "1846651706693859",
       "title": "Разработчики Palworld не хотят добавлять сотни новых Палов ради количества - каждому нужна своя особенность",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706693859",
@@ -400,35 +437,6 @@
         "ModAct_871423085_1790342437_2_20",
         "mod_require_rereview"
       ]
-    },
-    {
-      "gid": "1843481262703464",
-      "title": "v1.0.5: Bug fixes",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262703464",
-      "is_external_url": true,
-      "author": "pocketpair_dev",
-      "contents": "▼Bug Fixes・Fixed an issue where terrain, building, and other textures could load at significantly reduced resolution for some players・Fixed an issue where some map icon filters could unintentionally be turned off after the player respawned",
-      "feedlabel": "Community Announcements",
-      "date": 1789441427,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 1623730,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1843481262693002",
-      "title": "Palworld publishing chief worries early access has 'lost its meaning' as the rise of 'hyper-casual' gaming culture means people often don't understand what they're getting into",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1843481262693002",
-      "is_external_url": true,
-      "author": "Andy Chalk",
-      "contents": "Early access on Steam is a simple concept. You buy a game before it's finished, provide bug reports and feedback to developers, and help shape a project's direction and ambitions. Everybody wins: You get to play the game early, and developers earn money that helps them continue and finish their work. It's been a boon for numerous notable games over the years, including <a href=\"https://www.pcgamer.com/baldur-s-gate-3/\" target=\"_blank\">Baldur's Gate 3</a> and <a href=\"https://www.pcgamer.com/palworld/\" target=\"_blank\">Palworld...</a>",
-      "feedlabel": "PC Gamer",
-      "date": 1789060979,
-      "feedname": "PC Gamer",
-      "feed_type": 0,
-      "appid": 1623730
     }
   ]
 }
