@@ -81,6 +81,50 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847286114029186",
+      "title": "New Roundels and Decals!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114029186",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Hey everyone! Today we thought we’d put together a small blog about some of the new decals we’ve been working on! Over the last few updates and into the near future as well we’ll be adding new decals for nations and branches that currently don’t have any. This also includes the modern era of some nations that predominantly only have WW2 era decals available. First though, let’s start with some new...",
+      "feedlabel": "Community Announcements",
+      "date": 1792595366,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847286114028971",
+      "title": "Honoring the Canadian Navy with a Discount on HMCS Haida on Niobe Day!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114028971",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "On October 21st 1910, on the anniversary of the Battle of Trafalgar, the cruiser HMCS Niobe arrived in Halifax, becoming the first ship of the newly established Canadian Navy. Since then, Canadian sailors have celebrated this day as their professional holiday. The Canadian Navy escorted convoys during the Second World War and patrolled the North Atlantic during the Cold War. Canada was one of the ...",
+      "feedlabel": "Community Announcements",
+      "date": 1792591453,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847286114028802",
+      "title": "A Decal and Discount on British Ships for the Battle of Trafalgar Anniversary!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114028802",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "On October 21st 1805, off Cape Trafalgar, the British fleet under Admiral Nelson decisively defeated the combined French and Spanish fleet commanded by Admiral Villeneuve. Britain did not lose a single ship of the line, while the majority of the enemy vessels were sunk or captured. The battle thwarted Napoleon’s planned invasion of Britain and ensured that Great Britain remained the master of the ...",
+      "feedlabel": "Community Announcements",
+      "date": 1792587993,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1894963720_1792588334_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
       "gid": "1847286114028128",
       "title": "It’s fixed! №119",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114028128",
@@ -123,56 +167,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1846651706694409",
-      "title": "Update 2.59.0.75",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706694409",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "AircraftMe 163 (all variants), Ki-200 — an issue where the takeoff dolly would disappear from beneath the aircraft when exiting the secondary weapons menu of another aircraft and returning to an aircraft stationed in a crew slot has been fixed. (Report, Report).Bf 109 G-6 (all variants) — an issue where the rocket sight was shifted to the right has been fixed.An issue where AI-controlled landing c...",
-      "feedlabel": "Community Announcements",
-      "date": 1792487913,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes",
-        "mod_reviewed",
-        "ModAct_1866137740_1792489254_0",
-        "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1846651706690588",
-      "title": "Challenger League Major III Is in the Books: Next Stop, the Grand Finals!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706690588",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The final Major of the WTCS Challenger League regular season wrapped up last weekend, and the race for the top spots went right down to the wire. With Major III now complete, the Challenger field is officially set and all eyes turn to the Challenger League Grand Finals.Team VAN came out on top with 130 points, finishing 25 points clear of Team EnyoProxy, who claimed the runner-up spot with 105. Te...",
-      "feedlabel": "Community Announcements",
-      "date": 1792421289,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1846651706690120",
-      "title": "Battle Pass Season 25: Steel Fury and Its Warbond Shop!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706690120",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "This Battle Pass season is themed around Germany! You can look forward to decorations featuring a German anti-tank gun, a pistol, and an ammunition crate. There’s also inscription decals of German female names to decorate your favorite tanks with! The premium vehicles include the S-706, which will take its place as one of the best torpedo boats in the game, and the Jagdpanther G2, a modified premi...",
-      "feedlabel": "Community Announcements",
-      "date": 1792415016,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1889321037_1792418216_0",
-        "mod_require_rereview"
-      ]
     }
   ],
   "dead_by_daylight": [
