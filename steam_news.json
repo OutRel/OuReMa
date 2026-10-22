@@ -81,6 +81,45 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847286114032959",
+      "title": "Watch the 2026 Grand Finals and Earn Tricolor Smoke & More Twitch Drops!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114032959",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "2026 has been a year of fierce competition and unforgettable moments! The War Thunder Championship Series has continued to evolve and so have its teams. Over months of intense battles across air, ground, and combined arms formats, competitors have put their skill, teamwork, and versatility to the test.Now, eight qualified teams face their final challenge: the 2026 Grand Finals. With $15,000 in pri...",
+      "feedlabel": "Community Announcements",
+      "date": 1792679969,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847286114032682",
+      "title": "Pre-order: Stingray II — The Upgraded Commando",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114032682",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "Meet the Stingray II, a further development of the American Commando Stingray light tank! Stingray II: A Premium (Pre-order) Light Tank for the US at Rank VIAt a glance:Thermal imagerDM33 roundsImproved armor protectionGood mobilityLow reverse speedPre-order — Stingray II PackTo get to the Gaijin Store through Steam, go to the in-game hangar > Shop > Online Store.This pack includes:Stingray II (Ra...",
+      "feedlabel": "Community Announcements",
+      "date": 1792676225,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847286114032264",
+      "title": "Discount on the UH-1C XM-30 on the First Flight Anniversary!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114032264",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "On October 20th 1956, the UH-1C, one of the most iconic helicopters in history made its maiden flight. The Huey gained fame during the Vietnam War, where it provided fire support, assisted with resupply missions, transported troops, and evacuated the wounded. This versatile helicopter also found extensive use in peacetime; in total, more than 16,000 UH-1 units were built and operated by dozens of ...",
+      "feedlabel": "Community Announcements",
+      "date": 1792668494,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847286114029186",
       "title": "New Roundels and Decals!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114029186",
@@ -123,50 +162,6 @@
         "ModAct_1894963720_1792588334_0",
         "mod_require_rereview"
       ]
-    },
-    {
-      "gid": "1847286114028128",
-      "title": "It’s fixed! №119",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114028128",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Today, we’ve rounded up and will be covering some of the fixes and improvements that we’ve made to the game today and over the past weeks. If you’d like to catch up on every fixed bug, then be sure to check out the changelog section on our website. If you’ve found a bug that you’d like to report, you can do so on our community bug reporting platform. Shadow fixesSeveral issues related to shadows h...",
-      "feedlabel": "Community Announcements",
-      "date": 1792573696,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1846651706695178",
-      "title": "Improvements to the Controls for CCRP Bombing!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706695178",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "CCRP Bombing, now simple and easy to understand!In the upcoming major update, we’ve reworked the controls for CCRP (Constantly Computed Release Point) bombing. The previous mechanic was sufficient when CCRP was a niche tool used by only the most experienced pilots. However with the introduction of Nuclear Escalation, using the automated system to drop nuclear bombs, CCRP has become the primary met...",
-      "feedlabel": "Community Announcements",
-      "date": 1792501422,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1894626024_1792503207_0",
-        "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1846651706694430",
-      "title": "War Thunder Steam Community Spotlight — 16th Edition!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706694430",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "Welcome to the 16th edition of the War Thunder Steam Community Spotlight!The War Thunder Steam Community Management Team have seen some of your fantastic screenshots and artwork uploaded to the Steam Community Hub! Once again, we’ve collected our favorites and wanted to share them with all of you. Want more? Also check out the previous editions for more cool content.If you have a scale model to sh...",
-      "feedlabel": "Community Announcements",
-      "date": 1792488412,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
@@ -349,6 +344,19 @@
   ],
   "palworld": [
     {
+      "gid": "1847286114033448",
+      "title": "Глава Pocketpair уточнил, что анонс Palworld Side by Side - это всего лишь обновление 1.1, а не сиквел или спин-офф",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847286114033448",
+      "is_external_url": true,
+      "author": "",
+      "contents": "На этой неделе Palworld анонсировала «Side by Side». Название и загадочный ключевой арт вызвали у некоторых игроков мысли о полноценном продолжении или ответвлении, поэтому Джон «Баки» Бакли решил внести ясность в Twitter: «Кстати, Palworld Side by Side — это версия 1.1. Мне казалось, это было довольно очевидно, но, похоже, многие подумали, что это анонс новой игры. В любом случае… это обновление....",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1792687037,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 1623730
+    },
+    {
       "gid": "1846651706695313",
       "title": "Palworld получит крупное обновление Side by Side этой зимой - Pocketpair также раскрыла любимых Палов игроков",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706695313",
@@ -412,25 +420,6 @@
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 1623730
-    },
-    {
-      "gid": "1844751498224251",
-      "title": "Palworld × RuneScape: Dragonwilds Steam Bundle is Out Now!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498224251",
-      "is_external_url": true,
-      "author": "pocketpair_dev",
-      "contents": "We are thrilled to announce that the Palworld × RuneScape: Dragonwilds Steam Bundle is now officially available!You can now grab both of these unique open-world survival craft games at a 10% OFF discount!If you already own Palworld, you can still use this bundle to purchase RuneScape: Dragonwilds at the discounted price!",
-      "feedlabel": "Community Announcements",
-      "date": 1790336478,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 1623730,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_871423085_1790342405_0",
-        "ModAct_871423085_1790342437_2_20",
-        "mod_require_rereview"
-      ]
     }
   ]
 }
