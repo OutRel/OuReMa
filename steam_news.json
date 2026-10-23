@@ -81,6 +81,32 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847286114036908",
+      "title": "Improvements to DIRCM",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114036908",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The missile used to know where it was at all times, then it took a laser in the seeker!In the upcoming major update, we’ll be releasing an overhauled version of DIRCM that addresses several shortcomings.In the game, all DIRCM currently function similarly to regular IRCM with very wide radiation sectors. This means that the jammer is always active and emitting as long as the player has IRCM enabled...",
+      "feedlabel": "Community Announcements",
+      "date": 1792769618,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847286114036400",
+      "title": "The J35A Returns with a Discount for the Dragon’s First Flight!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114036400",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "On October 25th 1955, the Swedish Draken (Dragon) took to the skies for the first time. This supersonic fighter featured a unique double-delta wing design. It could confidently reach speeds of Mach 2, take off from short runways, and operate effectively in all weather conditions. It is no wonder that it remained in service until as late as 2005! The J35A Draken and Saab J35XS are available for pur...",
+      "feedlabel": "Community Announcements",
+      "date": 1792761829,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847286114035947",
       "title": "In-Game Discounts for War Thunder’s 14th Birthday!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035947",
@@ -128,32 +154,6 @@
       "contents": "On October 20th 1956, the UH-1C, one of the most iconic helicopters in history made its maiden flight. The Huey gained fame during the Vietnam War, where it provided fire support, assisted with resupply missions, transported troops, and evacuated the wounded. This versatile helicopter also found extensive use in peacetime; in total, more than 16,000 UH-1 units were built and operated by dozens of ...",
       "feedlabel": "Community Announcements",
       "date": 1792668494,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847286114029186",
-      "title": "New Roundels and Decals!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114029186",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Hey everyone! Today we thought we’d put together a small blog about some of the new decals we’ve been working on! Over the last few updates and into the near future as well we’ll be adding new decals for nations and branches that currently don’t have any. This also includes the modern era of some nations that predominantly only have WW2 era decals available. First though, let’s start with some new...",
-      "feedlabel": "Community Announcements",
-      "date": 1792595366,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847286114028971",
-      "title": "Honoring the Canadian Navy with a Discount on HMCS Haida on Niobe Day!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114028971",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "On October 21st 1910, on the anniversary of the Battle of Trafalgar, the cruiser HMCS Niobe arrived in Halifax, becoming the first ship of the newly established Canadian Navy. Since then, Canadian sailors have celebrated this day as their professional holiday. The Canadian Navy escorted convoys during the Second World War and patrolled the North Atlantic during the Cold War. Canada was one of the ...",
-      "feedlabel": "Community Announcements",
-      "date": 1792591453,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
