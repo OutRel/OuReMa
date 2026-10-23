@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847286114035947",
+      "title": "In-Game Discounts for War Thunder’s 14th Birthday!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035947",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "War Thunder’s 14th anniversary is just around the corner! Get ready to celebrate with discounts on vehicles, modifications, and useful consumables, and don’t forget to extend your Premium Account time at a great price.In-game Discounts! When: From October 23rd (11:00 GMT) until October 28th (11:00 GMT).Where: In-game for all nations.50% discount on vehicles for all nations for Silver Lions and Gol...",
+      "feedlabel": "Community Announcements",
+      "date": 1792753458,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847286114032959",
       "title": "Watch the 2026 Grand Finals and Earn Tricolor Smoke & More Twitch Drops!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114032959",
@@ -144,24 +157,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1847286114028802",
-      "title": "A Decal and Discount on British Ships for the Battle of Trafalgar Anniversary!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114028802",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "On October 21st 1805, off Cape Trafalgar, the British fleet under Admiral Nelson decisively defeated the combined French and Spanish fleet commanded by Admiral Villeneuve. Britain did not lose a single ship of the line, while the majority of the enemy vessels were sunk or captured. The battle thwarted Napoleon’s planned invasion of Britain and ensured that Great Britain remained the master of the ...",
-      "feedlabel": "Community Announcements",
-      "date": 1792587993,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1894963720_1792588334_0",
-        "mod_require_rereview"
-      ]
     }
   ],
   "dead_by_daylight": [
