@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847286114038645",
+      "title": "Screenshot Competition – Haunting Grounds!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114038645",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 247th War Thunder Steam Screenshot Competition! We loved getting to see all of your favorite vehicles last week! Halloween is coming soon! This week, we’re looking to see a variety of Halloween themed screenshots. Whether you want to use spooky decals, take photos in the night, or participate in the Halloween ev...",
+      "feedlabel": "Community Announcements",
+      "date": 1792813534,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847286114036908",
       "title": "Improvements to DIRCM",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114036908",
@@ -141,19 +154,6 @@
       "contents": "Meet the Stingray II, a further development of the American Commando Stingray light tank! Stingray II: A Premium (Pre-order) Light Tank for the US at Rank VIAt a glance:Thermal imagerDM33 roundsImproved armor protectionGood mobilityLow reverse speedPre-order — Stingray II PackTo get to the Gaijin Store through Steam, go to the in-game hangar > Shop > Online Store.This pack includes:Stingray II (Ra...",
       "feedlabel": "Community Announcements",
       "date": 1792676225,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847286114032264",
-      "title": "Discount on the UH-1C XM-30 on the First Flight Anniversary!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114032264",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "On October 20th 1956, the UH-1C, one of the most iconic helicopters in history made its maiden flight. The Huey gained fame during the Vietnam War, where it provided fire support, assisted with resupply missions, transported troops, and evacuated the wounded. This versatile helicopter also found extensive use in peacetime; in total, more than 16,000 UH-1 units were built and operated by dozens of ...",
-      "feedlabel": "Community Announcements",
-      "date": 1792668494,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
