@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847286114045455",
+      "title": "Work-In-Progress: Freezing Daily Login Streaks",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114045455",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "Missed a day or two during a long login streak? That’s no longer a problem!Hey everyone! Today we’d like to tell you about a new mechanic that lets you freeze your daily login streak, preventing you from losing it. Let’s dive into the details of this mechanic, coming to War Thunder and War Thunder Mobile!How does it work?“Freezes” are earned by logging into the game. For every 12 days you login, w...",
+      "feedlabel": "Community Announcements",
+      "date": 1793030631,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847286114044371",
       "title": "Dreams Come True: Mistel 2",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114044371",
@@ -141,19 +154,6 @@
       "contents": "On October 25th 1955, the Swedish Draken (Dragon) took to the skies for the first time. This supersonic fighter featured a unique double-delta wing design. It could confidently reach speeds of Mach 2, take off from short runways, and operate effectively in all weather conditions. It is no wonder that it remained in service until as late as 2005! The J35A Draken and Saab J35XS are available for pur...",
       "feedlabel": "Community Announcements",
       "date": 1792761829,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847286114035947",
-      "title": "In-Game Discounts for War Thunder’s 14th Birthday!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114035947",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "War Thunder’s 14th anniversary is just around the corner! Get ready to celebrate with discounts on vehicles, modifications, and useful consumables, and don’t forget to extend your Premium Account time at a great price.In-game Discounts! When: From October 23rd (11:00 GMT) until October 28th (11:00 GMT).Where: In-game for all nations.50% discount on vehicles for all nations for Silver Lions and Gol...",
-      "feedlabel": "Community Announcements",
-      "date": 1792753458,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
