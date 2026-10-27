@@ -81,12 +81,41 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847286114049009",
+      "title": "Testing Nuclear Escalation in Simulator Battles!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114049009",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Calling all pilots! Today we’re inviting you to take part in testing of the large-scale Nuclear Escalation mode in Simulator Battles.When: From October 27th (13:00 GMT) until October 29th (13:00 GMT)Where: Events & Tournaments → Nuclear Escalation.FeaturesThis is the same Nuclear Escalation mode found in Realistic Battles, but played at the Simulator Battles difficulty level, with the correspondin...",
+      "feedlabel": "Community Announcements",
+      "date": 1793109470,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847286114048776",
+      "title": "Update 2.59.0.87",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114048776",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "Ground VehiclesObject 416 — a bug that caused the machine gun ammo to not display above the action bar has been fixed. (Report). Game MechanicsA bug where vehicles in battle were sometimes not locked for respawn if their last destruction was counted as a crash or leave kill has been fixed. This issue could have occurred after using a backup vehicle or exhausting the tournament respawn limit. Graph...",
+      "feedlabel": "Community Announcements",
+      "date": 1793104518,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1847286114048529",
       "title": "Spooky Races Return for Halloween!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114048529",
       "is_external_url": true,
       "author": "Blitzkrieg Wulf",
-      "contents": "Autumn is in full swing, and the forces of darkness are holding their contests once again! Go for a wild, wind-swept ride through gloomy locales, soar like a witch through a treacherous, danger-filled gorge, defeat your rivals and don’t forget to let out an eerie laugh! Halloween Cosmetics & RacesWhen: From October 27th (11:00 GMT) until November 1st (11:00 GMT).Spooky Decals and a Profile Frame!G...",
+      "contents": "Autumn is in full swing, and the forces of darkness are holding their contests once again! Go for a wild, wind-swept ride through gloomy locales, soar like a witch through a treacherous, danger-filled gorge, defeat your rivals and don’t forget to let out an eerie laugh! Halloween Cosmetics & RacesNote: The start of the Spooky races has been pushed back by 24 hours!When: From October 28th (11:00 GM...",
       "feedlabel": "Community Announcements",
       "date": 1793100012,
       "feedname": "steam_community_announcements",
@@ -95,6 +124,7 @@
       "tags": [
         "mod_reviewed",
         "ModAct_1415716708_1793100184_0",
+        "ModAct_1415716708_1793102189_4",
         "mod_require_rereview"
       ]
     },
@@ -136,35 +166,22 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1847286114038645",
-      "title": "Screenshot Competition – Haunting Grounds!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114038645",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 247th War Thunder Steam Screenshot Competition! We loved getting to see all of your favorite vehicles last week! Halloween is coming soon! This week, we’re looking to see a variety of Halloween themed screenshots. Whether you want to use spooky decals, take photos in the night, or participate in the Halloween ev...",
-      "feedlabel": "Community Announcements",
-      "date": 1792813534,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847286114036908",
-      "title": "Improvements to DIRCM",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114036908",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The missile used to know where it was at all times, then it took a laser in the seeker!In the upcoming major update, we’ll be releasing an overhauled version of DIRCM that addresses several shortcomings.In the game, all DIRCM currently function similarly to regular IRCM with very wide radiation sectors. This means that the jammer is always active and emitting as long as the player has IRCM enabled...",
-      "feedlabel": "Community Announcements",
-      "date": 1792769618,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1847286114048931",
+      "title": "Steam Global Top Sellers for week of 20 Oct — 27 October 2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1847286114048931",
+      "is_external_url": true,
+      "author": "SteamDB",
+      "contents": "<a href=\"https://steamdb.info/topsellers/2026W44/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"> </a> * <a href=\"https://steamdb.info/app/4435490/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Call of Duty®: Modern Warfare® 4</a>; * <a href=\"https://steamdb.info/app/4115450/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Phantom Blade Zero</a>; * <a href=\"https://steamdb.info/app/1091500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a>; * <a href=\"https://steamdb.info/app/3259780/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">FINAL FANTASY RESONANCE</a>; * <a href=\"https://steamdb.info/app/2138330/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077: Phantom Liberty</a>; * <a href=\"https://steamdb.info/app/4080220/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">EA SPORTS FC™ 27</a>; * <a href=\"https://steamdb.info/app/381210/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Dead by Daylight</a>; * <a href=\"https://steamdb.info/app/553850/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">HELLDIVERS™ 2</a>; * <a href=\"https://steamdb.info/app/1203620/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Enshrouded</a>; * <a href=\"https://steamdb.info/app/1675200/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Steam Deck</a>; <i>* excluding free to play games</i> <a href=\"https://steamdb.info/topsellers/2026W44/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
+      "feedlabel": "SteamDB",
+      "date": 1793091600,
+      "feedname": "SteamDB",
+      "feed_type": 0,
+      "appid": 381210
+    },
     {
       "gid": "1847286114047962",
       "title": "Behaviour Interactive объяснила уход Чаки из Dead by Daylight и допустила его возвращение",
@@ -232,22 +249,35 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1846651706695765",
-      "title": "We're giving away a limited edition Dead by Daylight 10th Anniversary Collector's Set",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1846651706695765",
-      "is_external_url": true,
-      "author": "editor@pcgamesn.com",
-      "contents": "To celebrate Dead by Daylight's tenth anniversary, we're giving away a sold out Collector's Set worth $250. Not going to lie, I'm jealous. Read the full story on PCGamesN: <a href=\"https://www.pcgamesn.com/dead-by-daylight/tenth-anniversary-collectors-set-giveaway\">We're giving away a limited edition Dead by Daylight 10th Anniversary Collector's Set</a> ",
-      "feedlabel": "PCGamesN",
-      "date": 1792504990,
-      "feedname": "PCGamesN",
-      "feed_type": 0,
-      "appid": 381210
     }
   ],
   "conan_exiles": [
+    {
+      "gid": "1847286114049723",
+      "title": "Conan Exiles Enhanced Is Coming to PS5 and Xbox Series X|S with PC Cross-Play!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114049723",
+      "is_external_url": true,
+      "author": "Kvistan88",
+      "contents": "Greetings Exiles, We are beyond excited to announce that Conan Exiles Enhanced is coming to PlayStation®5 and Xbox Series X|S in early 2027, bringing an enhanced version of the open-world survival experience to the current generation of consoles. Following its successful launch as a free update for Steam owners in May 2025, Conan Exiles Enhanced is making the leap to consoles following strong dema...",
+      "feedlabel": "Community Announcements",
+      "date": 1793120832,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 440900
+    },
+    {
+      "gid": "1847286114049589",
+      "title": "Conan Exiles Enhanced выйдет на PS5 в начале 2027 года - с бесплатным апгрейдом",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847286114049589",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Funcom объявила, что Conan Exiles Enhanced доберётся до PlayStation 5 в начале 2027 года. Все игроки, у которых уже есть Conan Exiles на PlayStation, получат улучшенную версию для PS5 бесплатно. Обе версии — для PS4 и PS5 — будут доступны для покупки, и приобретение одной даёт вторую бесплатно. Все купленные предметы из Bazaar и DLC также перенесутся с PS4 на PS5 без потерь. Enhanced-издание прине...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1793118152,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 440900
+    },
     {
       "gid": "1846018067929785",
       "title": "October Hotfix 3.0.1",
@@ -305,38 +335,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 440900
-    },
-    {
-      "gid": "1845383656381427",
-      "title": "October Hotfix",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656381427",
-      "is_external_url": true,
-      "author": "Dana",
-      "contents": "Greetings Exiles, We have a super quick hotfix (2.2.3) today addressing a minor Bazaar issue. Fixed some minor bugs with the Sentinel of the Triumverate bundle.",
-      "feedlabel": "Community Announcements",
-      "date": 1790863217,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 440900,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1844751498221583",
-      "title": "September Hotfix",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498221583",
-      "is_external_url": true,
-      "author": "Dana",
-      "contents": "Greetings Exiles, Hotfix 2.2.2 is here! Fixed two D3D12 related crashes introduced with the 2.2.0 update.Fixed crash that could occur on boot for servers with stale files from before the 2.2.0 update.Fixed login queues disconnecting players when the queue finishes.",
-      "feedlabel": "Community Announcements",
-      "date": 1790258024,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 440900,
-      "tags": [
-        "patchnotes"
-      ]
     }
   ],
   "palworld": [
