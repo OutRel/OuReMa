@@ -81,6 +81,24 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847286114048529",
+      "title": "Spooky Races Return for Halloween!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114048529",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Autumn is in full swing, and the forces of darkness are holding their contests once again! Go for a wild, wind-swept ride through gloomy locales, soar like a witch through a treacherous, danger-filled gorge, defeat your rivals and don’t forget to let out an eerie laugh! Halloween Cosmetics & RacesWhen: From October 27th (11:00 GMT) until November 1st (11:00 GMT).Spooky Decals and a Profile Frame!G...",
+      "feedlabel": "Community Announcements",
+      "date": 1793100012,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1415716708_1793100184_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
       "gid": "1847286114045455",
       "title": "Work-In-Progress: Freezing Daily Login Streaks",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114045455",
@@ -144,22 +162,22 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1847286114036400",
-      "title": "The J35A Returns with a Discount for the Dragon’s First Flight!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114036400",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "On October 25th 1955, the Swedish Draken (Dragon) took to the skies for the first time. This supersonic fighter featured a unique double-delta wing design. It could confidently reach speeds of Mach 2, take off from short runways, and operate effectively in all weather conditions. It is no wonder that it remained in service until as late as 2005! The J35A Draken and Saab J35XS are available for pur...",
-      "feedlabel": "Community Announcements",
-      "date": 1792761829,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1847286114047962",
+      "title": "Behaviour Interactive объяснила уход Чаки из Dead by Daylight и допустила его возвращение",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847286114047962",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Студия Behaviour Interactive, разработчик Dead by Daylight, прокомментировала предстоящее удаление Чаки из магазина игры и заверила поклонников, что культовые персонажи хорроров смогут вернуться в будущем. По словам авторов, даже после ухода лицензированных убийц Dead by Daylight останется «домом ужасов» для поклонников жанра. Глава с Чаки станет недоступна для покупки 24 ноября 2026 года. Это про...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1793086130,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 381210
+    },
     {
       "gid": "1847286114037461",
       "title": "Dead By Daylight x Diablo Collection OUT NOW",
@@ -227,22 +245,6 @@
       "feedname": "PCGamesN",
       "feed_type": 0,
       "appid": 381210
-    },
-    {
-      "gid": "1846651706674577",
-      "title": "10.2.1 | Bugfix Patch",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706674577",
-      "is_external_url": true,
-      "author": "Goblin_BHVR",
-      "contents": "FeaturesSurrender and End TrialSurrender OptionSurvivor Condition - When there are no other human survivors, and at least one bot, the remaining player gets the option to Surrender. (was Abandon)Survivor is considered SurrenderedEnd Trial OptionKiller Condition - When all remaining Survivors are bots the Killer gains the option to End Trial. (Removed the \"in the Dying State condition\")ContentKille...",
-      "feedlabel": "Community Announcements",
-      "date": 1791990061,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 381210,
-      "tags": [
-        "patchnotes"
-      ]
     }
   ],
   "conan_exiles": [
