@@ -81,6 +81,32 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847920302231380",
+      "title": "Updated Sun City and American Desert and Improved Weather Settings!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302231380",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Today we’re taking a look at the updated Sun City and American Desert maps, plus improved weather settings!Sun CityPreviously, when viewed from the air, Sun City resembled an oasis in the middle of a desert, isolated by surrounded sands. But that’s not how real cities are built, so we’ve decided to update it. Now, the entire location, including the aircraft areas, consist of a continuous urban lan...",
+      "feedlabel": "Community Announcements",
+      "date": 1793200182,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847920302231070",
+      "title": "Dreams Come True: Mistel 2",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302231070",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Mistel 2 was a German strike system built during the Second World War, consisting of a Fw 190 fighter acting as a carrier aircraft and a Ju 88 bomber, where the cockpit had been replaced by an explosive warhead!Mistel 2: A Premium Bomber for Germany at Rank IIIAt a glance:Unique two-aircraft design3,500 kg warhead!No forward-firing armamentIntroducing the Mistel 2Meet Mistel 2, a very unique compo...",
+      "feedlabel": "Community Announcements",
+      "date": 1793195509,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847920302230561",
       "title": "Discounts in the Gaijin Store for War Thunder’s 14th Anniversary!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302230561",
@@ -104,7 +130,12 @@
       "date": 1793180669,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 236390
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1294976491_1793182866_0",
+        "mod_require_rereview"
+      ]
     },
     {
       "gid": "1847286114049009",
@@ -134,42 +165,48 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1847286114048529",
-      "title": "Spooky Races Return for Halloween!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114048529",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Autumn is in full swing, and the forces of darkness are holding their contests once again! Go for a wild, wind-swept ride through gloomy locales, soar like a witch through a treacherous, danger-filled gorge, defeat your rivals and don’t forget to let out an eerie laugh! Halloween Cosmetics & RacesWhen: From October 28th (11:00 GMT) until November 1st (11:00 GMT).Spooky Decals and a Profile Frame!G...",
-      "feedlabel": "Community Announcements",
-      "date": 1793100012,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1415716708_1793100184_0",
-        "ModAct_1415716708_1793102189_4",
-        "ModAct_1894626024_1793110236_4",
-        "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1847286114045455",
-      "title": "Work-In-Progress: Freezing Daily Login Streaks",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114045455",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "Missed a day or two during a long login streak? That’s no longer a problem!Hey everyone! Today we’d like to tell you about a new mechanic that lets you freeze your daily login streak, preventing you from losing it. Let’s dive into the details of this mechanic, coming to War Thunder and War Thunder Mobile!How does it work?“Freezes” are earned by logging into the game. For every 12 days you login, w...",
-      "feedlabel": "Community Announcements",
-      "date": 1793030631,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1847920302231915",
+      "title": "Dead by Daylight пополнится безжалостным убийцей Terrifier 17 ноября",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302231915",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Behaviour Interactive представила тизер Terrifier для асимметричного многопользовательского хоррора Dead by Daylight. Ролик демонстрирует нового жестокого убийцу, который принесёт в туманные владения ещё больше ужаса. Terrifier появится в Dead by Daylight 17 ноября на PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch и PC в Steam. ",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1793202665,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 381210
+    },
+    {
+      "gid": "1847920302231537",
+      "title": "В Dead by Daylight появится клоун Арт из \"Ужасающего\" - с мешком оружия и собственными добиваниями",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302231537",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Behaviour Interactive объявила о сотрудничестве Dead by Daylight с хоррор-франшизой «Ужасающий». 24 ноября в асимметричном сетевом хорроре появятся клоун Арт в роли убийцы и Сиенна Шоу в качестве выжившей. Сейчас новинку уже можно опробовать на публичном тестовом сервере в Steam. Главной особенностью Арта станет способность «Мешок с игрушками»: убийца сможет доставать из него случайное оружие, вкл...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1793202031,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 381210
+    },
+    {
+      "gid": "1847920302231335",
+      "title": "10.3.0 | Terrifier PTB Patch Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302231335",
+      "is_external_url": true,
+      "author": "Goblin_BHVR",
+      "contents": "ContentNew Killer: The TerrifierPower: Bag of Toys Hold the Ability button to open your Bag of Toys and select one of two random Toys. The Bag of Toys enters a cooldown state and cannot be opened again until it expires. Special Items: Toys Toys damage healthy Survivors and inflict injured Survivors with a Torture effect. Hold the Power button to ready a Toy and tap the Attack button to use it. Eac...",
+      "feedlabel": "Community Announcements",
+      "date": 1793199609,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 381210
+    },
     {
       "gid": "1847286114048931",
       "title": "Steam Global Top Sellers for week of 20 Oct — 27 October 2026",
@@ -208,48 +245,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 381210
-    },
-    {
-      "gid": "1847286114034014",
-      "title": "October Community Stream Recap",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034014",
-      "is_external_url": true,
-      "author": "Goblin_BHVR",
-      "contents": "Whether you were able to tune in live (thanks!) or you're dropping by to get a tl;dr, we're here to give you a recap of some highlights from today's community stream:  MMR UPDATE As you may remember, back in 10.1.0, we updated how MMR is calculated. While kills and escapes continue to be an aspect of MMR calculations, they are no longer the only thing used to calculate these values. Now, we also f...",
-      "feedlabel": "Community Announcements",
-      "date": 1792698657,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 381210
-    },
-    {
-      "gid": "1847286114027123",
-      "title": "В Dead by Daylight стартовало событие в честь коллаборации с Diablo 4",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847286114027123",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Разработчики Dead by Daylight запустили совместное событие с Diablo 4, добавив во внутриигровой магазин коллекцию образов ключевых персонажей Санктуария. С запуском события разработчики опубликовали новый трейлер, в котором продемострировали новые скины. Образы для Убийц: Художница получила облик Лилит; Грязи достался образ Белиала; Медсестра получила облик Мефисто. Образы для Выживших: Волшебница...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1792541687,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1846651706695628",
-      "title": "10.2.2 | Bugfix Patch",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706695628",
-      "is_external_url": true,
-      "author": "rblanchard_bhvr",
-      "contents": "ContentKiller Perk UpdatesDark ArroganceYou basic-vault Windows 15/20/25% faster.Your basic-attack cooldown is 10% shorter. (was only missed, and 15/20/25%)Whenever you are blinded or Pallet-stunned, the duration is 25% longer.Dev note: The team has heard the feedback that the PTB to Live change for Dark Arrogance was an overcorrection. The basic-attack cooldown will apply to all outcomes (missed,...",
-      "feedlabel": "Community Announcements",
-      "date": 1792508499,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 381210,
-      "tags": [
-        "patchnotes"
-      ]
     }
   ],
   "conan_exiles": [
