@@ -81,6 +81,32 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847920302230561",
+      "title": "Discounts in the Gaijin Store for War Thunder’s 14th Anniversary!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302230561",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The game’s birthday celebrations are set to begin very soon, but in the meantime, we’re launching the second round of our major sale. This time, you’ll find discounts on a wide range of vehicle bundles in the Gaijin Store. Which one catches your eye?From October 28th (11:00 GMT) until November 2nd (11:00 GMT)To get to the Gaijin Store through Steam, go to the in-game hangar > Shop > Online Store.Z...",
+      "feedlabel": "Community Announcements",
+      "date": 1793185622,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847920302230310",
+      "title": "IJN Takao: The Art of the Heavy Cruiser",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302230310",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Japanese Takao-class cruisers are often described as the most well-balanced ships of this type in the service of the IJN.IJN Takao: A Heavy Cruiser for Japan at Rank IVAt a glance:10 x 203 mm guns with a flat trajectoryHigh speedImproved protection for ammunition magazinesLarge number of automatic anti-aircraft guns16 high-speed “Long Lance” torpedoesTwo seaplanesRadarMassive superstructureIntrodu...",
+      "feedlabel": "Community Announcements",
+      "date": 1793180669,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847286114049009",
       "title": "Testing Nuclear Escalation in Simulator Battles!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114049009",
@@ -115,7 +141,7 @@
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114048529",
       "is_external_url": true,
       "author": "Blitzkrieg Wulf",
-      "contents": "Autumn is in full swing, and the forces of darkness are holding their contests once again! Go for a wild, wind-swept ride through gloomy locales, soar like a witch through a treacherous, danger-filled gorge, defeat your rivals and don’t forget to let out an eerie laugh! Halloween Cosmetics & RacesNote: The start of the Spooky races has been pushed back by 24 hours!When: From October 28th (11:00 GM...",
+      "contents": "Autumn is in full swing, and the forces of darkness are holding their contests once again! Go for a wild, wind-swept ride through gloomy locales, soar like a witch through a treacherous, danger-filled gorge, defeat your rivals and don’t forget to let out an eerie laugh! Halloween Cosmetics & RacesWhen: From October 28th (11:00 GMT) until November 1st (11:00 GMT).Spooky Decals and a Profile Frame!G...",
       "feedlabel": "Community Announcements",
       "date": 1793100012,
       "feedname": "steam_community_announcements",
@@ -125,6 +151,7 @@
         "mod_reviewed",
         "ModAct_1415716708_1793100184_0",
         "ModAct_1415716708_1793102189_4",
+        "ModAct_1894626024_1793110236_4",
         "mod_require_rereview"
       ]
     },
@@ -137,32 +164,6 @@
       "contents": "Missed a day or two during a long login streak? That’s no longer a problem!Hey everyone! Today we’d like to tell you about a new mechanic that lets you freeze your daily login streak, preventing you from losing it. Let’s dive into the details of this mechanic, coming to War Thunder and War Thunder Mobile!How does it work?“Freezes” are earned by logging into the game. For every 12 days you login, w...",
       "feedlabel": "Community Announcements",
       "date": 1793030631,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847286114044371",
-      "title": "Dreams Come True: Mistel 2",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114044371",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Sometimes, things happen that you wouldn’t even dare to dream of. Meet the Mistel 2, a very peculiar aircraft(s!), featuring a Fw 190 literally carrying a Ju 88 bomb. Due to this unusual configuration, it earned the nickname “Father and Son”. By taking part in Air Battles, you can also earn a decal of the same name, a “Child with a Bomb” decal and a “Mistletoe” (the literal translation of “Mistel”...",
-      "feedlabel": "Community Announcements",
-      "date": 1793009781,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847286114044216",
-      "title": "The British A-20 is Available with a Discount To celebrate its First Flight!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114044216",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The Douglas A-20 prototype first took to the skies on October 26th 1938. It served as the basis for a wide range of aircraft designed for various roles, including light bombers, attack aircraft, reconnaissance planes, and night fighters. Known by the nickname “Havoc”, the A-20 saw service with the air forces of France, Great Britain, the United States, and the USSR. The USSR received large numbers...",
-      "feedlabel": "Community Announcements",
-      "date": 1793006534,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
@@ -339,6 +340,19 @@
   ],
   "palworld": [
     {
+      "gid": "1847920302230216",
+      "title": "Глава Pocketpair допустил порт Palworld на Switch 2 - при условии переговоров с Nintendo",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302230216",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Генеральный директор Pocketpair Такуро Мидзобэ заявил, что порт Palworld на Nintendo Switch 2 возможен, если Nintendo будет готова сесть за стол переговоров. Это происходит на фоне продолжающейся судебной тяжбы между компаниями: в октябре 2025 года Японское патентное ведомство отклонило заявку Nintendo на патент на механику захвата существ. В интервью VGC Такуро Мидзобэ отметил, что Pocketpair счи...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1793178804,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 1623730
+    },
+    {
       "gid": "1847920302229254",
       "title": "Palworld × Graveyard Keeper 2 Steam Bundle is Out Now!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302229254",
@@ -399,19 +413,6 @@
       "contents": "Pocketpair не собирается бесконечно расширять список существ в Palworld ради очередных цифр в обновлениях. Разработчики считают, что каждый новый Пал должен чем-то запоминаться игрокам — будь то внешний вид, способности, боевая роль или даже необычная черта характера. Об этом рассказал Джон «Бакки» Бакли, руководитель отдела издательской деятельности и коммуникаций студии, в интервью MP1st. «Вмест...",
       "feedlabel": "PlayGround.ru - официальная группа",
       "date": 1792476395,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 1623730
-    },
-    {
-      "gid": "1846651706673296",
-      "title": "Авторы Palworld рассказали, почему не превратили успешный мир с \"покемонами\" в новый Fortnite",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706673296",
-      "is_external_url": true,
-      "author": "",
-      "contents": "В Pocketpair объяснили, почему решила развивать вселенную Palworld через выпуск самостоятельных спин-оффов вместо создания единой метавселенной по примеру Fortnite. В интервью изданию MP1st руководитель компании Джон Бакли заявил, что разработчики ставят во главу угла творческую свободу, а не попытку выжать из аудитории максимум прибыли. После глобального успеха оригинального выживача авторы анонс...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1791958213,
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 1623730
