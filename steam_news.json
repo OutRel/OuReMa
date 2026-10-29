@@ -81,6 +81,35 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847920302234376",
+      "title": "Update 2.59.0.92",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234376",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "Battle RatingsThe Planned Battle Rating changes have come into effect. MatchmakingA bug that caused the limitation on the number of bombers per team in Air Realistic Battles to stop applying has been fixed.Patch notes reflect only key changes, meaning they may not include a complete list of all improvements made. Additionally, War Thunder is constantly being updated and some changes may not requir...",
+      "feedlabel": "Community Announcements",
+      "date": 1793273329,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1847920302234024",
+      "title": "Pages of History (November): Incredible Luck",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234024",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "In Pages of History this month, you will find yourself at the center of events that took place in various theaters of war. From Italy and USSR, Egypt and Iran: participate in battles while using vehicles linked to these historic events and get some prizes! From November 1st until November 30th, you will be able to participate in 8 tasks consecutively. Completing each task will grant you a trophy w...",
+      "feedlabel": "Community Announcements",
+      "date": 1793264935,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847920302231380",
       "title": "Updated Sun City and American Desert and Improved Weather Settings!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302231380",
@@ -95,7 +124,7 @@
     },
     {
       "gid": "1847920302231070",
-      "title": "Dreams Come True: Mistel 2",
+      "title": "Dreams Come True: Mistel 2 — Father and Son",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302231070",
       "is_external_url": true,
       "author": "Blitzkrieg Wulf",
@@ -104,7 +133,12 @@
       "date": 1793195509,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 236390
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1894963720_1793196840_0",
+        "mod_require_rereview"
+      ]
     },
     {
       "gid": "1847920302230561",
@@ -135,35 +169,6 @@
         "mod_reviewed",
         "ModAct_1294976491_1793182866_0",
         "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1847286114049009",
-      "title": "Testing Nuclear Escalation in Simulator Battles!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114049009",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Calling all pilots! Today we’re inviting you to take part in testing of the large-scale Nuclear Escalation mode in Simulator Battles.When: From October 27th (13:00 GMT) until October 29th (13:00 GMT)Where: Events & Tournaments → Nuclear Escalation.FeaturesThis is the same Nuclear Escalation mode found in Realistic Battles, but played at the Simulator Battles difficulty level, with the correspondin...",
-      "feedlabel": "Community Announcements",
-      "date": 1793109470,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847286114048776",
-      "title": "Update 2.59.0.87",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114048776",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "Ground VehiclesObject 416 — a bug that caused the machine gun ammo to not display above the action bar has been fixed. (Report). Game MechanicsA bug where vehicles in battle were sometimes not locked for respawn if their last destruction was counted as a crash or leave kill has been fixed. This issue could have occurred after using a backup vehicle or exhausting the tournament respawn limit. Graph...",
-      "feedlabel": "Community Announcements",
-      "date": 1793104518,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
       ]
     }
   ],
