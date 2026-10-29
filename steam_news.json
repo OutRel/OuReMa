@@ -81,6 +81,63 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847920302236438",
+      "title": "\"Eagle's Shadow\" Update Trailer!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302236438",
+      "is_external_url": true,
+      "author": "Yuki",
+      "contents": "Introducing the next major update trailer for War Thunder: Eagle's Shadow! ",
+      "feedlabel": "Community Announcements",
+      "date": 1793309199,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847920302235173",
+      "title": "New Modules for Ground Vehicles!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235173",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "In today’s dev blog, we’re talking about new modules and features for ground vehicles!Hey everyone! In the next major update, ground vehicle players can look forward to new functional modules, more detailed damage models, and new capabilities for their favorite vehicles. Let’s take a look at everything!Fire Control System (FCS) and Electrical SystemsFirst up, you’ll notice new functional modules w...",
+      "feedlabel": "Community Announcements",
+      "date": 1793286763,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847920302234868",
+      "title": "Pre-orders: F/A-18D and Q-5D",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234868",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Today we’re starting pre-orders for the American two-seater Hornet and the Chinese Q-5D attack jet aircraft!F/A-18DPre-order - F/A-18D PackTo get to the Gaijin Store through Steam, go to the in-game hangar > Shop > Online Store.This pack includes:F/A-18D (Rank VIII, USA)Premium account for 30 days3000 Golden EaglesPre-order bonus: unique \"Devilish Sting\" titlePre-order bonus: unique \"VMFA-232 Red ...",
+      "feedlabel": "Community Announcements",
+      "date": 1793282551,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_770318842_1793283457_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1847920302234824",
+      "title": "Custom Battle Rating for Aircraft: More Freedom For Your Vehicles!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234824",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "What if your favorite aircraft could participate in battles at different Battle Ratings? You could use your familiar loadout at one Battle Rating, or equip more powerful weaponry and test your skills against tougher opponents.Introducing custom Battle Ratings: a new mechanic where researching specific modifications unlocks additional Battle Rating options for the same vehicle. You decide which con...",
+      "feedlabel": "Community Announcements",
+      "date": 1793281890,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847920302234376",
       "title": "Update 2.59.0.92",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234376",
@@ -108,71 +165,25 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1847920302231380",
-      "title": "Updated Sun City and American Desert and Improved Weather Settings!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302231380",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Today we’re taking a look at the updated Sun City and American Desert maps, plus improved weather settings!Sun CityPreviously, when viewed from the air, Sun City resembled an oasis in the middle of a desert, isolated by surrounded sands. But that’s not how real cities are built, so we’ve decided to update it. Now, the entire location, including the aircraft areas, consist of a continuous urban lan...",
-      "feedlabel": "Community Announcements",
-      "date": 1793200182,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847920302231070",
-      "title": "Dreams Come True: Mistel 2 — Father and Son",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302231070",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Mistel 2 was a German strike system built during the Second World War, consisting of a Fw 190 fighter acting as a carrier aircraft and a Ju 88 bomber, where the cockpit had been replaced by an explosive warhead!Mistel 2: A Premium Bomber for Germany at Rank IIIAt a glance:Unique two-aircraft design3,500 kg warhead!No forward-firing armamentIntroducing the Mistel 2Meet Mistel 2, a very unique compo...",
-      "feedlabel": "Community Announcements",
-      "date": 1793195509,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1894963720_1793196840_0",
-        "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1847920302230561",
-      "title": "Discounts in the Gaijin Store for War Thunder’s 14th Anniversary!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302230561",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The game’s birthday celebrations are set to begin very soon, but in the meantime, we’re launching the second round of our major sale. This time, you’ll find discounts on a wide range of vehicle bundles in the Gaijin Store. Which one catches your eye?From October 28th (11:00 GMT) until November 2nd (11:00 GMT)To get to the Gaijin Store through Steam, go to the in-game hangar > Shop > Online Store.Z...",
-      "feedlabel": "Community Announcements",
-      "date": 1793185622,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847920302230310",
-      "title": "IJN Takao: The Art of the Heavy Cruiser",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302230310",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Japanese Takao-class cruisers are often described as the most well-balanced ships of this type in the service of the IJN.IJN Takao: A Heavy Cruiser for Japan at Rank IVAt a glance:10 x 203 mm guns with a flat trajectoryHigh speedImproved protection for ammunition magazinesLarge number of automatic anti-aircraft guns16 high-speed “Long Lance” torpedoesTwo seaplanesRadarMassive superstructureIntrodu...",
-      "feedlabel": "Community Announcements",
-      "date": 1793180669,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1294976491_1793182866_0",
-        "mod_require_rereview"
-      ]
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1847920302235142",
+      "title": "10.2.2a Backend Bugfix Patch",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235142",
+      "is_external_url": true,
+      "author": "Goblin_BHVR",
+      "contents": "Last week, we introduced the Backend Tunables system as a way to get small balance changes in your hands quicker without having to wait for patch releases. We mentioned having changes planned for a number of Killers and today, we're putting this system to use with some adjustment to The Executioner and The Good Guy. The Executioner:Decreased the time to activate Rites of Judgment to 0.8s (was 1s)I...",
+      "feedlabel": "Community Announcements",
+      "date": 1793286360,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 381210,
+      "tags": [
+        "patchnotes"
+      ]
+    },
     {
       "gid": "1847920302231915",
       "title": "Dead by Daylight пополнится безжалостным убийцей Terrifier 17 ноября",
@@ -237,22 +248,27 @@
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 381210
-    },
-    {
-      "gid": "1847286114037461",
-      "title": "Dead By Daylight x Diablo Collection OUT NOW",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114037461",
-      "is_external_url": true,
-      "author": "Goblin_BHVR",
-      "contents": "Mother of Sanctuary. Lord of Hatred. Lord of Lies. Hell is coming to The Fog.Even in the Burning Hells, nothing escapes The Entity’s reach. With 30 years of soul-shattering horrors at its disposal, The Diablo Collection unleashes Sanctuary’s most iconic heroes and villains into The Fog.A new evil enters The Entity's domain.Lilith spreads her love in The Fog as a Visceral Outfit for The ArtistWhile...",
-      "feedlabel": "Community Announcements",
-      "date": 1792778450,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 381210
     }
   ],
   "conan_exiles": [
+    {
+      "gid": "1847920302234657",
+      "title": "Conan Exiles Enhanced Community Update - October",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234657",
+      "is_external_url": true,
+      "author": "Dana",
+      "contents": "Greetings, Exiles! It’s been over a month since our last community update but we promise the wait was worth it as this week we’ve had some major announcements coming to the Exiles Lands.New patch and story content coming November 10th for PC players, console community news and some fun player community highlights.Read all about what’s been happening in the Exiles Lands in this latest Community upd...",
+      "feedlabel": "Community Announcements",
+      "date": 1793278435,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 440900,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_773020726_1793278653_0",
+        "mod_require_rereview"
+      ]
+    },
     {
       "gid": "1847286114049723",
       "title": "Conan Exiles Enhanced Is Coming to PS5 and Xbox Series X|S with PC Cross-Play!",
@@ -323,22 +339,22 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 440900
-    },
-    {
-      "gid": "1845383656383256",
-      "title": "The Autum Sale 2026 is here!  ",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656383256",
-      "is_external_url": true,
-      "author": "Pickle Riki",
-      "contents": "Autumn is here, and so are the deals! Funcom is celebrating the Steam Autumn Sale with huge discounts across some of our most iconic titles. Brave the sands of Arrakis, conquer the new enhanced Exiled Lands, or take to the skies – whatever your next adventure, now’s the perfect time to jump in and save big! The sale runs from October 1 to October 8, so don’t miss your chance to grab your next adve...",
-      "feedlabel": "Community Announcements",
-      "date": 1790876257,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 440900
     }
   ],
   "palworld": [
+    {
+      "gid": "1847920302235869",
+      "title": "Palworld dev says the studio still calls itself indie because of its \"genuine creative freedom\"",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1847920302235869",
+      "is_external_url": true,
+      "author": "editor@pcgamesn.com",
+      "contents": "Pocketpair's John Buckley contemplates what makes a studio indie, asserting that the most important factor is its level of creative control. Read the full story on PCGamesN: <a href=\"https://www.pcgamesn.com/palworld/pocketpair-indie\">Palworld dev says the studio still calls itself indie because of its \"genuine creative freedom\"</a> ",
+      "feedlabel": "PCGamesN",
+      "date": 1793290988,
+      "feedname": "PCGamesN",
+      "feed_type": 0,
+      "appid": 1623730
+    },
     {
       "gid": "1847920302230216",
       "title": "Глава Pocketpair допустил порт Palworld на Switch 2 - при условии переговоров с Nintendo",
@@ -402,19 +418,6 @@
       "date": 1792501599,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 1623730
-    },
-    {
-      "gid": "1846651706693859",
-      "title": "Разработчики Palworld не хотят добавлять сотни новых Палов ради количества - каждому нужна своя особенность",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706693859",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Pocketpair не собирается бесконечно расширять список существ в Palworld ради очередных цифр в обновлениях. Разработчики считают, что каждый новый Пал должен чем-то запоминаться игрокам — будь то внешний вид, способности, боевая роль или даже необычная черта характера. Об этом рассказал Джон «Бакки» Бакли, руководитель отдела издательской деятельности и коммуникаций студии, в интервью MP1st. «Вмест...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1792476395,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
       "appid": 1623730
     }
   ]
