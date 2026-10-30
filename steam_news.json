@@ -81,6 +81,35 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847920302239073",
+      "title": "Leopard 2A8: A Coveted Trophy",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302239073",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Introducing the Leopard 2A8, Europe’s most advanced tank and the first mass-produced Leo equipped with an active protection system!Leopard 2A8: An MBT for Germany and Sweden at Rank VIIIAt a glance:Trophy Active Protection SystemDM53 APFSDSGood level of protectionGEN 3 thermal imagersIntroducing the Leopard 2A8Today we’re excited to be showing you the Leopard 2A8, coming in as one the most advance...",
+      "feedlabel": "Community Announcements",
+      "date": 1793374489,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1847920302238390",
+      "title": "Server Update 30.10.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302238390",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "Battle RatingsBattle Ratings that were different to the final table from the planned Battle Rating changes have been corrected:F-16A MLU (China): BR in Air Simulator Battles has been reduced from 14.0 to 13.7.Hawk T Mk 1A, Hawk T Mk 1A (FRP) — BR in all Air Battles modes has been reduced from 7.7 to 7.3.N1K2-J, N1K2-Ja, Spitfire F Mk XVIIIe, Yak-3U — BR in Ground Realistic Battles has been reduced...",
+      "feedlabel": "Community Announcements",
+      "date": 1793363844,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1847920302238102",
       "title": "War Thunder is 14 Years Old: Join the Celebration!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302238102",
@@ -104,7 +133,12 @@
       "date": 1793352614,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 236390
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1526778620_1793353566_0",
+        "mod_require_rereview"
+      ]
     },
     {
       "gid": "1847920302236438",
@@ -131,40 +165,22 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1847920302234868",
-      "title": "Pre-orders: F/A-18D and Q-5D",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234868",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Today we’re starting pre-orders for the American two-seater Hornet and the Chinese Q-5D attack jet aircraft!F/A-18DPre-order - F/A-18D PackTo get to the Gaijin Store through Steam, go to the in-game hangar > Shop > Online Store.This pack includes:F/A-18D (Rank VIII, USA)Premium account for 30 days3000 Golden EaglesPre-order bonus: unique \"Devilish Sting\" titlePre-order bonus: unique \"VMFA-232 Red ...",
-      "feedlabel": "Community Announcements",
-      "date": 1793282551,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_770318842_1793283457_0",
-        "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1847920302234824",
-      "title": "Custom Battle Rating for Aircraft: More Freedom For Your Vehicles!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234824",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "What if your favorite aircraft could participate in battles at different Battle Ratings? You could use your familiar loadout at one Battle Rating, or equip more powerful weaponry and test your skills against tougher opponents.Introducing custom Battle Ratings: a new mechanic where researching specific modifications unlocks additional Battle Rating options for the same vehicle. You decide which con...",
-      "feedlabel": "Community Announcements",
-      "date": 1793281890,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1847920302240241",
+      "title": "Custom Alienware Laptop Sweepstakes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302240241",
+      "is_external_url": true,
+      "author": "Steven_BHVR",
+      "contents": "To celebrate the Halloween season, our partners at Alienware have a sweet treat for you! From now until November 22nd, enter for a chance to win a custom-skinned Alienware 16X Aurora gaming laptop, courtesy of Alienware. Head to Alienware Arena to check out their community challenge/blood point giveaway or Alienware on social media for all the details.",
+      "feedlabel": "Community Announcements",
+      "date": 1793389938,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 381210
+    },
     {
       "gid": "1847920302235142",
       "title": "10.2.2a Backend Bugfix Patch",
@@ -230,19 +246,6 @@
       "feedlabel": "SteamDB",
       "date": 1793091600,
       "feedname": "SteamDB",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1847286114047962",
-      "title": "Behaviour Interactive объяснила уход Чаки из Dead by Daylight и допустила его возвращение",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847286114047962",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Студия Behaviour Interactive, разработчик Dead by Daylight, прокомментировала предстоящее удаление Чаки из магазина игры и заверила поклонников, что культовые персонажи хорроров смогут вернуться в будущем. По словам авторов, даже после ухода лицензированных убийц Dead by Daylight останется «домом ужасов» для поклонников жанра. Глава с Чаки станет недоступна для покупки 24 ноября 2026 года. Это про...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1793086130,
-      "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 381210
     }
