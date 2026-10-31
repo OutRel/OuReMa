@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847920302241300",
+      "title": "Screenshot Competition – Beyond Repair!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302241300",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 248th War Thunder Steam Screenshot Competition! Thanks for all of your amazing screenshots last week! This week, the competition is focusing on the aftermath of dogfights, town skirmishes, and battles on the high seas! Capture the moment of victory with a damaged or destroyed vehicle in your screenshot. Happy Ha...",
+      "feedlabel": "Community Announcements",
+      "date": 1793422816,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1847920302239073",
       "title": "Leopard 2A8: A Coveted Trophy",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302239073",
@@ -149,19 +162,6 @@
       "contents": "Introducing the next major update trailer for War Thunder: Eagle's Shadow! ",
       "feedlabel": "Community Announcements",
       "date": 1793309199,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847920302235173",
-      "title": "New Modules for Ground Vehicles!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235173",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "In today’s dev blog, we’re talking about new modules and features for ground vehicles!Hey everyone! In the next major update, ground vehicle players can look forward to new functional modules, more detailed damage models, and new capabilities for their favorite vehicles. Let’s take a look at everything!Fire Control System (FCS) and Electrical SystemsFirst up, you’ll notice new functional modules w...",
-      "feedlabel": "Community Announcements",
-      "date": 1793286763,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
