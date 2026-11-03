@@ -81,6 +81,24 @@
   ],
   "war_thunder": [
     {
+      "gid": "1847920302248485",
+      "title": "Su-15TM: Aerial Border Guard",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302248485",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The Su-15TM is the USSR’s most widely produced jet interceptor, coming to the game in the next major update!Su-15TM: A Jet Fighter for the Soviet Union at Rank VIAt a glance:High speed and rate of climbNew R-98MR and R-98MT missilesUnguided ground-attack weaponryGood maneuverabilityNo flares/chaffIntroducing the Su-15TM!Hey everyone! Today we’re taking a look at the Su-15TM, which is a high-altitu...",
+      "feedlabel": "Community Announcements",
+      "date": 1793631959,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1607812438_1793633140_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
       "gid": "1847920302247915",
       "title": "Cluster Bombs in Air Battles!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302247915",
@@ -153,24 +171,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1847920302237808",
-      "title": "Improving Tank Mobility Mechanics: New Steering Mechanisms & Engine Refinements",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302237808",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Hi everyone! We’re continuing to refine mechanics related to vehicle mobility. Some of these will significantly alter how vehicles behave, making them more effective in certain situations while less so in others. We’ll introduce these on the dev server so that you can try them out. Other mechanics will improve vehicle performance regardless of the situation, and we plan to release these alongside ...",
-      "feedlabel": "Community Announcements",
-      "date": 1793352614,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1526778620_1793353566_0",
-        "mod_require_rereview"
-      ]
     }
   ],
   "dead_by_daylight": [
