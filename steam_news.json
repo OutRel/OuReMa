@@ -81,6 +81,50 @@
   ],
   "war_thunder": [
     {
+      "gid": "1848557880478730",
+      "title": "A Decal Trophy and Discounts for Italy’s National Unity and Armed Forces Day!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478730",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Every year on November 4th, Italy celebrates National Unity and Armed Forces Day. The date marks the surrender of Austria-Hungary in the First World War, which allowed Italy to incorporate Trento and Trieste, thereby completing its unification. This holiday has been celebrated since 1919, although it has not been a public holiday since 1977.The P40 “G.C. Leoncello” and M43 “G.C. Leoncello” are tem...",
+      "feedlabel": "Community Announcements",
+      "date": 1793790317,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1848557880478201",
+      "title": "Pre-orders: Olifant Mk.1B Optimering and JAS39-5",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478201",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The South African Olifant Optimering tank and a pre-production variant of the Gripen are now available as pre-order packs! Today we’ll be telling you a bit more about them.Olifant Mk.1B OptimeringPre-order - Olifant Mk.1B Optimering PackTo get to the Gaijin Store through Steam, go to the in-game hangar > Shop > Online Store.This pack includes:Olifant Mk.1B Optimering (Rank VI, Great Britain)Premiu...",
+      "feedlabel": "Community Announcements",
+      "date": 1793779952,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1415716708_1793780624_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1848557880477953",
+      "title": "Авторы War Thunder показали возможности NVIDIA DLSS 5 - технология преобразит освещение и детали окружения",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848557880477953",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Разработчики War Thunder продемонстрировали, как NVIDIA DLSS 5 изменит изображение в игре. В представленном материале особое внимание уделили освещению, отражениям и детализации материалов: новая технология должна сделать сцены заметно реалистичнее, особенно во время дождя и в пасмурную погоду. DLSS 5 появится в игре с выходом крупного обновления «Тень орла». В основе технологии лежит 3D-Guided Ne...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1793773759,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 236390
+    },
+    {
       "gid": "1847920302252199",
       "title": "War Thunder получит DLSS 5 в ноябре - NVIDIA обещает до 400 FPS в 4K с Ray Reconstruction и 6X Multi Frame Generation",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302252199",
@@ -123,51 +167,6 @@
         "ModAct_1607812438_1793633140_0",
         "mod_require_rereview"
       ]
-    },
-    {
-      "gid": "1847920302247915",
-      "title": "Cluster Bombs in Air Battles!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302247915",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Hey everyone! That’s right, cluster bombs are coming to War Thunder Air Battles! In today’s dev blog, we’ll go over what they are and what they’re used for. Let’s dive in!So, what exactly are cluster bombs? They are a specific type of munition designed to engage multiple targets over a large area. Rather than being a single large bomb, they act as a container that disperses a number of submunition...",
-      "feedlabel": "Community Announcements",
-      "date": 1793620977,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_768955665_1793621830_0",
-        "ModAct_768955665_1793623793_4",
-        "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1847920302241300",
-      "title": "Screenshot Competition – Beyond Repair!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302241300",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 248th War Thunder Steam Screenshot Competition! Thanks for all of your amazing screenshots last week! This week, the competition is focusing on the aftermath of dogfights, town skirmishes, and battles on the high seas! Capture the moment of victory with a damaged or destroyed vehicle in your screenshot. Happy Ha...",
-      "feedlabel": "Community Announcements",
-      "date": 1793422816,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1847920302239073",
-      "title": "Leopard 2A8: A Coveted Trophy",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302239073",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Introducing the Leopard 2A8, Europe’s most advanced tank and the first mass-produced Leo equipped with an active protection system!Leopard 2A8: An MBT for Germany and Sweden at Rank VIIIAt a glance:Trophy Active Protection SystemDM53 APFSDSGood level of protectionGEN 3 thermal imagersIntroducing the Leopard 2A8Today we’re excited to be showing you the Leopard 2A8, coming in as one the most advance...",
-      "feedlabel": "Community Announcements",
-      "date": 1793374489,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
