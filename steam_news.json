@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1848557880479225",
+      "title": "Imperator Nikolai I: An Autocrat at Sea",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880479225",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The Imperator Nikolai I is a new battleship for the USSR/Russian navy, featuring a linear turret arrangement, powerful guns, and excellent protection!Imperator Nikolai I: A Battleship for the USSR at rank VAt a glance:Twelve 305 mm guns in turrets arranged on the centerlineEfficient armor layoutRelatively low silhouetteNumerous secondary-battery gunsWeak anti-aircraft armamentIntroducing the Imper...",
+      "feedlabel": "Community Announcements",
+      "date": 1793800576,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1848557880478730",
       "title": "A Decal Trophy and Discounts for Italy’s National Unity and Armed Forces Day!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478730",
@@ -149,27 +162,22 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1847920302248485",
-      "title": "Su-15TM: Aerial Border Guard",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302248485",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The Su-15TM is the USSR’s most widely produced jet interceptor, coming to the game in the next major update!Su-15TM: A Jet Fighter for the Soviet Union at Rank VIAt a glance:High speed and rate of climbNew R-98MR and R-98MT missilesUnguided ground-attack weaponryGood maneuverabilityNo flares/chaffIntroducing the Su-15TM!Hey everyone! Today we’re taking a look at the Su-15TM, which is a high-altitu...",
-      "feedlabel": "Community Announcements",
-      "date": 1793631959,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1607812438_1793633140_0",
-        "mod_require_rereview"
-      ]
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1848557880479806",
+      "title": "Dead by Daylight apologises to fans after gifting DLC to TheBurntPeanut and has since 'removed the content that was granted'",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1848557880479806",
+      "is_external_url": true,
+      "author": "Elie Gould",
+      "contents": "<a href=\"https://www.pcgamer.com/dead-by-daylight/\">Dead by Daylight's</a> devs have found themselves in hot water and in the middle of quite a mess. In short, over the Halloween weekend a team member saw TheBurntPeanut playing Dead by Daylight, not in a sponsored stream I may add, and gifted him free DLC, items, and currency... <a href=\"https://www.pcgamer.com/games/horror/dead-by-daylight-apologises-to-fans-after-gifting-dlc-to-theburntpeanut-and-has-since-removed-the-content-that-was-granted/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+      "feedlabel": "PC Gamer",
+      "date": 1793808893,
+      "feedname": "PC Gamer",
+      "feed_type": 0,
+      "appid": 381210
+    },
     {
       "gid": "1847920302252093",
       "title": "Steam Global Top Sellers for week of 27 Oct — 3 November 2026",
@@ -234,19 +242,6 @@
       "contents": "Behaviour Interactive представила тизер Terrifier для асимметричного многопользовательского хоррора Dead by Daylight. Ролик демонстрирует нового жестокого убийцу, который принесёт в туманные владения ещё больше ужаса. Terrifier появится в Dead by Daylight 17 ноября на PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch и PC в Steam. ",
       "feedlabel": "PlayGround.ru - официальная группа",
       "date": 1793202665,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1847920302231537",
-      "title": "В Dead by Daylight появится клоун Арт из \"Ужасающего\" - с мешком оружия и собственными добиваниями",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302231537",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Behaviour Interactive объявила о сотрудничестве Dead by Daylight с хоррор-франшизой «Ужасающий». 24 ноября в асимметричном сетевом хорроре появятся клоун Арт в роли убийцы и Сиенна Шоу в качестве выжившей. Сейчас новинку уже можно опробовать на публичном тестовом сервере в Steam. Главной особенностью Арта станет способность «Мешок с игрушками»: убийца сможет доставать из него случайное оружие, вкл...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1793202031,
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 381210
