@@ -81,6 +81,37 @@
   ],
   "war_thunder": [
     {
+      "gid": "1848664643345122",
+      "title": "The He 219 A-7 Returns with a Discount for the Anniversary of its First Flight!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643345122",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Robert Lusser, who had worked alongside Willy Messerschmitt on the legendary Bf 109, later moved to the Heinkel design bureau, where he contributed to the development of the early jet-powered He 280 and the He 219 night fighter. The latter made its maiden flight on November 6th 1942. This was the final aircraft Lusser worked on. The He 219 failed to gain favor with the Reich Aviation Ministry and ...",
+      "feedlabel": "Community Announcements",
+      "date": 1793963266,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1848664643344719",
+      "title": "F-15EX and F-15IA Ra’am: The Eagle’s Shadow!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643344719",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Up to 12 active radar-homing missiles, up to 22 precision-guided bombs, new engines, an increased supply of countermeasures, and the most advanced air-to-surface weaponry — this is the F-15EX, the most sophisticated aircraft in its series!F-15EX and F-15IA Ra’am: Jet Fighters for the USA and Israel at Rank IXAt a glance:Up to 12 active radar-homing (ARH) missiles, including the AIM-120DAnti-radiat...",
+      "feedlabel": "Community Announcements",
+      "date": 1793955703,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1294976491_1793956766_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
       "gid": "1848664643340839",
       "title": "Eagle’s Shadow: New Visual Effects!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643340839",
@@ -130,37 +161,6 @@
       "date": 1793790317,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848557880478201",
-      "title": "Pre-orders: Olifant Mk.1B Optimering and JAS39-5",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478201",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The South African Olifant Optimering tank and a pre-production variant of the Gripen are now available as pre-order packs! Today we’ll be telling you a bit more about them.Olifant Mk.1B OptimeringPre-order - Olifant Mk.1B Optimering PackTo get to the Gaijin Store through Steam, go to the in-game hangar > Shop > Online Store.This pack includes:Olifant Mk.1B Optimering (Rank VI, Great Britain)Premiu...",
-      "feedlabel": "Community Announcements",
-      "date": 1793779952,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1415716708_1793780624_0",
-        "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1848557880477953",
-      "title": "Авторы War Thunder показали возможности NVIDIA DLSS 5 - технология преобразит освещение и детали окружения",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848557880477953",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Разработчики War Thunder продемонстрировали, как NVIDIA DLSS 5 изменит изображение в игре. В представленном материале особое внимание уделили освещению, отражениям и детализации материалов: новая технология должна сделать сцены заметно реалистичнее, особенно во время дождя и в пасмурную погоду. DLSS 5 появится в игре с выходом крупного обновления «Тень орла». В основе технологии лежит 3D-Guided Ne...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1793773759,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
       "appid": 236390
     }
   ],
