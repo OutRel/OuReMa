@@ -1,6 +1,19 @@
 {
   "7_days_to_die": [
     {
+      "gid": "1848664643342609",
+      "title": "PRINTED AND POLISHED",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643342609",
+      "is_external_url": true,
+      "author": "Errn",
+      "contents": "BLUEPRINT REWORKWorkbenches no longer require blueprint fragments to craft, and scrap isn’t used on the tech trees. Instead, we’re introducing three tiers of blueprints; blueprint fragments, blueprint pages and blueprint books. These are the new currencies spent to progress tech trees. One for each tech tree level.Items can still be researched with scrap on the research table. There is a much grea...",
+      "feedlabel": "Community Announcements",
+      "date": 1793903084,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 252490
+    },
+    {
       "gid": "1847286114033781",
       "title": "HALLOWEEN 2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114033781",
@@ -63,19 +76,6 @@
       "date": 1788456393,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 252490
-    },
-    {
-      "gid": "1840310314354123",
-      "title": "Steam Global Top Sellers for week of 4 Aug — 11 August 2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/SteamDB/1840310314354123",
-      "is_external_url": true,
-      "author": "SteamDB",
-      "contents": "<a href=\"https://steamdb.info/topsellers/2026W33/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\"> </a> * <a href=\"https://steamdb.info/app/1478500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Big Walk</a>; * <a href=\"https://steamdb.info/app/3787240/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">MARVEL Tōkon: Fighting Souls</a>; * <a href=\"https://steamdb.info/app/1091500/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Cyberpunk 2077</a>; * <a href=\"https://steamdb.info/app/2950790/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">IRON NEST: Heavy Turret Simulator</a>; * <a href=\"https://steamdb.info/app/3812600/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">ReStory: Chill Electronics Repairs</a>; * <a href=\"https://steamdb.info/app/1623730/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Palworld</a>; * <a href=\"https://steamdb.info/app/3010850/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Gears of War: E-Day</a>; * <a href=\"https://steamdb.info/app/3282300/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Mistfall Hunter</a>; * <a href=\"https://steamdb.info/app/460930/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Tom Clancy's Ghost Recon® Wildlands</a>; * <a href=\"https://steamdb.info/app/252490/charts/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">Rust</a>; <i>* excluding free to play games</i> <a href=\"https://steamdb.info/topsellers/2026W33/?utm_source=Steam&utm_medium=Steam&utm_campaign=SteamRSS\">View top 100 on SteamDB</a>",
-      "feedlabel": "SteamDB",
-      "date": 1786438800,
-      "feedname": "SteamDB",
-      "feed_type": 0,
       "appid": 252490
     }
   ],
