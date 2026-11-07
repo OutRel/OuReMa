@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1848664643348446",
+      "title": "Screenshot Competition – A World of Blue!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643348446",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 249th War Thunder Steam Screenshot Competition! We loved seeing your screenshots from last week! This week we return to a familiar theme of water. Grab your favorite vehicle and a friend, and take a screenshot anywhere of your choice! You can capture battles on the ocean or amphibious sneak-attacks, anything is ...",
+      "feedlabel": "Community Announcements",
+      "date": 1794027604,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1848664643345122",
       "title": "The He 219 A-7 Returns with a Discount for the Anniversary of its First Flight!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643345122",
@@ -149,22 +162,22 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1848557880478730",
-      "title": "A Decal Trophy and Discounts for Italy’s National Unity and Armed Forces Day!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478730",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Every year on November 4th, Italy celebrates National Unity and Armed Forces Day. The date marks the surrender of Austria-Hungary in the First World War, which allowed Italy to incorporate Trento and Trieste, thereby completing its unification. This holiday has been celebrated since 1919, although it has not been a public holiday since 1977.The P40 “G.C. Leoncello” and M43 “G.C. Leoncello” are tem...",
-      "feedlabel": "Community Announcements",
-      "date": 1793790317,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1848664643347990",
+      "title": "В Dead by Daylight появились новые облики героев \"Очень странных дел\" - представлен трейлер коллекции",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848664643347990",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Студия Behaviour Interactive представила новый трейлер Dead by Daylight, посвящённый сотрудничеству с популярным сериалом «Очень странные дела» (Stranger Things). В честь Stranger Things Day разработчики выпустили коллекцию редких костюмов для нескольких знакомых персонажей. Главным героем обновления стал Векна, один из самых опасных злодеев сериала. Вместе с ним новые облики получили выжившие Сти...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1793994667,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 381210
+    },
     {
       "gid": "1848557880479806",
       "title": "Dead by Daylight apologises to fans after gifting DLC to TheBurntPeanut and has since 'removed the content that was granted'",
@@ -232,19 +245,6 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1847920302231915",
-      "title": "Dead by Daylight пополнится безжалостным убийцей Terrifier 17 ноября",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302231915",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Behaviour Interactive представила тизер Terrifier для асимметричного многопользовательского хоррора Dead by Daylight. Ролик демонстрирует нового жестокого убийцу, который принесёт в туманные владения ещё больше ужаса. Terrifier появится в Dead by Daylight 17 ноября на PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch и PC в Steam. ",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1793202665,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 381210
     }
   ],
   "conan_exiles": [
