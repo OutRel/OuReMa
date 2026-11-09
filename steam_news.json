@@ -81,6 +81,32 @@
   ],
   "war_thunder": [
     {
+      "gid": "1848664643355086",
+      "title": "The Great War Returns With New Obtainable Aircraft to Mark November 11th!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643355086",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "“The situation is getting worse by the day. In the morning we were under heavy bombardment, and in the evening we got bitten by large rats in the trenches. We were ordered to go over top into no man’s land, where many of my friends were gunned down. I couldn’t believe my eyes. I have heard we lost 50 men in a mere few minutes. We are sacrificing so many for just a few feet of land, if that. The wa...",
+      "feedlabel": "Community Announcements",
+      "date": 1794223550,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1848664643354776",
+      "title": "Eagle’s Shadow: New Rendering! Part 1",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643354776",
+      "is_external_url": true,
+      "author": "Yuki",
+      "contents": "We’re updating rendering! This will bring interesting new effects to the game, some of which we’ll discuss today.Snow, dirt and dust on tanksSnow, dirt and dust on tanksWar Thunder has long had a system that lets ground vehicles get dirty in battle. Tracks kick up dust, dirt and snow, fires leave soot, and crossing a river washes the grime away. But while the physics of how dirt spreads was pretty...",
+      "feedlabel": "Community Announcements",
+      "date": 1794216093,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1848664643348446",
       "title": "Screenshot Competition – A World of Blue!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643348446",
@@ -133,32 +159,6 @@
       "contents": "Today we’re showing you a selection of the most interesting visual effects coming in the Eagle’s Shadow major update!Muzzle FlashesLet’s start with muzzle flashes. We’ve completely reworked them for tank and naval guns, using original photos and videos as a reference. The update covers all calibers, from 12.7 mm machine guns to 460 mm battleship guns. Shots now look even more realistic, as the fla...",
       "feedlabel": "Community Announcements",
       "date": 1793876588,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848664643340429",
-      "title": "Fulmar Mk.II: A Fleeting Fleet Fighter",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643340429",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Today we’re taking a look at the British Fulmar fighter! This classic aircraft will be joining the research tree in the Eagle’s Shadow major update.Fulmar Mk.II: A Naval Fighter for Britain at Rank IAt a glance:Eight 7.7 mm machinegunsLight bomb loadLow agility8000 rounds of ammunition!Introducing the Fulmar Mk.IIWe’re happy to say hello to a new British fighter! Despite having a fair few aircraft...",
-      "feedlabel": "Community Announcements",
-      "date": 1793869815,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848557880479225",
-      "title": "Imperator Nikolai I: An Autocrat at Sea",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880479225",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The Imperator Nikolai I is a new battleship for the USSR/Russian navy, featuring a linear turret arrangement, powerful guns, and excellent protection!Imperator Nikolai I: A Battleship for the USSR at rank VAt a glance:Twelve 305 mm guns in turrets arranged on the centerlineEfficient armor layoutRelatively low silhouetteNumerous secondary-battery gunsWeak anti-aircraft armamentIntroducing the Imper...",
-      "feedlabel": "Community Announcements",
-      "date": 1793800576,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
