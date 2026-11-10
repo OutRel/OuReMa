@@ -81,6 +81,45 @@
   ],
   "war_thunder": [
     {
+      "gid": "1848664643358980",
+      "title": "A Decal Marking the Anniversary of the Founding of the Royal Norwegian Air Force",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643358980",
+      "is_external_url": true,
+      "author": "War Thunder Commander",
+      "contents": "Although aircraft first appeared in Norway as early as 1912, the country’s separate air force was not established until November 10th 1944. This was at a time when the King of Norway was in exile in Great Britain and Norwegian pilots were flying as part of the British Royal Air Force. Subsequently, Norway became one of the founding members of NATO, and its air force patrolled the border with the S...",
+      "feedlabel": "Community Announcements",
+      "date": 1794308814,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1848664643358610",
+      "title": "H-39: The Ephemeral Giant",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643358610",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Hi everyone! Today we’re covering Germany’s huge battleship project. H-39 will be the new top rank ship in the German Bluewater fleet in the upcoming Eagle’s Shadow major update!H-39: A Battleship for Germany at Rank VIIAt a glance:Eight 406 mm guns!Limited anti-air protectionEffective armor layoutEighteen 533 mm torpedoesIntroducing the H-39H-39 will be Germany’s biggest and strongest battleship,...",
+      "feedlabel": "Community Announcements",
+      "date": 1794301371,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1848664643358513",
+      "title": "War Thunder обновит графику танков, самолётов и кораблей - \"Тень орла\" заметно изменит привычные эффекты",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848664643358513",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Gaijin Entertainment продолжает рассказывать о графических улучшениях, которые появятся в War Thunder с выходом обновления «Тень орла». В первой части разработчики подробно остановились на переработке рендера: изменения затронут загрязнения на бронетехнике, атмосферные эффекты в авиационных боях, отражения на воде и даже формирование облаков. Причём речь идёт не просто о повышении детализации отде...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1794299000,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 236390
+    },
+    {
       "gid": "1848664643355086",
       "title": "The Great War Returns With New Obtainable Aircraft to Mark November 11th!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643355086",
@@ -115,50 +154,6 @@
       "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 249th War Thunder Steam Screenshot Competition! We loved seeing your screenshots from last week! This week we return to a familiar theme of water. Grab your favorite vehicle and a friend, and take a screenshot anywhere of your choice! You can capture battles on the ocean or amphibious sneak-attacks, anything is ...",
       "feedlabel": "Community Announcements",
       "date": 1794027604,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848664643345122",
-      "title": "The He 219 A-7 Returns with a Discount for the Anniversary of its First Flight!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643345122",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Robert Lusser, who had worked alongside Willy Messerschmitt on the legendary Bf 109, later moved to the Heinkel design bureau, where he contributed to the development of the early jet-powered He 280 and the He 219 night fighter. The latter made its maiden flight on November 6th 1942. This was the final aircraft Lusser worked on. The He 219 failed to gain favor with the Reich Aviation Ministry and ...",
-      "feedlabel": "Community Announcements",
-      "date": 1793963266,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848664643344719",
-      "title": "F-15EX and F-15IA Ra’am: The Eagle’s Shadow!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643344719",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Up to 12 active radar-homing missiles, up to 22 precision-guided bombs, new engines, an increased supply of countermeasures, and the most advanced air-to-surface weaponry — this is the F-15EX, the most sophisticated aircraft in its series!F-15EX and F-15IA Ra’am: Jet Fighters for the USA and Israel at Rank IXAt a glance:Up to 12 active radar-homing (ARH) missiles, including the AIM-120DAnti-radiat...",
-      "feedlabel": "Community Announcements",
-      "date": 1793955703,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1294976491_1793956766_0",
-        "mod_require_rereview"
-      ]
-    },
-    {
-      "gid": "1848664643340839",
-      "title": "Eagle’s Shadow: New Visual Effects!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643340839",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Today we’re showing you a selection of the most interesting visual effects coming in the Eagle’s Shadow major update!Muzzle FlashesLet’s start with muzzle flashes. We’ve completely reworked them for tank and naval guns, using original photos and videos as a reference. The update covers all calibers, from 12.7 mm machine guns to 460 mm battleship guns. Shots now look even more realistic, as the fla...",
-      "feedlabel": "Community Announcements",
-      "date": 1793876588,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
