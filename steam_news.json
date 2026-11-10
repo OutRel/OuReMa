@@ -166,6 +166,22 @@
   ],
   "dead_by_daylight": [
     {
+      "gid": "1848664643356687",
+      "title": "10.2.2b Backend Patch",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643356687",
+      "is_external_url": true,
+      "author": "rblanchard_bhvr",
+      "contents": "Towards the end of October, we released a small balance patch using our new Backend Tunables system, adjusting The Executioner and The Good Guy. After working through your feedback and watching both of them in action, we’d like to further refine those changes. First, let’s get a quick recap of what the Backend Tunables system even is. Put simply, it’s a system that allows us to put small balance c...",
+      "feedlabel": "Community Announcements",
+      "date": 1794251336,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 381210,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1848664643347990",
       "title": "В Dead by Daylight появились новые облики героев \"Очень странных дел\" - представлен трейлер коллекции",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848664643347990",
@@ -229,22 +245,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 381210
-    },
-    {
-      "gid": "1847920302235142",
-      "title": "10.2.2a Backend Bugfix Patch",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235142",
-      "is_external_url": true,
-      "author": "Goblin_BHVR",
-      "contents": "Last week, we introduced the Backend Tunables system as a way to get small balance changes in your hands quicker without having to wait for patch releases. We mentioned having changes planned for a number of Killers and today, we're putting this system to use with some adjustment to The Executioner and The Good Guy. The Executioner:Decreased the time to activate Rites of Judgment to 0.8s (was 1s)I...",
-      "feedlabel": "Community Announcements",
-      "date": 1793286360,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 381210,
-      "tags": [
-        "patchnotes"
-      ]
     }
   ],
   "conan_exiles": [
