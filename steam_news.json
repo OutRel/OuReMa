@@ -81,6 +81,32 @@
   ],
   "war_thunder": [
     {
+      "gid": "1848664643360468",
+      "title": "Planned Technical Works on 11.11.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643360468",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Hey everyone, on November 11th from 08:00 GMT, the War Thunder game servers may be unavailable due to the release of the Eagle's Shadow major update!Be sure to catch up on what content is coming in this update by looking at our dev blogs while you wait for your game to download. The major update announcement and full major changelog will be published when the update is released and ready to play.T...",
+      "feedlabel": "Community Announcements",
+      "date": 1794330937,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1848664643359695",
+      "title": "Enhancements to Munition Guidance",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643359695",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Hey everyone! In addition to refinements in the modeling of directional infrared countermeasures (DIRCM), improvements to the CCRP interface, and the introduction of cluster bombs, the Eagle’s Shadow update will bring several further enhancements to aircraft. Let’s take a look!Aiming of MITL-capable munitionsThe game already features munitions with man-in-the-loop (MITL) capability for aircraft, a...",
+      "feedlabel": "Community Announcements",
+      "date": 1794321788,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1848664643358980",
       "title": "A Decal Marking the Anniversary of the Founding of the Royal Norwegian Air Force",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643358980",
@@ -128,32 +154,6 @@
       "contents": "“The situation is getting worse by the day. In the morning we were under heavy bombardment, and in the evening we got bitten by large rats in the trenches. We were ordered to go over top into no man’s land, where many of my friends were gunned down. I couldn’t believe my eyes. I have heard we lost 50 men in a mere few minutes. We are sacrificing so many for just a few feet of land, if that. The wa...",
       "feedlabel": "Community Announcements",
       "date": 1794223550,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848664643354776",
-      "title": "Eagle’s Shadow: New Rendering! Part 1",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643354776",
-      "is_external_url": true,
-      "author": "Yuki",
-      "contents": "We’re updating rendering! This will bring interesting new effects to the game, some of which we’ll discuss today.Snow, dirt and dust on tanksSnow, dirt and dust on tanksWar Thunder has long had a system that lets ground vehicles get dirty in battle. Tracks kick up dust, dirt and snow, fires leave soot, and crossing a river washes the grime away. But while the physics of how dirt spreads was pretty...",
-      "feedlabel": "Community Announcements",
-      "date": 1794216093,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848664643348446",
-      "title": "Screenshot Competition – A World of Blue!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643348446",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 249th War Thunder Steam Screenshot Competition! We loved seeing your screenshots from last week! This week we return to a familiar theme of water. Grab your favorite vehicle and a friend, and take a screenshot anywhere of your choice! You can capture battles on the ocean or amphibious sneak-attacks, anything is ...",
-      "feedlabel": "Community Announcements",
-      "date": 1794027604,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
