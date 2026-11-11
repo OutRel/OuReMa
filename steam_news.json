@@ -81,17 +81,48 @@
   ],
   "war_thunder": [
     {
-      "gid": "1848664643360468",
-      "title": "Planned Technical Works on 11.11.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643360468",
+      "gid": "1849192144178513",
+      "title": "A Decal and Lanovski’s P-47M Thunderbolt for Poland’s National Independence Day!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178513",
       "is_external_url": true,
       "author": "Blitzkrieg Wulf",
-      "contents": "Hey everyone, on November 11th from 08:00 GMT, the War Thunder game servers may be unavailable due to the release of the Eagle's Shadow major update!Be sure to catch up on what content is coming in this update by looking at our dev blogs while you wait for your game to download. The major update announcement and full major changelog will be published when the update is released and ready to play.T...",
+      "contents": "On November 11th 1918, the First World War came to an end, and German forces withdrew from Polish territory. For the first time since the partitions of Poland in 1795, the country proclaimed its independence. This date is widely celebrated as the nation’s primary public holiday. Lanovski’s P-47M-1-RE Thunderbolt is temporarily available for purchase and has a 30% discount for 4,263 Golden Eagles! ...",
       "feedlabel": "Community Announcements",
-      "date": 1794330937,
+      "date": 1794400305,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
+    },
+    {
+      "gid": "1849192144178278",
+      "title": "A Decal Trophy for Chinese Air Force Day!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178278",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The People’s Liberation Army Air Force of China celebrates its anniversary on November 11th, the date on which it was officially established in 1949. Today, the Chinese Air Force has a personnel strength of approximately 400,000, with over 2,500 combat-ready aircraft and more than 860 surface-to-air missile launchers. Open the “PLA Air Force Day” trophy!When: From November 11th (12:00 GMT) until N...",
+      "feedlabel": "Community Announcements",
+      "date": 1794395044,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1849192144177810",
+      "title": "Meet the “Eagle’s Shadow” Major Update! ",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144177810",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Eagle’s Shadow introduces a comprehensive selection of vehicles. The namesake of the update is inspired by the new F-15EX, which features excellent armament options and powerful engines. There’s also the modern Leopard 2A8 equipped with Trophy APS and the Second World War Fulmar Mk.II with 8,000 rounds of ammunition, along with the Su-15TM equipped with the newly added R-98 missiles. Additionally,...",
+      "feedlabel": "Community Announcements",
+      "date": 1794387835,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1434278705_1794389734_0",
+        "mod_require_rereview"
+      ]
     },
     {
       "gid": "1848664643359695",
@@ -128,32 +159,6 @@
       "contents": "Hi everyone! Today we’re covering Germany’s huge battleship project. H-39 will be the new top rank ship in the German Bluewater fleet in the upcoming Eagle’s Shadow major update!H-39: A Battleship for Germany at Rank VIIAt a glance:Eight 406 mm guns!Limited anti-air protectionEffective armor layoutEighteen 533 mm torpedoesIntroducing the H-39H-39 will be Germany’s biggest and strongest battleship,...",
       "feedlabel": "Community Announcements",
       "date": 1794301371,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848664643358513",
-      "title": "War Thunder обновит графику танков, самолётов и кораблей - \"Тень орла\" заметно изменит привычные эффекты",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848664643358513",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Gaijin Entertainment продолжает рассказывать о графических улучшениях, которые появятся в War Thunder с выходом обновления «Тень орла». В первой части разработчики подробно остановились на переработке рендера: изменения затронут загрязнения на бронетехнике, атмосферные эффекты в авиационных боях, отражения на воде и даже формирование облаков. Причём речь идёт не просто о повышении детализации отде...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1794299000,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 236390
-    },
-    {
-      "gid": "1848664643355086",
-      "title": "The Great War Returns With New Obtainable Aircraft to Mark November 11th!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643355086",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "“The situation is getting worse by the day. In the morning we were under heavy bombardment, and in the evening we got bitten by large rats in the trenches. We were ordered to go over top into no man’s land, where many of my friends were gunned down. I couldn’t believe my eyes. I have heard we lost 50 men in a mere few minutes. We are sacrificing so many for just a few feet of land, if that. The wa...",
-      "feedlabel": "Community Announcements",
-      "date": 1794223550,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
