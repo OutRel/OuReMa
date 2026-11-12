@@ -81,6 +81,74 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849192144183746",
+      "title": "Fair Play: November 2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144183746",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "Your reports and our anti-cheat systems continue to help us in the fight against cheaters. As is tradition, we’re sharing information about the bans issued since last Fair Play. If you want to help rid War Thunder of cheaters and unsportsmanlike players, you can learn how to submit a report and how our anti-cheat system works on our wiki.Banned accountsSince our last fair play update, we have bann...",
+      "feedlabel": "Community Announcements",
+      "date": 1794502521,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1849192144183610",
+      "title": "Update 2.61.0.13",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144183610",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "AircraftA bug that caused the minimum Battle Rating to be set automatically and weapons to be locked as a result for aircraft with a custom Battle Rating has been fixed.Yak-141 — a bug that caused extra elements of the mounting beams for the launch devices to always be shown on the pylons has been fixed. (Report).F-2A ADTW — a bug that allowed a limited number of AAM-4 missiles to be equipped on t...",
+      "feedlabel": "Community Announcements",
+      "date": 1794500552,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1849192144183565",
+      "title": "Арт-директор War Thunder объяснил, почему Gaijin внедрила DLSS 5: \"Это именно та картинка, которую мы хотели\"",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849192144183565",
+      "is_external_url": true,
+      "author": "",
+      "contents": "War Thunder получила поддержку DLSS 5 с выходом обновления «Тень орла». Арт-директор игры Кирилл Ступин в интервью Wccftech рассказал, почему Gaijin Entertainment решила внедрить нейросетевой рендеринг NVIDIA, как технология преобразила изображение и почему разработчики не считают её настолько противоречивой, как некоторые представители игрового сообщества. По словам Ступина, решение добавить DLSS...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1794499052,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 236390
+    },
+    {
+      "gid": "1849192144183755",
+      "title": "В War Thunder с выходом крупного обновления \"Тень орла\" появилась поддержка DLSS 5",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849192144183755",
+      "is_external_url": true,
+      "author": "",
+      "contents": "War Thunder пополнила список игр (включающий также NBA 2K27 и Hogwarts Legacy), в которых теперь доступна технология DLSS 5. Она дополняет уже существующие функции Nvidia, такие как генерация кадров (Multi Frame Generation), масштабирование (Super Resolution), реконструкция лучей (Ray Reconstruction) и другие. DLSS 5 привносит в игру нейронный рендеринг с 3D-управлением (3D-Guided Neural Rendering...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1794497560,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 236390
+    },
+    {
+      "gid": "1849192144183347",
+      "title": "Nuclear Escalation: New Models For AI Vehicles",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144183347",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "In the Eagle’s Shadow major update, we updated the models for AI ground vehicles in the Nuclear Escalation mode. The model re-work covers surface-to-air systems, such as MIM-23 Hawk, the MIM-104 Patriot, the S-300, the 9K37M1 Buk-M1, as well as the 9A52-2 Smerch MLRS, the M270 MLRS, the 9K79 Tochka tactical missile system, and the M978 and M939 transport vehicles. The appearance of these AI vehicl...",
+      "feedlabel": "Community Announcements",
+      "date": 1794496510,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1849192144182532",
       "title": "Monthly Decals for November!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144182532",
@@ -89,71 +157,6 @@
       "contents": "Hey all, we’re back with a new set of historical decals! It’ll be hard to match the ominous energy of the October set, but we hope you like the selection prepared for November all the same. We’re quite big fans of the StuG emblem here, and the badge of Émile Bertin as well. We opted to use the version of the badge that did not have the ships name present, so it would also be suitable to use as a g...",
       "feedlabel": "Community Announcements",
       "date": 1794482335,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144182317",
-      "title": "A Decal Trophy and Discounts for Bundeswehr Foundation Day!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144182317",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "In 1945, the Wehrmacht was disbanded, and the Ministry of Defence of the Federal Republic of Germany was established only ten years later, in mid-1955. On November 12th the first recruits took their oath to the new armed forces, which were designated the “Bundeswehr” on January 2nd 1956. Conscription was instituted in 1957, and a year later, the Bundeswehr had 200,000 personnel in its ranks. The f...",
-      "feedlabel": "Community Announcements",
-      "date": 1794478300,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144182016",
-      "title": "War Thunder возвращает \"Великую войну\": игроки смогут получить два истребителя Первой мировой",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849192144182016",
-      "is_external_url": true,
-      "author": "",
-      "contents": "В War Thunder стартовало тематическое событие «Великая война», приуроченное к годовщине окончания Первой мировой. Разработчики вновь предлагают игрокам отправиться на Западный фронт 1918 года, где в сражениях участвуют первые танки, ранняя авиация и даже дирижабли. Главными новинками события стали два истребителя, которые прежде нельзя было получить таким способом: французский SPAD S.XIII и немецк...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1794471569,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144179556",
-      "title": "War Thunder получила \"Тень орла\": Leopard 2A8, F-15EX и новые механики меняют привычные сражения",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849192144179556",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Для War Thunder вышло крупное обновление «Тень орла», которое принесло в игру внушительную подборку военной техники, новые игровые механики и масштабные графические улучшения. Среди главных новинок — современный Leopard 2A8 с комплексом активной защиты Trophy, американский F-15EX, советский Су-15ТМ и немецкий линкор H-39. Однако разработчики не ограничились расширением арсенала: некоторые изменени...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1794416653,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144179292",
-      "title": "Eagle’s Shadow: New Rendering! Part 2",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144179292",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Today we’re having a deeper look at War Thunder’s new renderer, covering light, shadows, and metal reflections.Local Tone Mapping: Balancing ExposureBefore / AfterPreviously, the game used a single exposure for the entire screen. Looking out from a dark hangar onto a sun lit airfield, or from the edge of a forest at the open sky, forced a choice: either the dark part crushed to black, or the brigh...",
-      "feedlabel": "Community Announcements",
-      "date": 1794413223,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144178513",
-      "title": "A Decal and Lanovski’s P-47M Thunderbolt for Poland’s National Independence Day!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178513",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "On November 11th 1918, the First World War came to an end, and German forces withdrew from Polish territory. For the first time since the partitions of Poland in 1795, the country proclaimed its independence. This date is widely celebrated as the nation’s primary public holiday. Lanovski’s P-47M-1-RE Thunderbolt is temporarily available for purchase and has a 30% discount for 4,263 Golden Eagles! ...",
-      "feedlabel": "Community Announcements",
-      "date": 1794400305,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
@@ -244,6 +247,32 @@
   ],
   "conan_exiles": [
     {
+      "gid": "1849192144183566",
+      "title": "В Conan Exiles вышло дополнение с разломами и поисками Акхамета",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849192144183566",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Funcom выпустила для Conan Exiles новое дополнение к сурвайвл-экшену в открытом мире. Игрокам доступны сложные Разломы, награды и масштабный поиск Акхамета. Контент продолжает историю Legacy of the Giant Kings и предлагает отправиться в опасные испытания ради ценных трофеев. Также набор People of the Dragon Pack пополняет строительство средневековыми элементами: высокими шпилями, укреплёнными окна...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1794498617,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 440900
+    },
+    {
+      "gid": "1849192144183299",
+      "title": "Legacy of the Giant-Kings: Part Three – Live Now! ",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144183299",
+      "is_external_url": true,
+      "author": "Kvistan88",
+      "contents": "Greetings, Exiles The Legacy of the Giant-Kings: Part Three is live now in Conan Exiles Enhanced! Take on a new quest with Akhamet as the story comes to an end.A New Quest with Akhamet Step into the unknown to find Akhamet, whose mind has fallen under the influence of voices only he can hear. Fight through increasingly challenging Rifts, uncover new rewards, and decide whether to free him from the...",
+      "feedlabel": "Community Announcements",
+      "date": 1794495853,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 440900
+    },
+    {
       "gid": "1847920302234657",
       "title": "Conan Exiles Enhanced Community Update - October",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234657",
@@ -305,32 +334,6 @@
         "ModAct_1847323374_1791468819_0",
         "mod_require_rereview"
       ]
-    },
-    {
-      "gid": "1846018067925199",
-      "title": "Conan Exiles Enhanced открыла разломы в другие миры - вторая часть \"Наследия королей-великанов\" уже доступна",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846018067925199",
-      "is_external_url": true,
-      "author": "",
-      "contents": "В Conan Exiles Enhanced вышла вторая глава сюжетной арки «Наследие королей-великанов». Обновление продолжает историю Ахамета и Залов Циклопов, а главным нововведением стали загадочные разломы, появившиеся по всей Земле Изгнанников и на острове Сипта. Разломы можно найти в лагерях противников и использовать как порталы на потусторонние арены. За ними игроков ждут отдельные боевые испытания с опасны...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1791356274,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 440900
-    },
-    {
-      "gid": "1845383656396524",
-      "title": "The Legacy of the Giant-Kings: Part Two Is Out Now! ",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656396524",
-      "is_external_url": true,
-      "author": "Pickle Riki",
-      "contents": "Greetings, Exiles! The Legacy of the Giant-Kings: Part Two is now live! The next chapter of our four-part story arc has arrived, bringing mysterious Rifts, deadly new challenges, powerful Sorcery spells, and the return of the Mi-Go to Conan Exiles. The events surrounding Akhamet and the Cyclopean Halls have left their mark. Strange tears now scar the Exiled Lands, opening gateways to hostile arena...",
-      "feedlabel": "Community Announcements",
-      "date": 1791295262,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 440900
     }
   ],
   "palworld": [
