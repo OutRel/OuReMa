@@ -81,6 +81,32 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849192144179556",
+      "title": "War Thunder получила \"Тень орла\": Leopard 2A8, F-15EX и новые механики меняют привычные сражения",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849192144179556",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Для War Thunder вышло крупное обновление «Тень орла», которое принесло в игру внушительную подборку военной техники, новые игровые механики и масштабные графические улучшения. Среди главных новинок — современный Leopard 2A8 с комплексом активной защиты Trophy, американский F-15EX, советский Су-15ТМ и немецкий линкор H-39. Однако разработчики не ограничились расширением арсенала: некоторые изменени...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1794416653,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 236390
+    },
+    {
+      "gid": "1849192144179292",
+      "title": "Eagle’s Shadow: New Rendering! Part 2",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144179292",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Today we’re having a deeper look at War Thunder’s new renderer, covering light, shadows, and metal reflections.Local Tone Mapping: Balancing ExposureBefore / AfterPreviously, the game used a single exposure for the entire screen. Looking out from a dark hangar onto a sun lit airfield, or from the edge of a forest at the open sky, forced a choice: either the dark part crushed to black, or the brigh...",
+      "feedlabel": "Community Announcements",
+      "date": 1794413223,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1849192144178513",
       "title": "A Decal and Lanovski’s P-47M Thunderbolt for Poland’s National Independence Day!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144178513",
@@ -121,6 +147,10 @@
       "tags": [
         "mod_reviewed",
         "ModAct_1434278705_1794389734_0",
+        "ModAct_1526778620_1794394403_4",
+        "ModAct_1526778620_1794398261_4",
+        "ModAct_1827889981_1794404238_4",
+        "ModAct_1827889981_1794410362_4",
         "mod_require_rereview"
       ]
     },
@@ -133,32 +163,6 @@
       "contents": "Hey everyone! In addition to refinements in the modeling of directional infrared countermeasures (DIRCM), improvements to the CCRP interface, and the introduction of cluster bombs, the Eagle’s Shadow update will bring several further enhancements to aircraft. Let’s take a look!Aiming of MITL-capable munitionsThe game already features munitions with man-in-the-loop (MITL) capability for aircraft, a...",
       "feedlabel": "Community Announcements",
       "date": 1794321788,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848664643358980",
-      "title": "A Decal Marking the Anniversary of the Founding of the Royal Norwegian Air Force",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643358980",
-      "is_external_url": true,
-      "author": "War Thunder Commander",
-      "contents": "Although aircraft first appeared in Norway as early as 1912, the country’s separate air force was not established until November 10th 1944. This was at a time when the King of Norway was in exile in Great Britain and Norwegian pilots were flying as part of the British Royal Air Force. Subsequently, Norway became one of the founding members of NATO, and its air force patrolled the border with the S...",
-      "feedlabel": "Community Announcements",
-      "date": 1794308814,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1848664643358610",
-      "title": "H-39: The Ephemeral Giant",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643358610",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Hi everyone! Today we’re covering Germany’s huge battleship project. H-39 will be the new top rank ship in the German Bluewater fleet in the upcoming Eagle’s Shadow major update!H-39: A Battleship for Germany at Rank VIIAt a glance:Eight 406 mm guns!Limited anti-air protectionEffective armor layoutEighteen 533 mm torpedoesIntroducing the H-39H-39 will be Germany’s biggest and strongest battleship,...",
-      "feedlabel": "Community Announcements",
-      "date": 1794301371,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
