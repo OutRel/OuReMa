@@ -81,6 +81,35 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849192144187580",
+      "title": "40 New User-Created Camouflages in the Eagle’s Shadow Trophy!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144187580",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The Eagle’s Shadow major update has brought a wealth of new vehicles to War Thunder, and we know you’re eager to deck them out in unique camouflages. The Eagle’s Shadow trophy is here to help, containing a variety of camouflages for these newly added vehicles, as well as the best entries from the autumn camouflage contest on WT Live! In addition to camouflages, the trophy may also contain coupons ...",
+      "feedlabel": "Community Announcements",
+      "date": 1794581516,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1849192144187441",
+      "title": "Update 2.61.0.17",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144187441",
+      "is_external_url": true,
+      "author": "Yuki",
+      "contents": "AircraftF-16XL — induced drag has been increased and the sustained turn rate reduced. (Report). A vapor condensation effect over the wing has been added.Ka-50 — a bug where the display of the text label for 9K127 Vikhr missiles was incorrect has been fixed. (Report).Ground VehiclesBTR-90 — a bug where selecting the secondary weapon would cause aiming to stop has been fixed.PzH 2000 (Italy) — a bug...",
+      "feedlabel": "Community Announcements",
+      "date": 1794579711,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1849192144186500",
       "title": "AVReS Crowned 2026 WTCS Champions: The Grand Finals Are Over!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144186500",
@@ -133,32 +162,6 @@
       "date": 1794499052,
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144183755",
-      "title": "В War Thunder с выходом крупного обновления \"Тень орла\" появилась поддержка DLSS 5",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849192144183755",
-      "is_external_url": true,
-      "author": "",
-      "contents": "War Thunder пополнила список игр (включающий также NBA 2K27 и Hogwarts Legacy), в которых теперь доступна технология DLSS 5. Она дополняет уже существующие функции Nvidia, такие как генерация кадров (Multi Frame Generation), масштабирование (Super Resolution), реконструкция лучей (Ray Reconstruction) и другие. DLSS 5 привносит в игру нейронный рендеринг с 3D-управлением (3D-Guided Neural Rendering...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1794497560,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144183347",
-      "title": "Nuclear Escalation: New Models For AI Vehicles",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144183347",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "In the Eagle’s Shadow major update, we updated the models for AI ground vehicles in the Nuclear Escalation mode. The model re-work covers surface-to-air systems, such as MIM-23 Hawk, the MIM-104 Patriot, the S-300, the 9K37M1 Buk-M1, as well as the 9A52-2 Smerch MLRS, the M270 MLRS, the 9K79 Tochka tactical missile system, and the M978 and M939 transport vehicles. The appearance of these AI vehicl...",
-      "feedlabel": "Community Announcements",
-      "date": 1794496510,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
       "appid": 236390
     }
   ],
