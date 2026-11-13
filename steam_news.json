@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849192144186500",
+      "title": "AVReS Crowned 2026 WTCS Champions: The Grand Finals Are Over!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144186500",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "After nine days of intense battles across Air, Ground and Mixed, the WTCS Pro League 2026 Grand Finals have come to an end. Eight teams entered the final showdown with €15,000 in prize money on the line, and only one could claim the title of Grand Master Champion 2026.AVReS take the crown with 332 points, finishing 78 points clear of VOYAGER, who secure second place with 254 points. JinX round out...",
+      "feedlabel": "Community Announcements",
+      "date": 1794561984,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1849192144183746",
       "title": "Fair Play: November 2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144183746",
@@ -144,19 +157,6 @@
       "contents": "In the Eagle’s Shadow major update, we updated the models for AI ground vehicles in the Nuclear Escalation mode. The model re-work covers surface-to-air systems, such as MIM-23 Hawk, the MIM-104 Patriot, the S-300, the 9K37M1 Buk-M1, as well as the 9A52-2 Smerch MLRS, the M270 MLRS, the 9K79 Tochka tactical missile system, and the M978 and M939 transport vehicles. The appearance of these AI vehicl...",
       "feedlabel": "Community Announcements",
       "date": 1794496510,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144182532",
-      "title": "Monthly Decals for November!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144182532",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Hey all, we’re back with a new set of historical decals! It’ll be hard to match the ominous energy of the October set, but we hope you like the selection prepared for November all the same. We’re quite big fans of the StuG emblem here, and the badge of Émile Bertin as well. We opted to use the version of the badge that did not have the ships name present, so it would also be suitable to use as a g...",
-      "feedlabel": "Community Announcements",
-      "date": 1794482335,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
