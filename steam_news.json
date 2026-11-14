@@ -250,6 +250,22 @@
   ],
   "conan_exiles": [
     {
+      "gid": "1849458702684414",
+      "title": "November Hotfix 3.1.1",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702684414",
+      "is_external_url": true,
+      "author": "Dana",
+      "contents": "Greetings Exiles, We have a hotfix (3.1.1) today addressing the BattlEye crashing that has been affecting all servers along with a couple other issues. Fixed the BattlEye server crashes and clients failing to register. Fixed some Cimmerian bundle items that were not being granted properly. Added translations for Akhamet’s dialog.",
+      "feedlabel": "Community Announcements",
+      "date": 1794684027,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 440900,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1849192144183566",
       "title": "В Conan Exiles вышло дополнение с разломами и поисками Акхамета",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849192144183566",
@@ -318,25 +334,6 @@
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 440900
-    },
-    {
-      "gid": "1846018067929785",
-      "title": "October Hotfix 3.0.1",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067929785",
-      "is_external_url": true,
-      "author": "Dana",
-      "contents": "Greetings Exiles, We have a new hotfix (3.0.1) that addresses the most impactful issues introduced with patch 3.0.0 Added a console variable, `dw.RiftEvent.DisableAVFX`, to suppress event AVFX locally for players with audio-visual sensitivities.Fixed crash that was happening when checking the Player List on official servers.Fixed a crash that was occurring on Steam Deck. Nvidia Streamline will onl...",
-      "feedlabel": "Community Announcements",
-      "date": 1791467875,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 440900,
-      "tags": [
-        "patchnotes",
-        "mod_reviewed",
-        "ModAct_1847323374_1791468819_0",
-        "mod_require_rereview"
-      ]
     }
   ],
   "palworld": [
