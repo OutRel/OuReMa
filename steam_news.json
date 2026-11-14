@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849458702682536",
+      "title": "Screenshot Competition – Eagles Shadow!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702682536",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 250th War Thunder Steam Screenshot Competition! Thanks for all of your great screenshot submissions in the last competition! Earlier this week, the latest major update was released - Eagles Shadow. This new update has brought many new vehicles to the game, as well as two visually reworked locations. Now is your ...",
+      "feedlabel": "Community Announcements",
+      "date": 1794636041,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1849192144187580",
       "title": "40 New User-Created Camouflages in the Eagle’s Shadow Trophy!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144187580",
@@ -150,19 +163,6 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1849192144183565",
-      "title": "Арт-директор War Thunder объяснил, почему Gaijin внедрила DLSS 5: \"Это именно та картинка, которую мы хотели\"",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849192144183565",
-      "is_external_url": true,
-      "author": "",
-      "contents": "War Thunder получила поддержку DLSS 5 с выходом обновления «Тень орла». Арт-директор игры Кирилл Ступин в интервью Wccftech рассказал, почему Gaijin Entertainment решила внедрить нейросетевой рендеринг NVIDIA, как технология преобразила изображение и почему разработчики не считают её настолько противоречивой, как некоторые представители игрового сообщества. По словам Ступина, решение добавить DLSS...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1794499052,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
