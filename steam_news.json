@@ -250,6 +250,22 @@
   ],
   "conan_exiles": [
     {
+      "gid": "1849458702686207",
+      "title": "(Re-release) November Hotfix 3.1.1",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702686207",
+      "is_external_url": true,
+      "author": "Dana",
+      "contents": "Greetings Exiles, After yesterday's rollback from hotfix 3.1.1 to patch 3.1.0, we are re-releasing hotfix 3.1.1 with the previous fixes plus these additions: Fixed the versioning mismatch that was causing the game to display the 'client outdated' error.Doubled the xp and harvesting multiplier on all official servers until 19th of November. Thank you for all your patience and understanding while we...",
+      "feedlabel": "Community Announcements",
+      "date": 1794748023,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 440900,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1849458702684414",
       "title": "November Hotfix 3.1.1",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702684414",
@@ -320,19 +336,6 @@
       "date": 1793120832,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 440900
-    },
-    {
-      "gid": "1847286114049589",
-      "title": "Conan Exiles Enhanced выйдет на PS5 в начале 2027 года - с бесплатным апгрейдом",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847286114049589",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Funcom объявила, что Conan Exiles Enhanced доберётся до PlayStation 5 в начале 2027 года. Все игроки, у которых уже есть Conan Exiles на PlayStation, получат улучшенную версию для PS5 бесплатно. Обе версии — для PS4 и PS5 — будут доступны для покупки, и приобретение одной даёт вторую бесплатно. Все купленные предметы из Bazaar и DLC также перенесутся с PS4 на PS5 без потерь. Enhanced-издание прине...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1793118152,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
       "appid": 440900
     }
   ],
