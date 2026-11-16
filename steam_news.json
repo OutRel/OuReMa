@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849458702689618",
+      "title": "Get PCE-842 in the Coastal Defender Event!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702689618",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The PCE-842 class was a type of patrol escort vessel built for the United States Navy during the Second World War. It is the only class that the U.S. Navy officially designated as “patrol craft escort”. These ships were intended to carry out coastal patrol duties, anti-submarine warfare, and even the escorting of convoys in coastal waters. A total of 68 vessels of this class were constructed, and ...",
+      "feedlabel": "Community Announcements",
+      "date": 1794837443,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1849458702682536",
       "title": "Screenshot Competition – Eagles Shadow!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702682536",
@@ -147,22 +160,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1849192144183610",
-      "title": "Update 2.61.0.13",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144183610",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "AircraftA bug that caused the minimum Battle Rating to be set automatically and weapons to be locked as a result for aircraft with a custom Battle Rating has been fixed.Yak-141 — a bug that caused extra elements of the mounting beams for the launch devices to always be shown on the pylons has been fixed. (Report).F-2A ADTW — a bug that allowed a limited number of AAM-4 missiles to be equipped on t...",
-      "feedlabel": "Community Announcements",
-      "date": 1794500552,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
     }
   ],
   "dead_by_daylight": [
