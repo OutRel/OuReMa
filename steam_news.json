@@ -81,6 +81,68 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849458702694183",
+      "title": "Update 2.61.0.24",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702694183",
+      "is_external_url": true,
+      "author": "War Thunder Commander",
+      "contents": "AircraftSu-15TM — a bug that caused the fuel timer values in the respawn screen and in battle to not match has been fixed. (Report).Su-27/Su-30/J-11 (all variants), Su-33, Su-34, J-15T, J-16 — added automatic adjustment of the maximum flap deflection based on speed.Locations and missionsLightning has been enabled for the Storm weather preset.Tunisia — a bug that caused aircraft carriers on the map...",
+      "feedlabel": "Community Announcements",
+      "date": 1794929645,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1849458702694149",
+      "title": "Eagle’s Shadow: New Rendering! Part 3",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702694149",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Welcome to part 3! Today we’ll be talking about improvements to the game engine’s performance and new graphics features.Shadows: Ray Tracing Without Hardware SupportIn Ground Battles, shadows from static objects, such as houses, walls and rocks, are now drawn using software ray tracing. You don’t even need a graphics card with hardware ray tracing support! Previously, the old shadow system would r...",
+      "feedlabel": "Community Announcements",
+      "date": 1794929085,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1849458702693079",
+      "title": "Unplanned Technical Maintenance",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702693079",
+      "is_external_url": true,
+      "author": "War Thunder Commander",
+      "contents": "Dear players.The game may not be available at the moment as we are experiencing some technical issues on our servers. We are endeavouring to fix these issues as quickly as possible.Thank you for your understanding.Edit. 11:40 GMT.The “Entente Task 6” and “German Empire Task 6,” as well as active premium accounts, have been extended by 2 hours.Thank you for your patience and once again sorry for an...",
+      "feedlabel": "Community Announcements",
+      "date": 1794911344,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1889357040_1794912285_0"
+      ]
+    },
+    {
+      "gid": "1849458702692818",
+      "title": "Update 2.61.0.20",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702692818",
+      "is_external_url": true,
+      "author": "War Thunder Commander",
+      "contents": "AircraftZ-10ME, Ka-52, A-10C, AH-1W (all variants) — the minimum closing speed for a threat to be detected by the MAWS has been reduced from 200 m/s to 80 m/s.Ground VehiclesOptimering — a bug that caused the ESS to not function has been fixed. (Report). Maximum gun depression angles in some sectors have been adjusted so that the cannon doesn’t clip into the elements of the hull.Locations and Miss...",
+      "feedlabel": "Community Announcements",
+      "date": 1794905539,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1849458702690892",
       "title": "Арт-директор War Thunder связал споры вокруг DLSS 5 с фанатскими модами, искажающими стиль игры ради просмотров",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849458702690892",
@@ -110,61 +172,6 @@
         "ModAct_1894963720_1794838297_0",
         "mod_require_rereview"
       ]
-    },
-    {
-      "gid": "1849458702682536",
-      "title": "Screenshot Competition – Eagles Shadow!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702682536",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 250th War Thunder Steam Screenshot Competition! Thanks for all of your great screenshot submissions in the last competition! Earlier this week, the latest major update was released - Eagles Shadow. This new update has brought many new vehicles to the game, as well as two visually reworked locations. Now is your ...",
-      "feedlabel": "Community Announcements",
-      "date": 1794636041,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144187580",
-      "title": "40 New User-Created Camouflages in the Eagle’s Shadow Trophy!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144187580",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The Eagle’s Shadow major update has brought a wealth of new vehicles to War Thunder, and we know you’re eager to deck them out in unique camouflages. The Eagle’s Shadow trophy is here to help, containing a variety of camouflages for these newly added vehicles, as well as the best entries from the autumn camouflage contest on WT Live! In addition to camouflages, the trophy may also contain coupons ...",
-      "feedlabel": "Community Announcements",
-      "date": 1794581516,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144187441",
-      "title": "Update 2.61.0.17",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144187441",
-      "is_external_url": true,
-      "author": "Yuki",
-      "contents": "AircraftF-16XL — induced drag has been increased and the sustained turn rate reduced. (Report). A vapor condensation effect over the wing has been added.Ka-50 — a bug where the display of the text label for 9K127 Vikhr missiles was incorrect has been fixed. (Report).Ground VehiclesBTR-90 — a bug where selecting the secondary weapon would cause aiming to stop has been fixed.PzH 2000 (Italy) — a bug...",
-      "feedlabel": "Community Announcements",
-      "date": 1794579711,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1849192144186500",
-      "title": "AVReS Crowned 2026 WTCS Champions: The Grand Finals Are Over!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144186500",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "After nine days of intense battles across Air, Ground and Mixed, the WTCS Pro League 2026 Grand Finals have come to an end. Eight teams entered the final showdown with €15,000 in prize money on the line, and only one could claim the title of Grand Master Champion 2026.AVReS take the crown with 332 points, finishing 78 points clear of VOYAGER, who secure second place with 254 points. JinX round out...",
-      "feedlabel": "Community Announcements",
-      "date": 1794561984,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
