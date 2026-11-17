@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849458702690892",
+      "title": "Арт-директор War Thunder связал споры вокруг DLSS 5 с фанатскими модами, искажающими стиль игры ради просмотров",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849458702690892",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Арт-директор War Thunder Кирилл Ступин объяснил негативную реакцию на DLSS 5 использованием фанатских модификаций с «нелепыми» настройками, которые намеренно искажают оригинальный художественный стиль игры ради просмотров. По словам Ступина, у неоднозначного восприятия технологии есть две основные причины: общее недоверие к искусственному интеллекту и высокие требования DLSS 5 к производительности...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1794854298,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 236390
+    },
+    {
       "gid": "1849458702689618",
       "title": "Get PCE-842 in the Coastal Defender Event!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702689618",
@@ -91,7 +104,12 @@
       "date": 1794837443,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 236390
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1894963720_1794838297_0",
+        "mod_require_rereview"
+      ]
     },
     {
       "gid": "1849458702682536",
@@ -144,19 +162,6 @@
       "contents": "After nine days of intense battles across Air, Ground and Mixed, the WTCS Pro League 2026 Grand Finals have come to an end. Eight teams entered the final showdown with €15,000 in prize money on the line, and only one could claim the title of Grand Master Champion 2026.AVReS take the crown with 332 points, finishing 78 points clear of VOYAGER, who secure second place with 254 points. JinX round out...",
       "feedlabel": "Community Announcements",
       "date": 1794561984,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849192144183746",
-      "title": "Fair Play: November 2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144183746",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "Your reports and our anti-cheat systems continue to help us in the fight against cheaters. As is tradition, we’re sharing information about the bans issued since last Fair Play. If you want to help rid War Thunder of cheaters and unsportsmanlike players, you can learn how to submit a report and how our anti-cheat system works on our wiki.Banned accountsSince our last fair play update, we have bann...",
-      "feedlabel": "Community Announcements",
-      "date": 1794502521,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
