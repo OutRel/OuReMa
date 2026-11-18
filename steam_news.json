@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849827110423816",
+      "title": "PCE-842: Coastal Defender",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110423816",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "The main prize of the “Coastal Defender” special event is the PCE-842 frigate, with three types of depth charge launchers on board!Meet the PCE-842, a true tank of the coastal fleet. She’s a slow ship with excellent firepower, depth charges and the Hedgehog anti-submarine mortar!PCE-842: An event frigate for the USA at Rank IVAt a glance:Wide range of dual-purpose armamentVersatile selection of an...",
+      "feedlabel": "Community Announcements",
+      "date": 1795001595,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1849458702694183",
       "title": "Update 2.61.0.24",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702694183",
@@ -154,24 +167,6 @@
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 236390
-    },
-    {
-      "gid": "1849458702689618",
-      "title": "Get PCE-842 in the Coastal Defender Event!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702689618",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The PCE-842 class was a type of patrol escort vessel built for the United States Navy during the Second World War. It is the only class that the U.S. Navy officially designated as “patrol craft escort”. These ships were intended to carry out coastal patrol duties, anti-submarine warfare, and even the escorting of convoys in coastal waters. A total of 68 vessels of this class were constructed, and ...",
-      "feedlabel": "Community Announcements",
-      "date": 1794837443,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1894963720_1794838297_0",
-        "mod_require_rereview"
-      ]
     }
   ],
   "dead_by_daylight": [
@@ -350,6 +345,19 @@
   ],
   "palworld": [
     {
+      "gid": "1849827110423022",
+      "title": "Pocketpair решила не конкурировать с GTA 6 за внимание игроков - новости о будущем Palworld подождут",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110423022",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Pocketpair пока не спешит раскрывать подробности следующих обновлений Palworld и Palfarm. Причина, по словам руководителя отдела коммуникаций и издательской деятельности студии Джона Бакли, довольно проста: накануне выхода Grand Theft Auto 6 любые другие игровые анонсы рискуют остаться без внимания. Поэтому разработчики предпочитают переждать самый громкий релиз ноября, хотя такое молчание уже нач...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1794985054,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 1623730
+    },
+    {
       "gid": "1847920302237476",
       "title": "Pocketpair объяснила, почему считает себя инди-студией даже после успеха Palworld",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302237476",
@@ -410,19 +418,6 @@
       "contents": "На этой неделе Palworld анонсировала «Side by Side». Название и загадочный ключевой арт вызвали у некоторых игроков мысли о полноценном продолжении или ответвлении, поэтому Джон «Баки» Бакли решил внести ясность в Twitter: «Кстати, Palworld Side by Side — это версия 1.1. Мне казалось, это было довольно очевидно, но, похоже, многие подумали, что это анонс новой игры. В любом случае… это обновление....",
       "feedlabel": "PlayGround.ru - официальная группа",
       "date": 1792687037,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 1623730
-    },
-    {
-      "gid": "1846651706695313",
-      "title": "Palworld получит крупное обновление Side by Side этой зимой - Pocketpair также раскрыла любимых Палов игроков",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1846651706695313",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Pocketpair объявила, что следующее крупное обновление Palworld под названием Side by Side выйдет зимой 2026 года. Разработчики пока не раскрыли подробностей о новом контенте, предложив следить за будущими анонсами. Одновременно студия подвела итоги глобального опроса о популярности Palworld 2026 года. В голосовании, прошедшем в сентябре, участвовали более 280 Палов и персонажей. По словам разработ...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1792503012,
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 1623730
