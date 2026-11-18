@@ -176,6 +176,19 @@
   ],
   "dead_by_daylight": [
     {
+      "gid": "1849458702694885",
+      "title": "Dead by Daylight показали будущие визуальные переработки и динамическую погоду",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849458702694885",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Behaviour Interactive показала будущее асимметричного хоррора Dead by Daylight: крупное обновление принесёт визуальные переработки, динамическую погоду, новые анимации и другие изменения. Разработчики раскрывают планы по развитию игры и демонстрируют, как обновлённые элементы будут выглядеть в матчах. Dead by Daylight уже доступна на PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintend...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1794937869,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 381210
+    },
+    {
       "gid": "1848664643356687",
       "title": "10.2.2b Backend Patch",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643356687",
@@ -241,19 +254,6 @@
       "date": 1793603147,
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1847920302240241",
-      "title": "Custom Alienware Laptop Sweepstakes",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302240241",
-      "is_external_url": true,
-      "author": "Steven_BHVR",
-      "contents": "To celebrate the Halloween season, our partners at Alienware have a sweet treat for you! From now until November 22nd, enter for a chance to win a custom-skinned Alienware 16X Aurora gaming laptop, courtesy of Alienware. Head to Alienware Arena to check out their community challenge/blood point giveaway or Alienware on social media for all the details.",
-      "feedlabel": "Community Announcements",
-      "date": 1793389938,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
       "appid": 381210
     }
   ],
