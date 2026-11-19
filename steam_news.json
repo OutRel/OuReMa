@@ -81,6 +81,22 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849827110429204",
+      "title": "Server Update 19.11.2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110429204",
+      "is_external_url": true,
+      "author": "War Thunder Commander",
+      "contents": "Nuclear EscalationFor some time the win rate of the “blue” team at top and near top Battle Rating brackets has been higher than the “red” team, while on lower BRs the contrary was the case, where the “red” team had higher win rates due to Yak-130 with guided bombs being too effective. Thus, the following balance changes have been made based on the combined data of these matches:Pseudo-RCS of steal...",
+      "feedlabel": "Community Announcements",
+      "date": 1795108171,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1849827110424719",
       "title": "Update 2.61.0.26",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110424719",
@@ -153,22 +169,6 @@
       "tags": [
         "mod_reviewed",
         "ModAct_1889357040_1794912285_0"
-      ]
-    },
-    {
-      "gid": "1849458702692818",
-      "title": "Update 2.61.0.20",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702692818",
-      "is_external_url": true,
-      "author": "War Thunder Commander",
-      "contents": "AircraftZ-10ME, Ka-52, A-10C, AH-1W (all variants) — the minimum closing speed for a threat to be detected by the MAWS has been reduced from 200 m/s to 80 m/s.Ground VehiclesOptimering — a bug that caused the ESS to not function has been fixed. (Report). Maximum gun depression angles in some sectors have been adjusted so that the cannon doesn’t clip into the elements of the hull.Locations and Miss...",
-      "feedlabel": "Community Announcements",
-      "date": 1794905539,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
       ]
     }
   ],
@@ -257,6 +257,19 @@
   ],
   "conan_exiles": [
     {
+      "gid": "1849827110429637",
+      "title": "Conan Exiles объединит серверы на консолях 3 декабря перед запуском Enhanced",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110429637",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Разработчики Conan Exiles объявили о начале объединения официальных серверов на Xbox и PlayStation. Процесс стартует 3 декабря в 18:00 по МСК и станет первым шагом к обновлению серверной инфраструктуры перед выходом Conan Exiles Enhanced на консолях нового поколения. Объединение затронет не все серверы, а только локации с низкой популяцией. Стабильные и густонаселенные серверы продолжат работу в о...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1795115582,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 440900
+    },
+    {
       "gid": "1849458702686207",
       "title": "(Re-release) November Hotfix 3.1.1",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702686207",
@@ -331,22 +344,22 @@
         "ModAct_773020726_1793278653_0",
         "mod_require_rereview"
       ]
-    },
-    {
-      "gid": "1847286114049723",
-      "title": "Conan Exiles Enhanced Is Coming to PS5 and Xbox Series X|S with PC Cross-Play!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114049723",
-      "is_external_url": true,
-      "author": "Kvistan88",
-      "contents": "Greetings Exiles, We are beyond excited to announce that Conan Exiles Enhanced is coming to PlayStation®5 and Xbox Series X|S in early 2027, bringing an enhanced version of the open-world survival experience to the current generation of consoles. Following its successful launch as a free update for Steam owners in May 2026, Conan Exiles Enhanced is making the leap to consoles following strong dema...",
-      "feedlabel": "Community Announcements",
-      "date": 1793120832,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 440900
     }
   ],
   "palworld": [
+    {
+      "gid": "1849827110427762",
+      "title": "Pocketpair устроила офисный праздник в честь выхода GTA 6 с суши и игровыми консолями",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110427762",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Разработчики из Pocketpair решили отметить выход GTA 6 необычным корпоративным мероприятием. Компания объявила этот день собственным праздником, организовав в офисе вечеринку для сотрудников, которые захотели присоединиться к торжеству. Для гостей подготовили угощения, включая суши и напитки, а также возможность поиграть в GTA 6 прямо на рабочем месте. Судя по опубликованным фотографиям, часть сот...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1795082079,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 1623730
+    },
     {
       "gid": "1849827110423022",
       "title": "Pocketpair решила не конкурировать с GTA 6 за внимание игроков - новости о будущем Palworld подождут",
@@ -410,19 +423,6 @@
       "date": 1793150513,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 1623730
-    },
-    {
-      "gid": "1847286114033448",
-      "title": "Глава Pocketpair уточнил, что анонс Palworld Side by Side - это всего лишь обновление 1.1, а не сиквел или спин-офф",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847286114033448",
-      "is_external_url": true,
-      "author": "",
-      "contents": "На этой неделе Palworld анонсировала «Side by Side». Название и загадочный ключевой арт вызвали у некоторых игроков мысли о полноценном продолжении или ответвлении, поэтому Джон «Баки» Бакли решил внести ясность в Twitter: «Кстати, Palworld Side by Side — это версия 1.1. Мне казалось, это было довольно очевидно, но, похоже, многие подумали, что это анонс новой игры. В любом случае… это обновление....",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1792687037,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
       "appid": 1623730
     }
   ]
