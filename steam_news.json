@@ -81,6 +81,22 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849827110424719",
+      "title": "Update 2.61.0.26",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110424719",
+      "is_external_url": true,
+      "author": "War Thunder Commander",
+      "contents": "AircraftBf 109 F-4 — a bug that caused some of the cockpit elements to shift or disappear, some instruments to stop working and the glazing to change color has been fixed. (Report).Ground VehiclesStrv 122B+ — a bug that caused the driver controls module to appear low-poly in the X-ray view has been fixed. (Report).InterfaceA bug that caused the loading screen to display twice when loading into the...",
+      "feedlabel": "Community Announcements",
+      "date": 1795016382,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1849827110423816",
       "title": "PCE-842: Coastal Defender",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110423816",
@@ -154,22 +170,22 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1849458702690892",
-      "title": "Арт-директор War Thunder связал споры вокруг DLSS 5 с фанатскими модами, искажающими стиль игры ради просмотров",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849458702690892",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Арт-директор War Thunder Кирилл Ступин объяснил негативную реакцию на DLSS 5 использованием фанатских модификаций с «нелепыми» настройками, которые намеренно искажают оригинальный художественный стиль игры ради просмотров. По словам Ступина, у неоднозначного восприятия технологии есть две основные причины: общее недоверие к искусственному интеллекту и высокие требования DLSS 5 к производительности...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1794854298,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1849458702695702",
+      "title": "The siren call of user-generated content has caught Dead by Daylight in its snare, as Behaviour Interactive outline a big revamp update slated for next year",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/Rock, Paper, Shotgun/1849458702695702",
+      "is_external_url": true,
+      "author": "",
+      "contents": "The promise of user-generated content, this idea that you could host a platform that grows infinitely because the people that interact with it make things for it and you don't even have to pay anyone, is an alluring one. And its siren call has come for <a href=\"https://www.rockpapershotgun.com/games/dead-by-daylight\">Dead by Daylight</a>, as developer Behaviour Interactive have outlined the future of the game, which includes a way to make your own bits for the multi...",
+      "feedlabel": "Rock, Paper, Shotgun",
+      "date": 1794951230,
+      "feedname": "Rock, Paper, Shotgun",
+      "feed_type": 0,
+      "appid": 381210
+    },
     {
       "gid": "1849458702694885",
       "title": "Dead by Daylight показали будущие визуальные переработки и динамическую погоду",
@@ -235,19 +251,6 @@
       "feedlabel": "SteamDB",
       "date": 1793696400,
       "feedname": "SteamDB",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1847920302247226",
-      "title": "Разработчики Dead by Daylight подарили все DLC популярному стримеру и извинились перед игроками после негативной реакции",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302247226",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Студия Behaviour Interactive, разработчик хоррор-игры Dead by Daylight, извинилась перед сообществом после того, как популярному Twitch-стримеру TheBurntPeanut во время трансляции бесплатно выдали весь внутриигровой контент - всех DLC-персонажей, перки и валюту. Решение вызвало волну критики со стороны игроков. TheBurntPeanut - американский стример, один из самых заметных лиц на Twitch, известный ...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1793603147,
-      "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 381210
     }
