@@ -174,6 +174,19 @@
   ],
   "dead_by_daylight": [
     {
+      "gid": "1849827110430854",
+      "title": "Динамическая погода, лицевая анимация и моды: авторы Dead by Daylight поделились планами на 2027 год",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110430854",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Студия Behaviour Interactive представила детали крупного обновления для Dead by Daylight, которое выйдет в 2027 году и кардинально преобразит асимметричный хоррор. После первого анонса на трансляции в честь 10-летия игры разработчики подробнее рассказали о грядущей технической и контентной эволюции проекта. Одним из главных нововведений станет масштабная графическая переработка карт. Локации получ...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1795149000,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 381210
+    },
+    {
       "gid": "1849827110426461",
       "title": "Dead by Daylight намекнула на возможную коллаборацию с Годзиллой в новом тизере",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110426461",
@@ -238,19 +251,6 @@
       "feedlabel": "PlayGround.ru - официальная группа",
       "date": 1793994667,
       "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1848557880479806",
-      "title": "Dead by Daylight apologises to fans after gifting DLC to TheBurntPeanut and has since 'removed the content that was granted'",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1848557880479806",
-      "is_external_url": true,
-      "author": "Elie Gould",
-      "contents": "<a href=\"https://www.pcgamer.com/dead-by-daylight/\">Dead by Daylight's</a> devs have found themselves in hot water and in the middle of quite a mess. In short, over the Halloween weekend a team member saw TheBurntPeanut playing Dead by Daylight, not in a sponsored stream I may add, and gifted him free DLC, items, and currency... <a href=\"https://www.pcgamer.com/games/horror/dead-by-daylight-apologises-to-fans-after-gifting-dlc-to-theburntpeanut-and-has-since-removed-the-content-that-was-granted/?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
-      "feedlabel": "PC Gamer",
-      "date": 1793808893,
-      "feedname": "PC Gamer",
       "feed_type": 0,
       "appid": 381210
     }
