@@ -81,6 +81,35 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849827110433047",
+      "title": "Update 2.61.0.33",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110433047",
+      "is_external_url": true,
+      "author": "War Thunder Commander",
+      "contents": "AircraftHornet (all variants) — a bug that caused the thrust of the engine to decrease while WEP was activated has been fixed. (Report).Nuclear EscalationFrom the Battle Rating of 13.3 and above the SAMs used in convoys have been changed. The Pantsir-S1 has been replaced with the 2S6 Tunguska and the ItO 90M has been replaced with FlaRakRad. This change doesn’t affect the very first convoys at the...",
+      "feedlabel": "Community Announcements",
+      "date": 1795194280,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1849827110431818",
+      "title": "The NF-5A Returns for the Anniversary of the F-5A-21’s Victory in the IFA Comp.",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110431818",
+      "is_external_url": true,
+      "author": "War Thunder Commander",
+      "contents": "Northrop licensed the production of F-5A fighter jets to Canada, where they were designated CF-5A. The Canadians also produced a batch of these aircraft for the Netherlands, designated NF-5. When developing the next generation of the F-5, Northrop drew upon features incorporated into the Dutch version; specifically the prototype, designated F-5A-21. This variant featured additional auxiliary air i...",
+      "feedlabel": "Community Announcements",
+      "date": 1795173725,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1849827110429204",
       "title": "Server Update 19.11.2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110429204",
@@ -140,39 +169,35 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1849458702694149",
-      "title": "Eagle’s Shadow: New Rendering! Part 3",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702694149",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "Welcome to part 3! Today we’ll be talking about improvements to the game engine’s performance and new graphics features.Shadows: Ray Tracing Without Hardware SupportIn Ground Battles, shadows from static objects, such as houses, walls and rocks, are now drawn using software ray tracing. You don’t even need a graphics card with hardware ray tracing support! Previously, the old shadow system would r...",
-      "feedlabel": "Community Announcements",
-      "date": 1794929085,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849458702693079",
-      "title": "Unplanned Technical Maintenance",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702693079",
-      "is_external_url": true,
-      "author": "War Thunder Commander",
-      "contents": "Dear players.The game may not be available at the moment as we are experiencing some technical issues on our servers. We are endeavouring to fix these issues as quickly as possible.Thank you for your understanding.Edit. 11:40 GMT.The “Entente Task 6” and “German Empire Task 6,” as well as active premium accounts, have been extended by 2 hours.Thank you for your patience and once again sorry for an...",
-      "feedlabel": "Community Announcements",
-      "date": 1794911344,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_1889357040_1794912285_0"
-      ]
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1849827110433416",
+      "title": "Dead by Daylight confirms Terrifier changes after its new Killer's PTB debut",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1849827110433416",
+      "is_external_url": true,
+      "author": "editor@pcgamesn.com",
+      "contents": "Behaviour Interactive confirms The Terrifier changes in Dead by Daylight update 10.3.0, responding to the PTB for new Killer Art the Clown. Read the full story on PCGamesN: <a href=\"https://www.pcgamesn.com/dead-by-daylight/update-10-3-terrifier-balance-changes\">Dead by Daylight confirms Terrifier changes after its new Killer's PTB debut</a> ",
+      "feedlabel": "PCGamesN",
+      "date": 1795195371,
+      "feedname": "PCGamesN",
+      "feed_type": 0,
+      "appid": 381210
+    },
+    {
+      "gid": "1849827110432541",
+      "title": "PTB-to-Live Update | The Terrifier",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110432541",
+      "is_external_url": true,
+      "author": "Donnary21st",
+      "contents": "Coming away from the 10.3.0 PTB, we saw how much of a blast you had testing out (and coming face-to-face with) The Terrifier's Bag of Toys! With the release of 10.3.0 right around the corner, we wanted to give you a sneak peek at the Killer Power and addon changes you can expect to see.  The Terrifier – Killer Power Starting off, we’ve made a handful of adjustments to some of The Terrifier’s Toys:...",
+      "feedlabel": "Community Announcements",
+      "date": 1795186835,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 381210
+    },
     {
       "gid": "1849827110430854",
       "title": "Динамическая погода, лицевая анимация и моды: авторы Dead by Daylight поделились планами на 2027 год",
@@ -221,35 +246,6 @@
       "contents": "Behaviour Interactive показала будущее асимметричного хоррора Dead by Daylight: крупное обновление принесёт визуальные переработки, динамическую погоду, новые анимации и другие изменения. Разработчики раскрывают планы по развитию игры и демонстрируют, как обновлённые элементы будут выглядеть в матчах. Dead by Daylight уже доступна на PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintend...",
       "feedlabel": "PlayGround.ru - официальная группа",
       "date": 1794937869,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1848664643356687",
-      "title": "10.2.2b Backend Patch",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643356687",
-      "is_external_url": true,
-      "author": "rblanchard_bhvr",
-      "contents": "Towards the end of October, we released a small balance patch using our new Backend Tunables system, adjusting The Executioner and The Good Guy. After working through your feedback and watching both of them in action, we’d like to further refine those changes. First, let’s get a quick recap of what the Backend Tunables system even is. Put simply, it’s a system that allows us to put small balance c...",
-      "feedlabel": "Community Announcements",
-      "date": 1794251336,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 381210,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1848664643347990",
-      "title": "В Dead by Daylight появились новые облики героев \"Очень странных дел\" - представлен трейлер коллекции",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848664643347990",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Студия Behaviour Interactive представила новый трейлер Dead by Daylight, посвящённый сотрудничеству с популярным сериалом «Очень странные дела» (Stranger Things). В честь Stranger Things Day разработчики выпустили коллекцию редких костюмов для нескольких знакомых персонажей. Главным героем обновления стал Векна, один из самых опасных злодеев сериала. Вместе с ним новые облики получили выжившие Сти...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1793994667,
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 381210
