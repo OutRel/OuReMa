@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849827110434745",
+      "title": "Screenshot Competition – Rocket Science!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110434745",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 251st War Thunder Steam Screenshot Competition! We loved getting to see all of your submissions last week! This week's theme is all about rockets and missiles. You can pick any application you would like - Aircraft with unguided rockets, air-to-air missiles, ATGM carriers, or attack helicopters. We would love to...",
+      "feedlabel": "Community Announcements",
+      "date": 1795243505,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1849827110433047",
       "title": "Update 2.61.0.33",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110433047",
@@ -153,22 +166,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1849458702694183",
-      "title": "Update 2.61.0.24",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702694183",
-      "is_external_url": true,
-      "author": "War Thunder Commander",
-      "contents": "AircraftSu-15TM — a bug that caused the fuel timer values in the respawn screen and in battle to not match has been fixed. (Report).Su-27/Su-30/J-11 (all variants), Su-33, Su-34, J-15T, J-16 — added automatic adjustment of the maximum flap deflection based on speed.Locations and missionsLightning has been enabled for the Storm weather preset.Tunisia — a bug that caused aircraft carriers on the map...",
-      "feedlabel": "Community Announcements",
-      "date": 1794929645,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
     }
   ],
   "dead_by_daylight": [
