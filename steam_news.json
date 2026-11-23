@@ -81,6 +81,39 @@
   ],
   "war_thunder": [
     {
+      "gid": "1849827110443104",
+      "title": "Steam Awards Labor of Love Nomination",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110443104",
+      "is_external_url": true,
+      "author": "War Thunder Commander",
+      "contents": "Hey everyone,This year we celebrated War Thunder’s 14th anniversary. It’s been a very long road, many of you have been with us since the very start, but wherever you joined us along the way we’re just glad that you’re here.We’ve put a stronger focus on quality of life this year, we’ve been developing new gamemodes, adding and improving new features for all parts of the game, refining the graphics ...",
+      "feedlabel": "Community Announcements",
+      "date": 1795457125,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "steam_award_nomination_request",
+        "mod_hide_library_overview"
+      ]
+    },
+    {
+      "gid": "1849827110441939",
+      "title": "Update 2.61.0.37",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110441939",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "AircraftAn exploit in the custom Battle Ratings mechanic that made it possible to gain access to high BR weaponry after loading into a battle and conducting a series of intended actions has been fixed. Players who took advantage of the bug have received temporary bans based on the number of battles in which they exploited it. If the bug was exploited in squadron battles, the exploiters’ personal s...",
+      "feedlabel": "Community Announcements",
+      "date": 1795445383,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
       "gid": "1849827110434745",
       "title": "Screenshot Competition – Rocket Science!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110434745",
@@ -137,35 +170,6 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1849827110424719",
-      "title": "Update 2.61.0.26",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110424719",
-      "is_external_url": true,
-      "author": "War Thunder Commander",
-      "contents": "AircraftBf 109 F-4 — a bug that caused some of the cockpit elements to shift or disappear, some instruments to stop working and the glazing to change color has been fixed. (Report).Ground VehiclesStrv 122B+ — a bug that caused the driver controls module to appear low-poly in the X-ray view has been fixed. (Report).InterfaceA bug that caused the loading screen to display twice when loading into the...",
-      "feedlabel": "Community Announcements",
-      "date": 1795016382,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1849827110423816",
-      "title": "PCE-842: Coastal Defender",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110423816",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "The main prize of the “Coastal Defender” special event is the PCE-842 frigate, with three types of depth charge launchers on board!Meet the PCE-842, a true tank of the coastal fleet. She’s a slow ship with excellent firepower, depth charges and the Hedgehog anti-submarine mortar!PCE-842: An event frigate for the USA at Rank IVAt a glance:Wide range of dual-purpose armamentVersatile selection of an...",
-      "feedlabel": "Community Announcements",
-      "date": 1795001595,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
@@ -341,6 +345,23 @@
   ],
   "palworld": [
     {
+      "gid": "1849827110442979",
+      "title": "Please Nominate Palworld for the \"Just 5 More Minutes\" Award — Steam Awards 2026",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110442979",
+      "is_external_url": true,
+      "author": "pocketpair_dev",
+      "contents": "Hello, everyone!Nominations for the Steam Awards 2026 are now open!In 2026, Palworld finally reached its full release!Have you ever found yourself thinking something like this while playing Palworld?\"Just five more minutes of exploring.\"\"Just one more Pal to catch.\"\"Just a little more work on my base.\"And before you know it, hours have flown by...If you've ever had an experience like this in Palwo...",
+      "feedlabel": "Community Announcements",
+      "date": 1795456893,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 1623730,
+      "tags": [
+        "steam_award_nomination_request",
+        "mod_hide_library_overview"
+      ]
+    },
+    {
       "gid": "1849827110427762",
       "title": "Pocketpair устроила офисный праздник в честь выхода GTA 6 с суши и игровыми консолями",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110427762",
@@ -403,19 +424,6 @@
       "date": 1793178804,
       "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
-      "appid": 1623730
-    },
-    {
-      "gid": "1847920302229254",
-      "title": "Palworld × Graveyard Keeper 2 Steam Bundle is Out Now!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302229254",
-      "is_external_url": true,
-      "author": "pocketpair_dev",
-      "contents": "We're thrilled to announce that the Palworld × Graveyard Keeper 2 Steam Bundle is now officially available!Whether you'd rather explore a vast world alongside mysterious Pals or restore a town, manage a graveyard, and put the undead to work, there's plenty of adventure waiting for you!Get both of these unique games together at 10% OFF with the new Steam Bundle!Already own one of the games? No prob...",
-      "feedlabel": "Community Announcements",
-      "date": 1793150513,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
       "appid": 1623730
     }
   ]
