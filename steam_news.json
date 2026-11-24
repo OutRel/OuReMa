@@ -174,6 +174,45 @@
   ],
   "dead_by_daylight": [
     {
+      "gid": "1849827110447868",
+      "title": "The Terrifier Chapter is now available on Steam!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110447868",
+      "is_external_url": true,
+      "author": "linda_bhvr",
+      "contents": "Dead by Daylight: Terrifier brings horror icons The Terrifier and Sienna Shaw into The Fog alongside a new original Map, Hartshorne Mall. Purchasing this add-on unlocks the Art Crispies Cereal charm and the Clown Cafe Banner. Dead by Daylight: Terrifier brings horror icons The Terrifier and Sienna Shaw into The Fog alongside a new original Map, Hartshorne Mall.The Terrifier Chapter includes:New Ki...",
+      "feedlabel": "Community Announcements",
+      "date": 1795555220,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 381210
+    },
+    {
+      "gid": "1849827110447355",
+      "title": "Для Dead by Daylight вышло дополнение Terrifier с Клоуно Артом",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110447355",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Создатели асимметричного хоррора Dead by Daylight выпустили дополнение Terrifier: оно добавляет Арта Клоуна, выжившую Сиенну Шоу, новую карту и косметические предметы. Икона инди-хорроров Арт Клоун становится новым убийцей в Тумане, а Сиенна Шоу присоединяется к выжившим. Глава также открывает оригинальную карту «Торговый центр Хартсхорн», вдохновлённую детскими травмами Дуайта Фэрфилда. Покупател...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1795542650,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 381210
+    },
+    {
+      "gid": "1849827110447019",
+      "title": "10.3.0 | Terrifier Patch Notes",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110447019",
+      "is_external_url": true,
+      "author": "rblanchard_bhvr",
+      "contents": "ContentNew Killer: The TerrifierPOWER: BAG OF TOYS Hold the Ability Button to open the Bag of Toys and choose from 2 Toys. New Toys are randomly available each time the bag is opened. Closing the bag triggers a 10s cooldown. SPECIAL ITEMS: TOYS Each Toy is single-use. Acid Bottle Hold Power Button to aim, then press Attack Button to throw an Acid Bottle which breaks on impact, creating an Acid Pud...",
+      "feedlabel": "Community Announcements",
+      "date": 1795539699,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 381210
+    },
+    {
       "gid": "1849827110434155",
       "title": "Клоун Арт доберётся до Dead by Daylight - представлен трейлер кроссовера с \"Ужасающим\"",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110434155",
@@ -209,45 +248,6 @@
       "feedlabel": "PCGamesN",
       "date": 1795195371,
       "feedname": "PCGamesN",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1849827110432541",
-      "title": "PTB-to-Live Update | The Terrifier",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110432541",
-      "is_external_url": true,
-      "author": "Donnary21st",
-      "contents": "Coming away from the 10.3.0 PTB, we saw how much of a blast you had testing out (and coming face-to-face with) The Terrifier's Bag of Toys! With the release of 10.3.0 right around the corner, we wanted to give you a sneak peek at the Killer Power and addon changes you can expect to see.  The Terrifier – Killer Power Starting off, we’ve made a handful of adjustments to some of The Terrifier’s Toys:...",
-      "feedlabel": "Community Announcements",
-      "date": 1795186835,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 381210
-    },
-    {
-      "gid": "1849827110430854",
-      "title": "Динамическая погода, лицевая анимация и моды: авторы Dead by Daylight поделились планами на 2027 год",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110430854",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Студия Behaviour Interactive представила детали крупного обновления для Dead by Daylight, которое выйдет в 2027 году и кардинально преобразит асимметричный хоррор. После первого анонса на трансляции в честь 10-летия игры разработчики подробнее рассказали о грядущей технической и контентной эволюции проекта. Одним из главных нововведений станет масштабная графическая переработка карт. Локации получ...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1795149000,
-      "feedname": "PlayGround.ru - официальная группа",
-      "feed_type": 0,
-      "appid": 381210
-    },
-    {
-      "gid": "1849827110426461",
-      "title": "Dead by Daylight намекнула на возможную коллаборацию с Годзиллой в новом тизере",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110426461",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Разработчики Dead by Daylight опубликовали короткий тизер под названием «Опасность от незнакомцев». В ролике Дуайт сталкивается с чем-то пугающим, а в самом конце звучит рев, который фанаты мгновенно узнали — он практически идентичен крику Годзиллы. Официального подтверждения кроссовера от студии пока нет. В сообществе разделились мнения: часть игроков считает, что это лишь отсылка к «Reign Kaiju»...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1795046111,
-      "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 381210
     }
