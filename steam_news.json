@@ -81,6 +81,35 @@
   ],
   "war_thunder": [
     {
+      "gid": "1850460852981700",
+      "title": "Update 2.61.0.42",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852981700",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "AircraftPBY-5A Catalina — the 350 lb AN-MK44 depth charge has been added.He 111 H-16 — the 250 kg SC250 J/A depth charge has been added.An issue where the camera tracking a falling bomb could rotate if the player’s aircraft happened to be falling and spinning at the same time has been fixed.An issue where the camera tracking the vehicle that destroyed the player would be positioned incorrectly and...",
+      "feedlabel": "Community Announcements",
+      "date": 1795621159,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "patchnotes"
+      ]
+    },
+    {
+      "gid": "1850460852980739",
+      "title": "Pages of History (December): Operation Little Saturn",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852980739",
+      "is_external_url": true,
+      "author": "magazine2",
+      "contents": "In Pages of History this month, you will find yourself at the center of events that took place in various theaters of war. From Papua New Guinea and North Africa to Changsha and Stalingrad: participate in battles while using vehicles linked to these historic events and get some prizes! From December 1st until December 31st, you will be able to participate in 8 tasks consecutively. Completing each ...",
+      "feedlabel": "Community Announcements",
+      "date": 1795605070,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1849827110443104",
       "title": "Steam Awards Labor of Love Nomination",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110443104",
@@ -135,35 +164,6 @@
       "contents": "AircraftHornet (all variants) — a bug that caused the thrust of the engine to decrease while WEP was activated has been fixed. (Report).Nuclear EscalationFrom the Battle Rating of 13.3 and above the SAMs used in convoys have been changed. The Pantsir-S1 has been replaced with the 2S6 Tunguska and the ItO 90M has been replaced with FlaRakRad. This change doesn’t affect the very first convoys at the...",
       "feedlabel": "Community Announcements",
       "date": 1795194280,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1849827110431818",
-      "title": "The NF-5A Returns for the Anniversary of the F-5A-21’s Victory in the IFA Comp.",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110431818",
-      "is_external_url": true,
-      "author": "War Thunder Commander",
-      "contents": "Northrop licensed the production of F-5A fighter jets to Canada, where they were designated CF-5A. The Canadians also produced a batch of these aircraft for the Netherlands, designated NF-5. When developing the next generation of the F-5, Northrop drew upon features incorporated into the Dutch version; specifically the prototype, designated F-5A-21. This variant featured additional auxiliary air i...",
-      "feedlabel": "Community Announcements",
-      "date": 1795173725,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849827110429204",
-      "title": "Server Update 19.11.2026",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110429204",
-      "is_external_url": true,
-      "author": "War Thunder Commander",
-      "contents": "Nuclear EscalationFor some time the win rate of the “blue” team at top and near top Battle Rating brackets has been higher than the “red” team, while on lower BRs the contrary was the case, where the “red” team had higher win rates due to Yak-130 with guided bombs being too effective. Thus, the following balance changes have been made based on the combined data of these matches:Pseudo-RCS of steal...",
-      "feedlabel": "Community Announcements",
-      "date": 1795108171,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390,
