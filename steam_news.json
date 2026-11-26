@@ -1,6 +1,19 @@
 {
   "7_days_to_die": [
     {
+      "gid": "1850460852986192",
+      "title": "Facepunch отложила платную кастомизацию персонажей в Rust из-за опасений за единообразие внешности",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1850460852986192",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Студия Facepunch сообщила, что решила повременить с внедрением системы кастомизации персонажей в Rust. Изначально разработчики хотели дать игрокам возможность менять внешность, если она их не устраивает, но опасались, что в итоге все персонажи станут одинаковыми, а свойственная Rust дикая мешанина образов исчезнет. Чтобы этого избежать, студия планировала ограничить число пользователей, имеющих до...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1795709996,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 252490
+    },
+    {
       "gid": "1848664643342609",
       "title": "PRINTED AND POLISHED",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643342609",
@@ -64,22 +77,22 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 252490
-    },
-    {
-      "gid": "1842846814444168",
-      "title": "BREACH AND CLEAR",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814444168",
-      "is_external_url": true,
-      "author": "Errn",
-      "contents": "MONUMENT BLOCKERSMonument blockers are a new obstacle we're adding to monuments with red keycard puzzle rooms. They’re intended to slow down early access to the loot at these monuments. They require a significant amount of damage to destroy but once destroyed they won't respawn. You may also find a handful of weaker monument blockers which can be destroyed by melee.We don't think this will have an...",
-      "feedlabel": "Community Announcements",
-      "date": 1788456393,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 252490
     }
   ],
   "war_thunder": [
+    {
+      "gid": "1850460852985021",
+      "title": "Testing Submarines in War Thunder!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852985021",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Commanders! Submarines from the Kriegsmarine and the U.S. Navy have been placed under your command. Take part in testing this long-awaited new class of vessels in War Thunder and enjoy a unique experience. All hands, man your battle stations!When: From November 26th (11:00 GMT) until November 30th (11:00 GMT).Where: Events and Tournaments → Submarine Testing.Please note that this is a preliminary ...",
+      "feedlabel": "Community Announcements",
+      "date": 1795691161,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
     {
       "gid": "1850460852981700",
       "title": "Update 2.61.0.42",
@@ -154,25 +167,22 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
-    },
-    {
-      "gid": "1849827110433047",
-      "title": "Update 2.61.0.33",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110433047",
-      "is_external_url": true,
-      "author": "War Thunder Commander",
-      "contents": "AircraftHornet (all variants) — a bug that caused the thrust of the engine to decrease while WEP was activated has been fixed. (Report).Nuclear EscalationFrom the Battle Rating of 13.3 and above the SAMs used in convoys have been changed. The Pantsir-S1 has been replaced with the 2S6 Tunguska and the ItO 90M has been replaced with FlaRakRad. This change doesn’t affect the very first convoys at the...",
-      "feedlabel": "Community Announcements",
-      "date": 1795194280,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
     }
   ],
   "dead_by_daylight": [
+    {
+      "gid": "1850460852984659",
+      "title": "Фанаты Dead by Daylight раскритиковали редизайн Фэн Мин из-за того, что героиню сделали слишком красивой",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1850460852984659",
+      "is_external_url": true,
+      "author": "",
+      "contents": "Обновленный образ популярной выжившей Фэн Мин, представленный студией Behaviour Interactive на выставке WePlay в Китае, вызвал волну возмущения в сообществе асимметричного хоррора Dead by Daylight. Вместо ожидаемого графического улучшения текстур разработчики провели полноценный редизайн персонажа, который многие поклонники сочли неудачным. Главной причиной критики стала радикальная смена черт лиц...",
+      "feedlabel": "PlayGround.ru - официальная группа",
+      "date": 1795684145,
+      "feedname": "PlayGround.ru - официальная группа",
+      "feed_type": 0,
+      "appid": 381210
+    },
     {
       "gid": "1849827110447868",
       "title": "The Terrifier Chapter is now available on Steam!",
@@ -236,19 +246,6 @@
       "date": 1795204863,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
-      "appid": 381210
-    },
-    {
-      "gid": "1849827110433416",
-      "title": "Dead by Daylight confirms Terrifier changes after its new Killer's PTB debut",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1849827110433416",
-      "is_external_url": true,
-      "author": "editor@pcgamesn.com",
-      "contents": "Behaviour Interactive confirms The Terrifier changes in Dead by Daylight update 10.3.0, responding to the PTB for new Killer Art the Clown. Read the full story on PCGamesN: <a href=\"https://www.pcgamesn.com/dead-by-daylight/update-10-3-terrifier-balance-changes\">Dead by Daylight confirms Terrifier changes after its new Killer's PTB debut</a> ",
-      "feedlabel": "PCGamesN",
-      "date": 1795195371,
-      "feedname": "PCGamesN",
-      "feed_type": 0,
       "appid": 381210
     }
   ],
@@ -345,6 +342,19 @@
   ],
   "palworld": [
     {
+      "gid": "1850460852986596",
+      "title": "Palworld × Dune: Awakening Steam Bundle Is Out Now!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852986596",
+      "is_external_url": true,
+      "author": "pocketpair_admin",
+      "contents": "The Palworld × Dune: Awakening Steam Bundle is now available! Explore a world filled with mysterious Pals in Palworld, or fight to survive on the harsh desert planet of Arrakis in Dune: Awakening. With Palworld's v1.1 Side by Side update coming this winter and Dune: Awakening's free Blood and Ice expansion arriving December 1, there's plenty more to look forward to in both games! You can now pick ...",
+      "feedlabel": "Community Announcements",
+      "date": 1795716037,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 1623730
+    },
+    {
       "gid": "1849827110442979",
       "title": "Please Nominate Palworld for the \"Just 5 More Minutes\" Award — Steam Awards 2026",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110442979",
@@ -410,19 +420,6 @@
       "feedlabel": "PCGamesN",
       "date": 1793290988,
       "feedname": "PCGamesN",
-      "feed_type": 0,
-      "appid": 1623730
-    },
-    {
-      "gid": "1847920302230216",
-      "title": "Глава Pocketpair допустил порт Palworld на Switch 2 - при условии переговоров с Nintendo",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302230216",
-      "is_external_url": true,
-      "author": "",
-      "contents": "Генеральный директор Pocketpair Такуро Мидзобэ заявил, что порт Palworld на Nintendo Switch 2 возможен, если Nintendo будет готова сесть за стол переговоров. Это происходит на фоне продолжающейся судебной тяжбы между компаниями: в октябре 2025 года Японское патентное ведомство отклонило заявку Nintendo на патент на механику захвата существ. В интервью VGC Такуро Мидзобэ отметил, что Pocketpair счи...",
-      "feedlabel": "PlayGround.ru - официальная группа",
-      "date": 1793178804,
-      "feedname": "PlayGround.ru - официальная группа",
       "feed_type": 0,
       "appid": 1623730
     }
