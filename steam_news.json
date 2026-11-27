@@ -81,6 +81,50 @@
   ],
   "war_thunder": [
     {
+      "gid": "1850460852990130",
+      "title": "Black Friday in War Thunder on Steam!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852990130",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Enjoy a special Black Friday bundle and Black Shark Pack with discounts!From November 27th 18:00 GMT until December 4th 18:00 GMT“Black Friday” Bundle -50%This bundle includes:Black Shark PackM18 “Black Cat” PackA43 Black Prince PackP-61A-11 Black Widow PackUnique title: Back in Black",
+      "feedlabel": "Community Announcements",
+      "date": 1795793949,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
+      "gid": "1850460852989864",
+      "title": "VN20: A Big Plus!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852989864",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Meet the Chinese VN20, arguably the largest and heaviest infantry fighting vehicle in the game!Introducing the VN20!The VN20 is coming to the game in the next major update! This tracked infantry fighting vehicle features excellent protection and a diverse array of weaponry, built on a modified VT-4 tank chassis.VN20: A Light Tank for China at Rank VIIAt a glance:100 mm gun-launcher, 30 mm autocann...",
+      "feedlabel": "Community Announcements",
+      "date": 1795789755,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390,
+      "tags": [
+        "mod_reviewed",
+        "ModAct_1827889981_1795791302_0",
+        "mod_require_rereview"
+      ]
+    },
+    {
+      "gid": "1850460852989350",
+      "title": "Community Update No.14: Plans and Looking into 2027",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852989350",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "Hi everyone! Today we’re back with another Community Update, the last one of 2026.Disclaimer: While we’re excited to be able to share work-in-progress information before dev blogs, the dev server and the full release, please bear in mind that new features, vehicles and maps mentioned in this news are subject to change, be delayed or even cancelled. War Thunder is constantly being developed, and as...",
+      "feedlabel": "Community Announcements",
+      "date": 1795781256,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1850460852985021",
       "title": "Testing Submarines in War Thunder!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852985021",
@@ -118,52 +162,6 @@
       "contents": "In Pages of History this month, you will find yourself at the center of events that took place in various theaters of war. From Papua New Guinea and North Africa to Changsha and Stalingrad: participate in battles while using vehicles linked to these historic events and get some prizes! From December 1st until December 31st, you will be able to participate in 8 tasks consecutively. Completing each ...",
       "feedlabel": "Community Announcements",
       "date": 1795605070,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
-    },
-    {
-      "gid": "1849827110443104",
-      "title": "Steam Awards Labor of Love Nomination",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110443104",
-      "is_external_url": true,
-      "author": "War Thunder Commander",
-      "contents": "Hey everyone,This year we celebrated War Thunder’s 14th anniversary. It’s been a very long road, many of you have been with us since the very start, but wherever you joined us along the way we’re just glad that you’re here.We’ve put a stronger focus on quality of life this year, we’ve been developing new gamemodes, adding and improving new features for all parts of the game, refining the graphics ...",
-      "feedlabel": "Community Announcements",
-      "date": 1795457125,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "steam_award_nomination_request",
-        "mod_hide_library_overview"
-      ]
-    },
-    {
-      "gid": "1849827110441939",
-      "title": "Update 2.61.0.37",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110441939",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "AircraftAn exploit in the custom Battle Ratings mechanic that made it possible to gain access to high BR weaponry after loading into a battle and conducting a series of intended actions has been fixed. Players who took advantage of the bug have received temporary bans based on the number of battles in which they exploited it. If the bug was exploited in squadron battles, the exploiters’ personal s...",
-      "feedlabel": "Community Announcements",
-      "date": 1795445383,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390,
-      "tags": [
-        "patchnotes"
-      ]
-    },
-    {
-      "gid": "1849827110434745",
-      "title": "Screenshot Competition – Rocket Science!",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110434745",
-      "is_external_url": true,
-      "author": "Blitzkrieg Wulf",
-      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 251st War Thunder Steam Screenshot Competition! We loved getting to see all of your submissions last week! This week's theme is all about rockets and missiles. You can pick any application you would like - Aircraft with unguided rockets, air-to-air missiles, ATGM carriers, or attack helicopters. We would love to...",
-      "feedlabel": "Community Announcements",
-      "date": 1795243505,
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 236390
@@ -251,6 +249,23 @@
   ],
   "conan_exiles": [
     {
+      "gid": "1850460852989787",
+      "title": "Nominate Conan Exiles Enhanced for Labor of Love",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852989787",
+      "is_external_url": true,
+      "author": "Kvistan88",
+      "contents": "Greetings, Exiles Nominations for the 2026 Steam Awards are open, and we’d love your support for Conan Exiles Enhanced in the Labor of Love category. In May, we celebrated eight years of Conan Exiles by releasing Conan Exiles Enhanced as a free upgrade on Steam. Together with Inflexion Games, we introduced a range of improvements, including updated visuals and the ability to travel between the Exi...",
+      "feedlabel": "Community Announcements",
+      "date": 1795788428,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 440900,
+      "tags": [
+        "steam_award_nomination_request",
+        "mod_hide_library_overview"
+      ]
+    },
+    {
       "gid": "1849827110429637",
       "title": "Conan Exiles объединит серверы на консолях 3 декабря перед запуском Enhanced",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1849827110429637",
@@ -320,24 +335,6 @@
       "feedname": "steam_community_announcements",
       "feed_type": 1,
       "appid": 440900
-    },
-    {
-      "gid": "1847920302234657",
-      "title": "Conan Exiles Enhanced Community Update - October",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302234657",
-      "is_external_url": true,
-      "author": "Dana",
-      "contents": "Greetings, Exiles! It’s been over a month since our last community update but we promise the wait was worth it as this week we’ve had some major announcements coming to the Exiles Lands.New patch and story content coming November 10th for PC players, console community news and some fun player community highlights.Read all about what’s been happening in the Exiles Lands in this latest Community upd...",
-      "feedlabel": "Community Announcements",
-      "date": 1793278435,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 440900,
-      "tags": [
-        "mod_reviewed",
-        "ModAct_773020726_1793278653_0",
-        "mod_require_rereview"
-      ]
     }
   ],
   "palworld": [
