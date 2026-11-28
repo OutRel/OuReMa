@@ -81,6 +81,19 @@
   ],
   "war_thunder": [
     {
+      "gid": "1850460852992308",
+      "title": "Screenshot Competition – Art in Motion!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852992308",
+      "is_external_url": true,
+      "author": "Blitzkrieg Wulf",
+      "contents": "{STEAM_CLAN_IMAGE}/4649813/d66fbf64694823ff8108572f51a5f97fb097c0db.png Welcome to the 252nd War Thunder Steam Screenshot Competition! Thanks for all of your awesome screenshots last week! This week is your chance to display any cool new decals you’ve earned, decorators, or to showcase custom skins that you enjoy. You can submit anything you would like from historic creations, something from your ...",
+      "feedlabel": "Community Announcements",
+      "date": 1795843802,
+      "feedname": "steam_community_announcements",
+      "feed_type": 1,
+      "appid": 236390
+    },
+    {
       "gid": "1850460852990130",
       "title": "Black Friday in War Thunder on Steam!",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852990130",
@@ -152,19 +165,6 @@
       "tags": [
         "patchnotes"
       ]
-    },
-    {
-      "gid": "1850460852980739",
-      "title": "Pages of History (December): Operation Little Saturn",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852980739",
-      "is_external_url": true,
-      "author": "magazine2",
-      "contents": "In Pages of History this month, you will find yourself at the center of events that took place in various theaters of war. From Papua New Guinea and North Africa to Changsha and Stalingrad: participate in battles while using vehicles linked to these historic events and get some prizes! From December 1st until December 31st, you will be able to participate in 8 tasks consecutively. Completing each ...",
-      "feedlabel": "Community Announcements",
-      "date": 1795605070,
-      "feedname": "steam_community_announcements",
-      "feed_type": 1,
-      "appid": 236390
     }
   ],
   "dead_by_daylight": [
